@@ -1,23 +1,25 @@
 import CostEffectiveContainer from "./CostEffectiveContainer";
 import "./SubSec3Container.css";
+import rocket from "../assets/rocket.png"
+import diamond from "../assets/diamond.png"
 const SubSec3Container = () => {
   return (
     <div className="subsec3">
       <b className="heading2">Our Casino Software Solutions</b>
       <div className="yellowcards">
         <CostEffectiveContainer
-          whiteLabelText="/yellowimage@2x.png"
+          whiteLabelText={rocket}
           turnkeySolutionText="White Label"
           turnkeySolutionDescriptio="Cost-effective, comprehensive solution aimed at launching your own casino or sports exchange in the shortest period of time"
           propWidth="8.81rem"
           propHeight="8.81rem"
         />
         <CostEffectiveContainer
-          whiteLabelText="/yellowimage1@2x.png"
+          whiteLabelText={diamond}
           turnkeySolutionText="Turnkey Solution"
           turnkeySolutionDescriptio="The turn key business is a perfect solution for those who would like to get a self-owned multi-functional platform"
-          propWidth="10.13rem"
-          propHeight="10.13rem"
+          propWidth="8.81rem"
+          propHeight="8.81rem"
         />
       </div>
     </div>

@@ -19,13 +19,13 @@
   height: 3.63rem;
 }
 .clientslogo {
-  width: 50rem;
+  width: 40rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-55xl);
+  gap: var(--gap-50xl);
 }
 .homepageimage4-icon {
   position: relative;
@@ -67,7 +67,7 @@
 .body4 {
   flex-direction: row;
   align-items: center;
-  gap: 8rem;
+  gap: 15.18rem;
   font-size: var(--font-size-5xl);
   color: var(--color-gold);
 }
@@ -77,11 +77,11 @@
   gap: 1.31rem;
 }
 .users-icon {
-  position: relative;
+  position: absolute;
   width: 34rem;
   height: 20.19rem;
-  object-fit: cover;
-  margin-top: -24.06rem;
+  object-fit: contain;
+  bottom: 0;
 }
 .homepagesection4 {
   position: relative;

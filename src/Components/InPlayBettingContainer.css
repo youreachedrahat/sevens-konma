@@ -13,7 +13,7 @@
   line-height: 2.13rem;
   text-transform: capitalize;
   color: var(--color-darkslateblue);
-  width: 17.19rem;
+  width: 17.5rem;
   height: 2.44rem;
 }
 .testimonial-card {
@@ -46,7 +46,8 @@
   width: 10.25rem;
   height: 3.56rem;
   object-fit: cover;
-  margin-left: -11.87rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
 }
 .paragraphtestimonials1 {
   position: relative;
@@ -58,20 +59,20 @@
   width: 17.19rem;
   height: 7.06rem;
   flex-shrink: 0;
-  margin-left: -11.87rem;
+  margin-top: -3rem;
 }
 .testimonial-card1 {
   border-radius: var(--br-5xl);
-  background-color: var(--color-gold);
-  width: 22.81rem;
-  height: 21.5rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 0 var(--padding-19xl);
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
+    background-color: var(--color-gold);
+    width: 100%;
+    height: 21.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 var(--padding-19xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
 }
 .bigtexttestimonials2,
 .paragraphtestimonials2 {

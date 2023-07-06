@@ -41,6 +41,8 @@ body {
   --gap-xs: 0.75rem;
   --gap-s: 1.37rem;
   --gap-14xl: 2.06rem;
+  --gap-50xl: 4.5rem;
+  --gap-53xl: 4.56rem;
   --gap-55xl: 4.63rem;
   --gap-71xl: 5.63rem;
   --gap-45xl: 4rem;
@@ -51,10 +53,12 @@ body {
   --gap-26xl: 2.81rem;
   --gap-5xs: 0.5rem;
   --gap-76xl: 5.94rem;
+  --gap-70xl: 5.75rem;
   --gap-67xl: 5.38rem;
   --gap-97xl: 7.25rem;
   --gap-106xl: 7.81rem;
   --gap-30xl: 3.06rem;
+  --gap-35xl: 3.25rem;
   --gap-7xl: 1.63rem;
   --gap-6xl: 1.56rem;
   --gap-xl: 1.25rem;

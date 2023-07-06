@@ -90,7 +90,8 @@
   padding: var(--padding-base) 1.06rem var(--padding-5xl);
   box-sizing: border-box;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  padding-left: 64px;
 
 }
 .aboutusTop {

@@ -5,7 +5,12 @@ const SportsSection1 = () => {
   return (
     <div className="sportssection11">
       <div className="sportssection12">
-        
+      <div className="sportsTop">
+        <div className="rectangle">
+          <b className="title titleSports">{`Online Sorts Betting Software Solution `}</b>
+        </div>
+        <div className="container4" />
+      </div>
         <div className="sportsbody1">
           <div className="textwhite5">
             Sevens Gaming has a team of experts in the field of sports betting
