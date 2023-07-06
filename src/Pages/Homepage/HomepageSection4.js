@@ -7,7 +7,7 @@ const HomepageSection4 = () => {
       <div className="homepage4body max-sm:w-full">
         <b className="headingwhite max-sm:hidden">Our Clients</b>
         <div className="body4 max-sm:flex-col-reverse max-sm:gap-20">
-          <div className="clientslogo max-sm:grid max-sm:grid-cols-2 max-sm:gap-y-12 max-sm:gap-x-0 max-sm:w-[90%]">
+          <div className="clientslogo max-sm:grid max-sm:grid-cols-2 max-sm:gap-y-12 max-sm:gap-x-12 max-sm:w-[90%]">
             <img className="mask-group-icon " alt="" src="/mask-group@2x.png" />
             <img className="mask-group-icon max-sm:ml-auto" alt="" src="/mask-group1@2x.png" />
             <img className="mask-group-icon" alt="" src="/mask-group2@2x.png" />

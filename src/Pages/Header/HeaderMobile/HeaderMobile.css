@@ -4,11 +4,13 @@
     width: 11.38rem;
     height: 2.63rem;
     object-fit: cover;
+    /* margin-left: -30px; */
   }
   .menu-icon {
     position: relative;
     width: 1.5rem;
     height: 1.07rem;
+    margin-left: 60px;
   }
   .parent {
     display: flex;
