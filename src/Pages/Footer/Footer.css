@@ -17,7 +17,7 @@
 .wrapper {
   background-color: var(--color-gold);
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   flex-direction: row;
   padding: 4.06rem 28.69rem;

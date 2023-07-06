@@ -4,8 +4,10 @@ import rocket from "../assets/rocket.png"
 import diamond from "../assets/diamond.png"
 const SubSec3Container = () => {
   return (
-    <div className="subsec3">
-      <b className="heading2">Our Casino Software Solutions</b>
+    <div className="max-sm:w-auto max-sm:h-auto subsec3">
+      <div className="heading2 max-sm:leading-none max-sm:w-auto max-sm:h-auto whitespace-normal max-w-full">
+        <b>Our Casino Software Solutions</b>
+        </div>
       <div className="yellowcards">
         <CostEffectiveContainer
           whiteLabelText={rocket}

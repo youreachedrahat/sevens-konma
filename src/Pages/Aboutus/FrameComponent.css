@@ -69,8 +69,6 @@
   font-family: var(--headline);
 }
 
-
-
 .title {
   position: relative;
   line-height: 3.13rem;
@@ -92,7 +90,6 @@
   align-items: center;
   justify-content: start;
   padding-left: 64px;
-
 }
 .aboutusTop {
   display: flex;
@@ -101,7 +98,6 @@
   justify-content: flex-start;
   width: 100%;
 }
-
 
 /* Default styles */
 
@@ -165,7 +161,7 @@
   .rectangle {
     padding: var(--padding-xl);
   }
-  
+
   .aboutusTop {
     align-items: center;
     text-align: center;

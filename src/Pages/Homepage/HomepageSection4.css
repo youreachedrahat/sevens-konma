@@ -6,6 +6,8 @@
   width: 26.81rem;
   height: 4.5rem;
   flex-shrink: 0;
+  color: #fff;
+  font-size: var(--headline-size);
 }
 .mask-group-icon,
 .mask-group-icon8 {
@@ -31,7 +33,7 @@
   position: relative;
   width: 23rem;
   height: 18.75rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 .tagline,
 .text {

@@ -15,14 +15,14 @@ const CostEffectiveContainer = ({
   }, [propWidth, propHeight]);
 
   return (
-    <div className="yellowcard">
+    <div className="yellowcard flex max-sm:justify-center">
       {/* <img className="yellowmask-icon" alt="" src="/yellowmaskx.png" /> */}
       <div className="yellowmask-icon"></div>
       <div className="yellowrectangle">
         <div className="yellowbody">
           <div className="yellowbody">
             <img
-              className="yellowimage-icon"
+              className="yellowimage-icon max-sm:hidden"
               alt=""
               src={whiteLabelText}
               style={yellowImageIconStyle}

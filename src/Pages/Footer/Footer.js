@@ -5,19 +5,22 @@ import HorizontalRule from "../../Components/HorizontalRule"
 const Footer = () => {
   return (
     <>
-    <HorizontalRule/>
-    <div className="footer">
-      <div className="footerbody">
-        <DownloadsContainer />
-        <div className="copyrightwrapper">
-          <div className="container2" />
-          <div className="wrapper">
-            <div className="copyright">{`Copyright © 2023 Sevens Gaming | All Rights Reserved `}</div>
+      <HorizontalRule />
+      <div className="footer max-sm:w-full max-sm:h-auto">
+        <div className="footerbody max-sm:w-full">
+          <DownloadsContainer />
+          <div className="copyrightwrapper max-sm:w-full">
+            <div className="container2" />
+            <div className="wrapper max-sm:w-full max-sm:px-14">
+              <div className="copyright max-sm:hidden">Copyright © 2023 Sevens Gaming | All Rights Reserved</div>
+              <div className="copyright sm:hidden max-sm:text-white">Copyright © 2023 Sevens Gaming |
+                <br />| All Rights Reserved |<br />
+                Terms and Conditions | Privacy Policy</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <HorizontalRule/>
+      <HorizontalRule />
     </>
   );
 };

@@ -1,16 +1,15 @@
 import "./FrameComponent.css";
-import HorizontalRule from "../../Components/HorizontalRule"
+import HorizontalRule from "../../Components/HorizontalRule";
 const FrameComponent = () => {
   return (
     <div className="section-1">
       <div className="section-11">
-      <div className="aboutusTop">
-        <div className="rectangle">
-          <b className="title">{`About Us`}</b>
+        <div className="aboutusTop">
+          <div className="rectangle">
+            <b className="title">{`About Us`}</b>
+          </div>
+          <HorizontalRule />
         </div>
-      <HorizontalRule/>
-        
-      </div>
         <div className="as-a-brand">
           As a brand, Sevens Gaming has a legacy in the sports exchange
           industry. We are the most trusted White Label providers of Sports
@@ -25,6 +24,7 @@ const FrameComponent = () => {
           best-in-class services and why Sevens is the biggest name in this
           industry, get in touch with us today!
         </div>
+        <br />
       </div>
     </div>
   );

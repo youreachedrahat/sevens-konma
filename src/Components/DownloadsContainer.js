@@ -1,8 +1,8 @@
 import "./DownloadsContainer.css";
 const DownloadsContainer = () => {
   return (
-    <div className="footerupper">
-      <div className="footerleft">
+    <div className="footerupper max-sm:flex-col max-sm:h-auto max-sm:w-full ">
+      <div className="footerleft max-sm:w-full max-sm:pt-5">
         <img className="logo-icon1" alt="" src="/logo11@2x.png" />
         <div className="footer-description">
           {" "}
@@ -36,7 +36,7 @@ const DownloadsContainer = () => {
           />
         </div>
       </div>
-      <div className="footerlinks">
+      <div className="footerlinks max-sm:w-full  max-sm:grid max-sm:grid-cols-2">
         <div className="col1">
           <b className="footer-title">Product</b>
           <div className="link-parent">

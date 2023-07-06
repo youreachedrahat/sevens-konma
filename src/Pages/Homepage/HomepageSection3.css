@@ -19,6 +19,7 @@
 .logo1-icon {
   position: relative;
   width: 10rem;
+  min-width: 160px;
   height: 3.75rem;
   object-fit: cover;
 }

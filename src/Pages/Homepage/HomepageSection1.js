@@ -4,7 +4,7 @@ import SubSec3Container from "../../Components/SubSec3Container";
 import "./HomepageSection1.css";
 const HomepageSection1 = () => {
   return (
-    <div className="homepagesection1">
+    <div className="sm:pl-12 homepagesection1">
       <div className="homepagesection-1">
         <WhiteLabelContainer />
         <WhyUsContainer />
