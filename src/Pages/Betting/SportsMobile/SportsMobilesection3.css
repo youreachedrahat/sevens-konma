@@ -1,0 +1,52 @@
+@media (max-width: 500px) {
+    .also-we-are {
+        position: relative;
+        line-height: 1.63rem;
+        display: inline-block;
+        width: 20.88rem;
+        height: 15rem;
+        flex-shrink: 0;
+      }
+      .httpslottiefilescom36431-icon {
+        position: relative;
+        width: 15.75rem;
+        height: 15.75rem;
+        object-fit: cover;
+      }
+      .also-we-are-pride-ourselves-on-parent {
+        position: absolute;
+        top: 1.5rem;
+        left: 2.06rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .container {
+        position: absolute;
+        top: 33.06rem;
+        left: 0;
+        background: linear-gradient(
+          90deg,
+          #563e89,
+          #ee9e23 31.25%,
+          #fec811 64.58%,
+          #563e89
+        );
+        width: 25rem;
+        height: 0.75rem;
+      }
+      .sportsmobilesection3 {
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        height: 33.81rem;
+        overflow: hidden;
+        text-align: justify;
+        font-size: 1rem;
+        color: #563e89;
+        font-family: Montserrat;
+      }
+      
+
+}

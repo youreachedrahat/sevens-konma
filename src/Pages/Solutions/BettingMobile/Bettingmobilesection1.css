@@ -1,0 +1,94 @@
+@media (max-width: 500px) {
+    .bettingmobilesection1-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fec811;
+        width: 23.44rem;
+        height: 8.69rem;
+      }
+      .online-sports-betting {
+        position: absolute;
+        top: 1.06rem;
+        left: 3.94rem;
+        line-height: 1.81rem;
+        display: inline-block;
+        width: 15.5rem;
+        height: 8rem;
+      }
+      .container {
+        position: absolute;
+        top: 8.69rem;
+        left: 0;
+        background: linear-gradient(
+          90deg,
+          #563e89,
+          #ee9e23 31.25%,
+          #fec811 64.58%,
+          #563e89
+        );
+        width: 23.44rem;
+        height: 0.75rem;
+      }
+      .sevens-gaming-has {
+        position: relative;
+        line-height: 1.63rem;
+        display: inline-block;
+        width: 20.88rem;
+        height: 25.31rem;
+        flex-shrink: 0;
+      }
+      .httpslottiefilescom68889-icon {
+        position: relative;
+        width: 15.69rem;
+        height: 15.69rem;
+        object-fit: cover;
+      }
+      .a-complete-online {
+        position: relative;
+        line-height: 1.63rem;
+        display: inline-block;
+        width: 20.88rem;
+        height: 13.19rem;
+        flex-shrink: 0;
+      }
+      .sevens-gaming-has-a-team-of-ex-parent {
+        position: absolute;
+        top: 10.13rem;
+        left: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.88rem;
+        text-align: justify;
+        font-size: 1rem;
+        color: #fff;
+      }
+      .container1 {
+        position: absolute;
+        top: 67.31rem;
+        left: 0;
+        background: linear-gradient(
+          90deg,
+          #563e89,
+          #ee9e23 31.25%,
+          #fec811 64.58%,
+          #563e89
+        );
+        width: 23.44rem;
+        height: 0.75rem;
+      }
+      .bettingmobilesection1 {
+        position: relative;
+        background-color: #49006c;
+        width: 100%;
+        height: 68.06rem;
+        overflow: hidden;
+        text-align: center;
+        font-size: 2rem;
+        color: #563e89;
+        font-family: Montserrat;
+      }
+    
+}
