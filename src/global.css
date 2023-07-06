@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+::-webkit-scrollbar {
+  display: none;
+} 
+
+
+:root {
+  /* fonts */
+  --text-single-100-bold: "DM Sans";
+  --headline: Montserrat;
+
+  /* font sizes */
+  --text-single-100-bold-size: 1rem;
+  --body-default-size: 1.13rem;
+  --headline-size: 4.5rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-21xl: 2.5rem;
+  --font-size-31xl: 3.13rem;
+  --headings-h1-size: 3.5rem;
+  --font-size-13xl: 2rem;
+  --text-single-300-bold-size: 1.25rem;
+  --font-size-6xl: 1.56rem;
+
+  /* Colors */
+  --main-site-body: #49006c;
+  --color-gold: #fec811;
+  --color-darkslateblue: #563e89;
+  --neutral-colors-white: #fff;
+  --color-gray-100: #011424;
+  --color-gray-200: #020202;
+  --color-gray-300: rgba(255, 255, 255, 0.5);
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-300xl: 19.94rem;
+  --gap-xs: 0.75rem;
+  --gap-s: 1.37rem;
+  --gap-14xl: 2.06rem;
+  --gap-55xl: 4.63rem;
+  --gap-71xl: 5.63rem;
+  --gap-45xl: 4rem;
+  --gap-3xs: 0.63rem;
+  --gap-17xl: 2.25rem;
+  --gap-mini: 0.94rem;
+  --gap-base: 1rem;
+  --gap-26xl: 2.81rem;
+  --gap-5xs: 0.5rem;
+  --gap-76xl: 5.94rem;
+  --gap-67xl: 5.38rem;
+  --gap-97xl: 7.25rem;
+  --gap-106xl: 7.81rem;
+  --gap-30xl: 3.06rem;
+  --gap-7xl: 1.63rem;
+  --gap-6xl: 1.56rem;
+  --gap-xl: 1.25rem;
+  --gap-9xl: 1.75rem;
+  --gap-lgi: 1.19rem;
+  --gap-151xl: 10.63rem;
+  --gap-5xl: 1.5rem;
+  --gap-77xl: 6rem;
+
+  /* Paddings */
+  --padding-lg: 1.13rem;
+  --padding-5xl: 1.5rem;
+  --padding-21xl: 2.5rem;
+  --padding-3xs: 0.63rem;
+  --padding-xl: 1.25rem;
+  --padding-35xl: 3.38rem;
+  --padding-81xl: 6.25rem;
+  --padding-17xl: 2.25rem;
+  --padding-smi: 0.81rem;
+  --padding-49xl: 4.25rem;
+  --padding-28xl: 2.94rem;
+  --padding-45xl: 4rem;
+  --padding-12xs: 0.06rem;
+  --padding-26xl: 2.81rem;
+  --padding-19xl: 2.38rem;
+  --padding-48xl: 4.19rem;
+  --padding-37xl: 3.5rem;
+  --padding-base: 1rem;
+
+  /* border radiuses */
+  --br-11xl: 30px;
+  --br-21xl: 40px;
+  --br-17xl-6: 36.6px;
+  --br-5xl: 24px;
+
+  /* Effects */
+  --button-shadows-button-white-01: 0px 4px 10px rgba(20, 20, 43, 0.04);
+}

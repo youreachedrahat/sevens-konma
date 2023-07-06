@@ -1,0 +1,12 @@
+.hRule{
+    position: relative;
+    background: linear-gradient(
+      90deg,
+      #563e89,
+      #ee9e23 31.25%,
+      #fec811 64.58%,
+      #563e89
+    );
+    min-width: 100%;
+    height: 0.75rem;
+  }

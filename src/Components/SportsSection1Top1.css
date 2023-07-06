@@ -1,0 +1,33 @@
+.online-sports-betting {
+  position: relative;
+  line-height: 2.5rem;
+}
+.sportssection1top-1 {
+  background: linear-gradient(90deg, #fec811, rgba(254, 200, 17, 0));
+  width: 89.94rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-28xl) var(--padding-45xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #563e89,
+    #ee9e23 31.25%,
+    #fec811 64.58%,
+    #563e89
+  );
+  width: 90rem;
+  height: 0.75rem;
+}
+.sportssection1top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}

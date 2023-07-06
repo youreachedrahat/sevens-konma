@@ -1,0 +1,115 @@
+.big-number,
+.heading1,
+.title3 {
+  position: relative;
+  line-height: 2.88rem;
+  display: inline-block;
+  width: 21.93rem;
+}
+.big-number,
+.title3 {
+  line-height: 4.13rem;
+  width: 100%;
+  text-align: center;
+}
+.title3 {
+  font-size: var(--font-size-5xl);
+  line-height: 2.13rem;
+  font-weight: 600;
+  font-family: var(--headline);
+  color: var(--neutral-colors-white);
+  width: 15.74rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  margin-right: -40px;
+  margin-top: -10px;
+}
+.spiral-icon {
+  position: relative;
+  width: 43.25rem;
+  height: 43.25rem;
+  object-fit: cover;
+  z-index: 0;
+}
+.integrated-with-top {
+  font-weight: 600;
+}
+.gaming {
+  font-weight: 800;
+}
+.title4 {
+  position: absolute;
+  margin: 0 !important;
+  top: 18.63rem;
+  left: 14.44rem;
+  line-height: 2.13rem;
+  display: inline-block;
+  width: 14.33rem;
+  height: 6.63rem;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.spiralcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--headline);
+}
+.big-number1,
+.title5 {
+  position: relative;
+  line-height: 4.13rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.title5 {
+  font-size: var(--font-size-5xl);
+  line-height: 2.13rem;
+  text-transform: capitalize;
+  color: var(--neutral-colors-white);
+  width: 14.33rem;
+}
+.card1,
+.subsec2,
+.subsec2body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1 {
+  flex-direction: column;
+  gap: var(--gap-base);
+  margin-left: -30px;
+  margin-top: -10px;
+
+}
+.subsec2,
+.subsec2body {
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--headings-h1-size);
+  color: var(--color-gold);
+  font-family: var(--text-single-100-bold);
+}
+.subsec2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  text-align: center;
+  font-size: var(--headline-size);
+  color: var(--neutral-colors-white);
+  font-family: var(--headline);
+}

@@ -1,0 +1,33 @@
+.line-roundedsearch-icon1 {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button-text7 {
+  position: relative;
+  line-height: 1.13rem;
+}
+.line-roundedarrow-right4 {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.master-primary-button4 {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gold);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-17xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--body-default-size);
+  color: var(--color-darkslateblue);
+  font-family: var(--headline);
+}

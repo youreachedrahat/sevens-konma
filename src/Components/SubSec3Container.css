@@ -1,0 +1,26 @@
+.heading2 {
+  position: relative;
+  line-height: 2.5rem;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 73.63rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+.subsec3,
+.yellowcards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-45xl);
+  font-size: var(--font-size-31xl);
+}
+.subsec3 {
+  flex-direction: column;
+  gap: var(--gap-71xl);
+  text-align: center;
+  font-size: var(--headline-size);
+  color: var(--neutral-colors-white);
+  font-family: var(--headline);
+}

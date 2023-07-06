@@ -1,0 +1,48 @@
+.bg-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90rem;
+  height: 64.56rem;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.homepage2content-child {
+  position: absolute;
+  margin: 0 !important;
+  top: 18.5rem;
+  left: 66rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  filter: blur(432px);
+  width: 28.06rem;
+  height: 20.69rem;
+  z-index: 0;
+}
+.homepage2content,
+.homepage2content-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homepage2content-2 {
+  gap: 7.69rem;
+  z-index: 1;
+}
+.homepage2content {
+  position: absolute;
+  top: 2.75rem;
+  left: 6.88rem;
+  gap: var(--gap-3xs);
+}
+.homepagesection2 {
+  position: relative;
+  background-color: var(--neutral-colors-white);
+  width: 100%;
+  height: 65.31rem;
+  overflow: hidden;
+  background-image: url(../../assets/wave.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,54 @@
+.headingindigo,
+.paragraph {
+  position: relative;
+  line-height: 2.38rem;
+}
+.paragraph {
+  font-size: var(--font-size-5xl);
+  line-height: 2.13rem;
+  display: inline-block;
+  width: 40.52rem;
+}
+.homepage-3text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3.38rem;
+}
+.logo1-icon {
+  position: relative;
+  width: 10rem;
+  height: 3.75rem;
+  object-fit: cover;
+}
+.homepage-3logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
+.homepagesection-3,
+.homepagesection3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.homepagesection-3 {
+  align-items: center;
+  gap: 4.88rem;
+}
+.homepagesection3 {
+  position: relative;
+  background-color: var(--neutral-colors-white);
+  width: 100%;
+  overflow: hidden;
+  padding: var(--padding-35xl) var(--padding-81xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--headline);
+}

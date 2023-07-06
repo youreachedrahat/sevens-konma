@@ -1,0 +1,102 @@
+.headingwhite {
+  position: relative;
+  line-height: 5.13rem;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 26.81rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+}
+.mask-group-icon,
+.mask-group-icon8 {
+  position: relative;
+  width: 10rem;
+  height: 3.75rem;
+  object-fit: cover;
+}
+.mask-group-icon8 {
+  width: 10.75rem;
+  height: 3.63rem;
+}
+.clientslogo {
+  width: 50rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-55xl);
+}
+.homepageimage4-icon {
+  position: relative;
+  width: 23rem;
+  height: 18.75rem;
+  object-fit: cover;
+}
+.tagline,
+.text {
+  position: relative;
+  display: inline-block;
+}
+.tagline {
+  letter-spacing: 0.1em;
+  line-height: 1.13rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 22.44rem;
+}
+.text {
+  font-size: 1.38rem;
+  line-height: 1.88rem;
+  color: var(--neutral-colors-white);
+  text-align: justify;
+  width: 25.38rem;
+}
+.body4right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.body4,
+.homepage4body {
+  display: flex;
+  justify-content: center;
+}
+.body4 {
+  flex-direction: row;
+  align-items: center;
+  gap: 8rem;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gold);
+}
+.homepage4body {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.31rem;
+}
+.users-icon {
+  position: relative;
+  width: 34rem;
+  height: 20.19rem;
+  object-fit: cover;
+  margin-top: -24.06rem;
+}
+.homepagesection4 {
+  position: relative;
+  background-color: var(--main-site-body);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  /* flex-direction: column; */
+  padding: var(--padding-21xl) var(--padding-3xs) var(--padding-xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--headline-size);
+  color: var(--neutral-colors-white);
+  font-family: var(--headline);
+}

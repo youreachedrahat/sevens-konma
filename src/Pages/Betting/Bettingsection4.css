@@ -1,0 +1,79 @@
+.bettingimage4-icon {
+  position: relative;
+  border-radius: 100px;
+  width: 31.25rem;
+  height: 31.25rem;
+  object-fit: cover;
+}
+.textindigo,
+.textindigobold {
+  position: relative;
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 44.06rem;
+  height: 17.31rem;
+  flex-shrink: 0;
+}
+.textindigobold {
+  width: 43.56rem;
+  height: 5.06rem;
+}
+.textbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button-text1 {
+  position: relative;
+  line-height: 1.13rem;
+}
+.line-roundedarrow-right1 {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.primarybutton {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gold);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-17xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--body-default-size);
+}
+.bettingsection4-left {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.25rem;
+}
+.bettingbody-4,
+.bettingsection4,
+.bettingsection4-left {
+  display: flex;
+  justify-content: flex-start;
+}
+.bettingbody-4 {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-55xl);
+}
+.bettingsection4 {
+  position: relative;
+  background-color: var(--neutral-colors-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 5.5rem 4.75rem;
+  box-sizing: border-box;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--headline);
+}

@@ -1,0 +1,112 @@
+.heading {
+  line-height: 5.13rem;
+  text-transform: capitalize;
+  width: 39.63rem;
+  height: 14.69rem;
+}
+.heading,
+.subheading,
+.textwhite8 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.subheading {
+  font-size: var(--font-size-13xl);
+  line-height: 5.13rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  width: 39.75rem;
+  height: 3.63rem;
+}
+.textwhite8 {
+  font-size: var(--font-size-5xl);
+  line-height: 2.13rem;
+  text-align: justify;
+  width: 42.38rem;
+  height: 14.88rem;
+}
+.button-text3 {
+  position: relative;
+  line-height: 1.13rem;
+}
+.line-roundedarrow-right2 {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.master-primary-button2 {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gold);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-17xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.master-secondary-button,
+.yellowbutton {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.master-secondary-button {
+  border-radius: 36.55px;
+  box-shadow: var(--button-shadows-button-white-01);
+  border: 1.5px solid var(--neutral-colors-white);
+  box-sizing: border-box;
+  width: 12.75rem;
+  height: 4.13rem;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-17xl);
+}
+.whitebutton {
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: center;
+  color: var(--neutral-colors-white);
+}
+.buttons,
+.homepageleftbody,
+.whitebutton {
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-17xl);
+  text-align: center;
+  font-size: var(--body-default-size);
+  color: var(--color-darkslateblue);
+}
+.homepageleftbody {
+  flex-direction: column;
+  padding: var(--padding-49xl) 0 0;
+  align-items: flex-start;
+  gap: var(--gap-26xl);
+}
+.homepageimage1-icon {
+  position: relative;
+  width: 63.5rem;
+  height: 42.75rem;
+  object-fit: cover;
+  margin-left: -17.19rem;
+}
+.subsec1 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-smi) 0 0;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--headline-size);
+  color: var(--neutral-colors-white);
+  font-family: var(--headline);
+  width: 100%;
+}

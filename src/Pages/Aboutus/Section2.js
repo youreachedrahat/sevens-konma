@@ -1,0 +1,69 @@
+import "./Section2.css";
+const Section2 = () => {
+  return (
+    <div className="section-2">
+      <div className="section-21">
+        <div className="section2top">
+          <div className="cta">
+            <p className="book-your-demo-today">
+              <span className="book-your-demo-today1">
+                <b>Book Your Demo Today!</b>
+                <span>{` `}</span>
+              </span>
+            </p>
+            <p className="whatsapp-us-on-44-7537-180047">
+              <span className="whatsapp-us-on-44-7537-1800471">
+                <span>
+                  <span>{`WhatsApp Us on `}</span>
+                </span>
+                <span className="span">
+                  <b className="b">+44 7537 180047</b>
+                  <span className="b">{` `}</span>
+                </span>
+              </span>
+            </p>
+          </div>
+          <div className="section2top-child" />
+        </div>
+        <div className="section2text1">
+          <p className="book-your-demo-today">
+            <b>{`Why should you choose Sevens Gaming? `}</b>
+          </p>
+          <p className="book-your-demo-today">&nbsp;</p>
+        </div>
+        <div className="section2text2">
+          <div className="text1">
+            <p className="book-your-demo-today">
+              <b>{`40+ `}</b>
+            </p>
+            <p className="satisfied-clients">satisfied clients</p>
+          </div>
+          <div className="text2">
+            <p className="book-your-demo-today">
+              <span>
+                <span> Integrated with</span>
+              </span>
+            </p>
+            <p className="top-gaming-providers">
+              <span>
+                <span>{` `}</span>
+                <b>top gaming providers</b>
+              </span>
+            </p>
+          </div>
+          <div className="text3">
+            <span>
+              <b>6+</b>
+            </span>
+            <span className="years-of-expertise">
+              <span>{` `}</span>
+              <span>years of expertise</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Section2;

@@ -1,0 +1,69 @@
+.textwhite5 {
+  position: relative;
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 81.63rem;
+  height: 15rem;
+  flex-shrink: 0;
+}
+.imagecontainer-child {
+  position: absolute;
+  margin: 0 !important;
+  top: 3.25rem;
+  left: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--color-gray-300);
+  filter: blur(200px);
+  width: 30.81rem;
+  height: 30.81rem;
+  z-index: 0;
+}
+.sportimage1-icon {
+  position: relative;
+  width: 35.31rem;
+  height: 35.31rem;
+  object-fit: cover;
+  z-index: 1;
+}
+.imagecontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.textwhite6 {
+  position: relative;
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 81.94rem;
+  height: 8rem;
+  flex-shrink: 0;
+}
+.sportsbody1,
+.sportssection12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-17xl);
+}
+.sportssection12 {
+  gap: var(--gap-76xl);
+}
+.sportssection11 {
+  position: relative;
+  background-color: var(--main-site-body);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-21xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: justify;
+  font-size: var(--font-size-5xl);
+  color: var(--neutral-colors-white);
+  font-family: var(--headline);
+}

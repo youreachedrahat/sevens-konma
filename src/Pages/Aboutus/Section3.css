@@ -1,0 +1,70 @@
+.section3top {
+  position: relative;
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 12.81rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+}
+.a-team-of {
+  margin: 0;
+}
+.section3text {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 33.63rem;
+  height: 30rem;
+  flex-shrink: 0;
+}
+.section3top-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-77xl);
+}
+.imageteam-icon {
+  position: relative;
+  width: 51.94rem;
+  height: 36.56rem;
+  object-fit: cover;
+}
+.sectionbody {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0.38rem;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.81rem;
+}
+.container3 {
+  position: relative;
+  
+  width: 90rem;
+  height: 0.75rem;
+}
+.section-3,
+.section3frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.section3frame {
+  align-items: flex-end;
+  gap: 4.19rem;
+}
+.section-3 {
+  position: relative;
+  background-color: var(--main-site-body);
+  width: 100%;
+  overflow: hidden;
+  padding: var(--padding-81xl) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  text-align: justify;
+  font-size: var(--headline-size);
+  color: var(--neutral-colors-white);
+  font-family: var(--headline);
+}

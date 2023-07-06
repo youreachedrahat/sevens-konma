@@ -1,0 +1,41 @@
+.faqs1 {
+  line-height: 5.13rem;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 17.56rem;
+  height: 5.44rem;
+  flex-shrink: 0;
+}
+.faq-icon,
+.faqs,
+.faqs1 {
+  position: relative;
+}
+.faq-icon {
+  width: 54.31rem;
+  height: 52.38rem;
+  object-fit: cover;
+}
+.faqs {
+  background-color: var(--color-gold);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 37.44rem;
+  text-align: left;
+  font-size: var(--headline-size);
+  color: var(--color-darkslateblue);
+  font-family: var(--headline);
+  padding-top: 20px;
+}
+
+.faqImage{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}

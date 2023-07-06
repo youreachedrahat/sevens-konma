@@ -1,0 +1,87 @@
+.yellowmask-icon {
+  position: relative;
+  width: 40.25rem;
+  height: 30.06rem;
+  object-fit: cover;
+  z-index: 0;
+}
+.yellowimage-icon {
+  position: relative;
+  width: 8.81rem;
+  height: 8.81rem;
+  object-fit: cover;
+}
+.bigtext,
+.paragraph1 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.bigtext {
+  line-height: 5.13rem;
+  text-transform: capitalize;
+  width: 28.25rem;
+  height: 5.88rem;
+}
+.paragraph1 {
+  font-size: var(--body-default-size);
+  line-height: 1.88rem;
+  font-family: var(--text-single-100-bold);
+  color: var(--color-darkslateblue);
+  width: 27.81rem;
+  height: 9.19rem;
+}
+.yellowbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button-text5 {
+  position: relative;
+  line-height: 1.13rem;
+}
+.master-primary-button3 {
+  border-radius: var(--br-21xl);
+  border: 1.3px solid var(--neutral-colors-white);
+  box-sizing: border-box;
+  width: 9.5rem;
+  height: 2.69rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-17xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-single-100-bold-size);
+}
+.yellowcard,
+.yellowrectangle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.yellowrectangle {
+  margin: 0 !important;
+  position: absolute;
+  top: 1.75rem;
+  left: 6rem;
+  z-index: 1;
+}
+.yellowcard {
+  position: relative;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--neutral-colors-white);
+  font-family: var(--headline);
+  background-color: yellow;
+}
+
+
+.yellowcard:hover{
+  border-radius: 50px;
+background: #ffffff;
+box-shadow: inset 20px 20px 82px #666666,
+            inset -20px -20px 82px #ffffff;
+}

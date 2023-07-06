@@ -1,0 +1,117 @@
+.book-your-demo-today1 {
+  line-height: 6rem;
+}
+.book-your-demo-today {
+  margin: 0;
+}
+.b {
+  font-family: var(--headline);
+}
+.span {
+  color: var(--color-gold);
+}
+.whatsapp-us-on-44-7537-1800471 {
+  line-height: 5.63rem;
+}
+.whatsapp-us-on-44-7537-180047 {
+  margin: 0;
+  font-size: 2.69rem;
+  color: var(--neutral-colors-white);
+}
+.cta {
+  position: relative;
+  display: inline-block;
+  width: 83.81rem;
+  height: 11.44rem;
+  flex-shrink: 0;
+}
+.section2top-child {
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  filter: blur(200px);
+  width: 67.63rem;
+  height: 16.75rem;
+  margin-top: -12.5rem;
+}
+.section2top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--headline-size);
+}
+.section2text1 {
+  position: relative;
+  line-height: 2.5rem;
+  color: var(--neutral-colors-white);
+  display: inline-block;
+  width: 37.06rem;
+  height: 2.56rem;
+  flex-shrink: 0;
+}
+.satisfied-clients {
+  margin: 0;
+  color: var(--neutral-colors-white);
+}
+.text1 {
+  position: relative;
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 12.5rem;
+  height: 4.88rem;
+  flex-shrink: 0;
+}
+.top-gaming-providers {
+  margin: 0;
+  color: var(--color-gold);
+}
+.text2 {
+  position: relative;
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 22.06rem;
+  height: 4.88rem;
+  flex-shrink: 0;
+}
+.text2,
+.years-of-expertise {
+  color: var(--neutral-colors-white);
+}
+.text3 {
+  position: relative;
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 9.25rem;
+  height: 4.88rem;
+  flex-shrink: 0;
+}
+.section2text2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7.19rem;
+}
+.section-2,
+.section-21 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.section-21 {
+  gap: var(--gap-mini);
+}
+.section-2 {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  overflow: hidden;
+  padding: var(--padding-35xl) 3.06rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gold);
+  font-family: var(--headline);
+}
