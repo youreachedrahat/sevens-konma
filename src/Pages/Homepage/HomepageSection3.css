@@ -1,7 +1,7 @@
 .headingindigo,
 .paragraph {
   position: relative;
-  line-height: 2.38rem;
+  line-height: 79px;
 }
 .paragraph {
   font-size: var(--font-size-5xl);
@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 3.38rem;
+  gap: var(--gap-35xl);
 }
 .logo1-icon {
   position: relative;
@@ -37,7 +37,7 @@
 }
 .homepagesection-3 {
   align-items: center;
-  gap: 4.88rem;
+  gap: var(--gap-53xl);
 }
 .homepagesection3 {
   position: relative;

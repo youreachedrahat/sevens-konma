@@ -1,4 +1,5 @@
 import "./HomepageSection4.css";
+import users from "../../assets/vector.png"
 const HomepageSection4 = () => {
   return (
     <div className="homepagesection4">
@@ -36,7 +37,7 @@ provider of the `}</span>
           </div>
         </div>
       </div>
-      <img className="users-icon" alt="" src="/users@2x.png" />
+      <img className="users-icon" alt="" src={users} />
     </div>
   );
 };

@@ -9,23 +9,23 @@ const InPlayBettingContainer = () => {
             better live betting experience
           </div>
         </div>
-        <div className="testimonial-card1">
-          <b className="bigtexttestimonials1">
-            <p className="streaming">&nbsp;</p>
-            <p className="streaming">streaming</p>
-          </b>
+        <div className="testimonial-card">
+          <b className="bigtexttestimonials">
           <img
             className="httpslottiefilescom99714-icon"
             alt=""
             src="/httpslottiefilescom99714golive@2x.png"
           />
-          <div className="paragraphtestimonials1">
+            <p className="streaming">streaming</p>
+          </b>
+          
+          <div className="paragraphtestimonials">
             check every update for your favourite sports
           </div>
         </div>
-        <div className="testimonial-card2">
-          <b className="bigtexttestimonials2">geniebet</b>
-          <div className="paragraphtestimonials2">
+        <div className="testimonial-card">
+          <b className="bigtexttestimonials">genie<br></br>bet</b>
+          <div className="paragraphtestimonials">
             Create your own script for the game
           </div>
         </div>
