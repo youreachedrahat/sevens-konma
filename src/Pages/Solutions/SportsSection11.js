@@ -7,7 +7,7 @@ const SportsSection1 = () => {
       <div className="sportssection12">
       <div className="sportsTop">
         <div className="rectangle">
-          <b className="title titleSports">{`Online Sorts Betting Software Solution `}</b>
+          <b className="titleSports title">{`Online Sorts Betting Software Solution `}</b>
         </div>
         <div className="container4" />
       </div>

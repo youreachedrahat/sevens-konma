@@ -1,4 +1,5 @@
 import "./WhyUsContainer.css";
+import spiral from "../assets/circle.gif"
 const WhyUsContainer = () => {
   return (
     <div className="subsec2">
@@ -9,7 +10,7 @@ const WhyUsContainer = () => {
           <div className="title3">Active White Label</div>
         </div>
         <div className="spiralcontainer">
-          <img className="spiral-icon" alt="" src="/spiral@2x.png" />
+          <img className="spiral-icon" alt="" src={spiral} />
           <div className="title4">
             <span className="integrated-with-top">Integrated with top</span>
             <b>{` `}</b>

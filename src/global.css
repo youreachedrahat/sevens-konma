@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   line-height: normal;
@@ -8,6 +12,9 @@ body {
   display: none;
 } 
 
+*{
+  font-family: Montserrat;
+}
 
 :root {
   /* fonts */
@@ -17,7 +24,7 @@ body {
   /* font sizes */
   --text-single-100-bold-size: 1rem;
   --body-default-size: 1.13rem;
-  --headline-size: 4.5rem;
+  --headline-size: 3.37rem;
   --font-size-5xl: 1.5rem;
   --font-size-21xl: 2.5rem;
   --font-size-31xl: 3.13rem;
