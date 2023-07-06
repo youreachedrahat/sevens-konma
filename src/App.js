@@ -28,17 +28,23 @@ function App() {
     <Routes>
       <Route path="/" element={<Homepage />} />
 
-      <Route path="/aboutus" element={<Aboutus />} />
-      <Route path="/am" element={<AboutMobile />} />
+
+      {!isMobile && <Route path="/aboutus" element={<Aboutus />} />}
+    {isMobile &&  <Route path="/aboutus" element={<AboutMobile />} />}
       
-      <Route path="/betting" element={<Betting />} />
-      <Route path="/sm" element={<SportMobile />} />
-
-      <Route path="/casino" element={<Casino />} />
-      <Route path="/cm" element={<CasinoMobile />} />
-
-      <Route path="/solution" element={<Solution />} />
-      <Route path="/bm" element={<BettingMobile />} />
+     
+    {!isMobile && <Route path="/betting" element={<Betting />} />}
+    {isMobile && <Route path="/betting" element={<SportMobile />} />}
+      
+      
+      {!isMobile &&  <Route path="/casino" element={<Casino />} />}
+    {isMobile &&  <Route path="/casino" element={<CasinoMobile />} />}
+     
+     
+      {!isMobile && <Route path="/solution" element={<Solution />} />}
+    {isMobile && <Route path="/solution" element={<BettingMobile />} />}
+      
+      
 
     </Routes>
     <Footer/>
