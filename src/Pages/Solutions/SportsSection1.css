@@ -70,15 +70,16 @@
 }
 
 
-
 .title {
   position: relative;
   line-height: 3.13rem;
   display: inline-block;
-  width: 82rem;
+  width: 100%;
   flex-shrink: 0;
   font-size: var(--headline-size);
 }
+
+
 .rectangle {
   background: linear-gradient(90deg, #fec811, rgba(254, 200, 17, 0));
   width: 100%;
@@ -103,6 +104,6 @@
 }
 
 .titleSports{
-  width: auto;
+  width: 100%;
   font-size: 54px;
 }

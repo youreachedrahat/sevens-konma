@@ -1,5 +1,6 @@
 import "./HomepageSection4.css";
 import users from "../../assets/vector.png"
+import money from "../../assets/money.gif"
 const HomepageSection4 = () => {
   return (
     <div className="homepagesection4">
@@ -26,7 +27,7 @@ const HomepageSection4 = () => {
             <img
               className="homepageimage4-icon"
               alt=""
-              src="/homepageimage4@2x.png"
+              src={money}
             />
             <div className="tagline">why sevens gaming?</div>
             <div className="text">

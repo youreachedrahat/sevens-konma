@@ -11,7 +11,7 @@ function Solution() {
     <>
     <Header2/>
     <SportsSection1/>
-    <HorizontalRule/>
+     <HorizontalRule/>
     <SportsSection2/>
     <HorizontalRule/>
     <SportsSection31/>
