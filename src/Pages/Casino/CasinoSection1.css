@@ -77,10 +77,12 @@
   font-family: var(--headline);
 }
 .title {
+  
   position: relative;
-  line-height: 3.13rem;
+  line-height: 4.13rem;
   display: inline-block;
-  width: 82rem;
+  font-size: 50px;
+  width: 90%;
   flex-shrink: 0;
 }
 .rectangle {

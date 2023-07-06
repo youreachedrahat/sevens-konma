@@ -7,6 +7,7 @@
   width: 23.38rem;
   height: 23.38rem;
   object-fit: cover;
+  right: 5rem;
 }
 .casino2top {
   display: flex;
@@ -31,13 +32,15 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  
+  
 }
 .casinosection2 {
   position: relative;
   background-color: var(--neutral-colors-white);
   width: 100%;
   overflow: hidden;
-  padding: 0 3.94rem 1rem 3.94rem;
+  padding: 0 3.94rem 1rem 6.5rem;
   box-sizing: border-box;
   text-align: justify;
   font-size: var(--font-size-21xl);
