@@ -1,11 +1,15 @@
 import {
   Routes,
   Route} from "react-router-dom";
+  import { useMediaQuery } from 'react-responsive';
+
+import Header2 from "./Pages/Header/Header2";
 import Homepage from "./Pages/Homepage/Homepage";
 import Aboutus from "./Pages/Aboutus/Aboutus";
 import Betting from "./Pages/Betting/Betting";
 import Casino from "./Pages/Casino/Casino";
 import Solution from "./Pages/Solutions/Solution";
+import Footer from "./Pages/Footer/Footer";
 
 // mobile
 import HeaderMobile from "./Pages/Header/HeaderMobile/HeaderMobile";
@@ -15,9 +19,12 @@ import SportMobile from "./Pages/Betting/SportsMobile/Sports";
 import AboutMobile from "./Pages/Aboutus/AboutusMobile/AboutMobile";
 
 function App() {
+  const isMobile = useMediaQuery({ maxWidth: 500 });
+
   return (
     <>
-    {/* <HeaderMobile/> */}
+    {!isMobile && <Header2 />}
+    {isMobile && <HeaderMobile />}
     <Routes>
       <Route path="/" element={<Homepage />} />
 
@@ -34,6 +41,7 @@ function App() {
       <Route path="/bm" element={<BettingMobile />} />
 
     </Routes>
+    <Footer/>
     </>
   );
 }

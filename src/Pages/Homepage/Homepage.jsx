@@ -14,7 +14,7 @@ function Homepage() {
   const isMobile = useMediaQuery({ maxWidth: 500 });
   return (
     <>
-    <Header2/>
+    {/* <Header2/> */}
     <HomepageSection1/>
     <HorizontalRule/>
     {!isMobile && <HomepageSection2 />}
@@ -25,7 +25,7 @@ function Homepage() {
     <HomepageSection4/>
     <HorizontalRule/>
     <Faqs/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

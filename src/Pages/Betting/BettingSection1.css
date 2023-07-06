@@ -76,6 +76,9 @@
   margin-left: -9.31rem;
   text-align: justify;
   font-size: var(--font-size-5xl);
+  width: 100%;
+  padding-left: 5rem;
+  padding-top: 72px;
 }
 .bettingellipse1 {
   position: relative;

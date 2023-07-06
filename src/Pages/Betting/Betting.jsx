@@ -10,7 +10,7 @@ import HorizontalRule from "../../Components/HorizontalRule"
 function Betting() {
   return (
     <>
-    <Header2/>
+    {/* <Header2/> */}
     <BettingSection1/>
     <HorizontalRule/>
     <BettingSection2/>
@@ -18,7 +18,7 @@ function Betting() {
     <BettingSection3/>
       <HorizontalRule/>
     <Bettingsection4/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }
