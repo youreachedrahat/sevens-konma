@@ -7,13 +7,13 @@ const CasinoSection1 = () => {
       <div className="casinosection-1">
       <div className="casinoTop">
         <div className="rectangle">
-          <b className="title" >{`Online Live Casino Games Integrations`}</b>
+          <b className="title max-sm:h-auto max-sm:text-center max-sm:text-4xl" >{`Online Live Casino Games Integrations`}</b>
         </div>
       <HorizontalRule/>
         
       </div>
        
-        <div className="text-white max-sm:w-auto max-sm:h-auto">
+        <div className="text-white max-sm:w-auto max-sm:h-auto max-sm:pl-7 max-sm:pr-7 max-sm:text-justify">
           <p className="at-sevens-gaming">{`At Sevens Gaming, we offer the best in online gaming experiences through our partnerships with the top providers in the industry. `}</p>
           <p className="at-sevens-gaming">
             <span>{`Our live casino gaming services provide you with access to the latest and greatest in online gaming experiences. Our platform offers a range of games from `}</span>
