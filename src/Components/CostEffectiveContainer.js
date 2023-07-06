@@ -16,7 +16,8 @@ const CostEffectiveContainer = ({
 
   return (
     <div className="yellowcard">
-      {/* <img className="yellowmask-icon" alt="" src="/yellowmask@2x.png" /> */}
+      {/* <img className="yellowmask-icon" alt="" src="/yellowmaskx.png" /> */}
+      <div className="yellowmask-icon"></div>
       <div className="yellowrectangle">
         <div className="yellowbody">
           <div className="yellowbody">
