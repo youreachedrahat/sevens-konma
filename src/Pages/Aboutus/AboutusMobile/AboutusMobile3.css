@@ -1,0 +1,53 @@
+@media (max-width: 500px) {
+    .frame-icon,
+    .team {
+      position: relative;
+      flex-shrink: 0;
+    }
+    .team {
+      line-height: 2.5rem;
+      display: inline-block;
+      width: 12.81rem;
+      height: 3.25rem;
+    }
+    .frame-icon {
+      width: 23.44rem;
+      height: 15.56rem;
+      overflow: hidden;
+    }
+    .a-team-of {
+      margin: 0;
+    }
+    .a-team-of-container {
+      position: relative;
+      font-size: 1rem;
+      line-height: 1.63rem;
+      text-align: justify;
+      display: inline-block;
+      width: 20.88rem;
+      height: 21.19rem;
+      flex-shrink: 0;
+    }
+    .aboutusmobile3,
+    .team-parent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .aboutusmobile3 {
+      position: relative;
+      background-color: #49006c;
+      width: 100%;
+      overflow: hidden;
+      flex-direction: row;
+      padding: 1.81rem 0.75rem;
+      box-sizing: border-box;
+      align-items: flex-start;
+      text-align: center;
+      font-size: 2rem;
+      color: #fff;
+      font-family: Montserrat;
+    }
+    
+}
