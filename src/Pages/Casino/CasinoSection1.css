@@ -84,7 +84,7 @@
   font-size: 50px;
   width: 90%;
   flex-shrink: 0;
-  color: #49006C;
+
 }
 .rectangle {
   background: linear-gradient(90deg, #fec811, rgba(254, 200, 17, 0));

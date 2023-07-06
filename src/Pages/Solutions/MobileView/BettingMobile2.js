@@ -1,5 +1,5 @@
-import "./BettingMobilesection2.css";
-const BettingMobilesection2 = () => {
+import "./BettingMobile2.css";
+const BettingMobile2 = () => {
   return (
     <div className="bettingmobilesection2">
       <div className="key-features-about-our-betting-parent">
@@ -26,4 +26,4 @@ const BettingMobilesection2 = () => {
   );
 };
 
-export default BettingMobilesection2;
+export default BettingMobile2;

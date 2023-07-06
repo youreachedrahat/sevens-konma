@@ -1,4 +1,4 @@
-import "./AboutusSection1.css";
+import "./AboutusMobile.css";
 const AboutusMobile1 = () => {
   return (
     <div className="aboutussection1">

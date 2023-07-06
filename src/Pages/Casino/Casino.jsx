@@ -1,4 +1,5 @@
 import React from 'react'
+import { useMediaQuery } from 'react-responsive';
 import Header2 from '../Header/Header2'
 import Footer from '../Footer/Footer'
 import CasinoSection1 from './CasinoSection1'
@@ -7,7 +8,10 @@ import CasinoSection3 from './CasinoSection3'
 import CasinoSection4 from './CasinoSection4'
 import HorizontalRule from "../../Components/HorizontalRule"
 
+
+
 function Casino() {
+  const isMobile = useMediaQuery({ maxWidth: 500 });
   return (
     <>
     <Header2/>

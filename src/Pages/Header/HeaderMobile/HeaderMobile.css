@@ -1,0 +1,45 @@
+@media (max-width: 500px) {
+.icon {
+    position: relative;
+    width: 11.38rem;
+    height: 2.63rem;
+    object-fit: cover;
+  }
+  .menu-icon {
+    position: relative;
+    width: 1.5rem;
+    height: 1.07rem;
+  }
+  .parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8.63rem;
+  }
+  .container {
+    position: relative;
+    background: linear-gradient(
+      90deg,
+      #563e89,
+      #ee9e23 31.25%,
+      #fec811 64.58%,
+      #563e89
+    );
+    width: 23.44rem;
+    height: 0.75rem;
+  }
+  .headermobile {
+    position: relative;
+    background-color: #49006c;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 1.06rem 0 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.81rem;
+  }
+}  

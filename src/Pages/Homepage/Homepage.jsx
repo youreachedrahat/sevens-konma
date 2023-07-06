@@ -1,4 +1,5 @@
 import React from 'react'
+import { useMediaQuery } from 'react-responsive';
 import Header2 from '../Header/Header2'
 import Footer from '../Footer/Footer'
 import HomepageSection1 from './HomepageSection1'
@@ -10,15 +11,16 @@ import HorizontalRule from "../../Components/HorizontalRule"
 
 import HomepageMobile2 from './HomepageMobile/HomepageMobile2'
 function Homepage() {
+  const isMobile = useMediaQuery({ maxWidth: 500 });
   return (
     <>
     <Header2/>
     <HomepageSection1/>
     <HorizontalRule/>
-    <HomepageSection2/>
+    {!isMobile && <HomepageSection2 />}
+    {isMobile && <HomepageMobile2 />}
     <HorizontalRule/>
     <HomepageSection3/>
-    <HomepageMobile2/>
     <HorizontalRule/>
     <HomepageSection4/>
     <HorizontalRule/>

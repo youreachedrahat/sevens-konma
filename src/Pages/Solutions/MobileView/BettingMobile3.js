@@ -1,5 +1,5 @@
-import "./BettingMonilesection3.css";
-const BettingMonilesection3 = () => {
+import "./BettingMobile3.css";
+const BettingMobile3 = () => {
   return (
     <div className="bettingmonilesection3">
       <div className="if-you-are-looking-for-a-relia-parent">
@@ -31,4 +31,4 @@ const BettingMonilesection3 = () => {
   );
 };
 
-export default BettingMonilesection3;
+export default BettingMobile3;
