@@ -1,0 +1,110 @@
+@media (max-width: 500px) {
+    .frame-child {
+        position: relative;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.3);
+        filter: blur(200px);
+        width: 17.06rem;
+        height: 15.19rem;
+      }
+      .book-your1 {
+        line-height: 3.94rem;
+      }
+      .book-your {
+        margin: 0;
+      }
+      .span {
+        font-size: 4.5rem;
+      }
+      .whatsapp-us-on2 {
+        font-size: 1.5rem;
+      }
+      .whatsapp-us-on1 {
+        line-height: 5.63rem;
+      }
+      .whatsapp-us-on {
+        margin: 0;
+        font-size: 1.75rem;
+        color: #fff;
+      }
+      .span2 {
+        font-size: 2.69rem;
+        font-family: Montserrat;
+      }
+      .book-your-demo-container {
+        position: relative;
+        text-align: left;
+        display: inline-block;
+        width: 20.31rem;
+        height: 23.75rem;
+        flex-shrink: 0;
+        font-size: 3rem;
+      }
+      .why-should-you-container {
+        position: relative;
+        font-size: 1.38rem;
+        line-height: 2.5rem;
+        color: #fff;
+        display: inline-block;
+        width: 20.88rem;
+        height: 6.75rem;
+        flex-shrink: 0;
+      }
+      .satisfied-clients1 {
+        margin: 0;
+        color: #fff;
+      }
+      .integrated-with-top-container,
+      .satisfied-clients {
+        position: relative;
+        line-height: 2.5rem;
+        display: inline-block;
+        width: 12.5rem;
+        height: 4.88rem;
+        flex-shrink: 0;
+      }
+      .integrated-with-top-container {
+        color: #fff;
+        width: 22.06rem;
+      }
+      .years-of-expertise {
+        color: #fff;
+      }
+      .years-of-expertise-container {
+        position: relative;
+        line-height: 2.5rem;
+        display: inline-block;
+        width: 9.25rem;
+        height: 4.88rem;
+        flex-shrink: 0;
+      }
+      .book-your-demo-today-whatsapp-parent {
+        width: 25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 3.44rem;
+        margin-top: -12.25rem;
+      }
+      .aboutusmobile2,
+      .ellipse-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+      }
+      .aboutusmobile2 {
+        position: relative;
+        background-color: #011424;
+        width: 100%;
+        overflow: hidden;
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: center;
+        font-size: 1.56rem;
+        color: #fec811;
+        font-family: Montserrat;
+      }
+      
+}

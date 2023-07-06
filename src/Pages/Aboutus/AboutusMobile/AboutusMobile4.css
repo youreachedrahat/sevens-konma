@@ -1,0 +1,41 @@
+@media (max-width: 500px) {
+    .frame-icon {
+        position: relative;
+        width: 19.13rem;
+        height: 19.13rem;
+        object-fit: cover;
+      }
+      .as-a-brand-container {
+        position: relative;
+        line-height: 1.63rem;
+        display: inline-block;
+        width: 20.88rem;
+        height: 34.81rem;
+        flex-shrink: 0;
+      }
+      .aboutusmobile4,
+      .frame-parent {
+        display: flex;
+        justify-content: flex-start;
+      }
+      .frame-parent {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.13rem;
+      }
+      .aboutusmobile4 {
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        overflow: hidden;
+        flex-direction: row;
+        padding: 2.69rem 2.06rem;
+        box-sizing: border-box;
+        align-items: flex-start;
+        text-align: justify;
+        font-size: 1rem;
+        color: #49006c;
+        font-family: Montserrat;
+      }
+      
+}

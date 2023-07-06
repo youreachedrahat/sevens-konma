@@ -7,6 +7,8 @@ import HomepageSection3 from './HomepageSection3'
 import HomepageSection4 from './HomepageSection4'
 import Faqs from "./Faqs.js";
 import HorizontalRule from "../../Components/HorizontalRule"
+
+import HomepageMobile2 from './HomepageMobile/HomepageMobile2'
 function Homepage() {
   return (
     <>
@@ -16,6 +18,7 @@ function Homepage() {
     <HomepageSection2/>
     <HorizontalRule/>
     <HomepageSection3/>
+    <HomepageMobile2/>
     <HorizontalRule/>
     <HomepageSection4/>
     <HorizontalRule/>
