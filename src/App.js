@@ -30,13 +30,13 @@ function App() {
         {isMobile && <Route path="/aboutus" element={<Aboutus />} />}
 
         {!isMobile && <Route path="/betting" element={<Betting />} />}
-        {isMobile && <Route path="/betting" element={<SportMobile />} />}
+        {isMobile && <Route path="/betting" element={<Betting />} />}
 
         {!isMobile && <Route path="/casino" element={<Casino />} />}
-        {isMobile && <Route path="/casino" element={<CasinoMobile />} />}
+        {isMobile && <Route path="/casino" element={<Casino />} />}
 
         {!isMobile && <Route path="/solution" element={<Solution />} />}
-        {isMobile && <Route path="/solution" element={<BettingMobile />} />}
+        {isMobile && <Route path="/solution" element={<Solution />} />}
       </Routes>
       <Footer />
     </>
