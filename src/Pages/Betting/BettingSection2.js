@@ -11,7 +11,7 @@ const BettingSection2 = () => {
           can also help you to implement promotions, bonuses, and other
           incentives to keep your customers engaged.
         </div>
-        <img className="frame-icon" alt="" src="/frame@2x.png" />
+        <img className="frame-icon max-sm:object-contain" alt="" src="/frame@2x.png" />
       </div>
     </div>
   );
