@@ -3,7 +3,7 @@ const BettingSection3 = () => {
   return (
     <div className="bettingsection3 max-sm:w-auto max-sm:h-auto max-sm:flex-col max-sm:px-0 max-sm:py-0">
       <div className="bettingsection3body max-sm:w-auto max-sm:h-auto max-sm:px-0 max-sm:py-0">
-        <div className="sm:hidden bettingsection3text max-sm:px-5 max-sm:w-[100%] max-sm:leading-tight  max-sm:text-justify max-sm:pt-8 max-sm:gap-0">
+        <div className="bettingsection3text max-sm:px-5 max-sm:w-[100%] max-sm:leading-tight  max-sm:text-justify max-sm:pt-8 max-sm:gap-0">
           <span>{`Also we are pride ourselves on our `}</span>
           <b>24x7 customer service</b>
           <span>{`. We understand that your success is our success, which is why we are dedicated to providing you with the best possible service and support. Our team is always available to answer your questions, provide guidance, and help you to resolve any issues that you may encounter. `}</span>

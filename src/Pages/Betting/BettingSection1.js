@@ -4,7 +4,7 @@ const BettingSection1 = () => {
     <div className="bettingsection1">
       <div className="bettingtop">
         <div className="rectangle max-sm:w-auto max-sm:h-auto max-sm:px-0 ">
-          <b className="title text-[50px] max-sm:leading-tight max-sm:text-[32px] max-sm:text-center">Sportsbook and Betting Software Development Company </b>
+          <b className="title text-[50px] max-sm:leading-tight max-sm:text-[32px] max-sm:text-center ">Sportsbook and Betting Software Development Company </b>
         </div>
         <div className="container4 " />
       </div>

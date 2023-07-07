@@ -1,5 +1,6 @@
 import React from 'react'
 import "./SportsSection1.css";
+import search from "../../assets/search.gif"
 
 const SportsSection1 = () => {
   return (
@@ -7,7 +8,7 @@ const SportsSection1 = () => {
       <div className="sportssection12 max-sm:h-auto max-sm:gap-2">
       <div className="sportsTop">
         <div className="rectangle max-sm:h-[130px]">
-          <b className="titleSports title max-sm:text-[32px] text-left max-sm:leading-8">Online Sorts Betting Software Solution</b>
+          <b className="titleSports title max-sm:text-[32px] text-left max-sm:leading-8">Online Sports Betting Software Solution</b>
         </div>
         <div className="container4 max-sm:w-[100%]" />
       </div>
@@ -26,9 +27,9 @@ const SportsSection1 = () => {
           <div className="imagecontainer max-sm:w-[100%] max-sm:h-auto max-sm:justify-center">
             <div className="imagecontainer-child max-sm:w-[300px] max-sm:h-auto" />
             <img
-              className="sportimage1-icon max-sm:w-[250px] max-sm:h-auto"
+              className="sportimage1-icon max-sm:w-[300px] max-sm:h-auto"
               alt=""
-              src="/sportimage1@2x.png"
+              src={search}
             />
           </div>
           <div className="textwhite6 w-[100%] px-16 max-sm:p-5 h-auto max-sm:text-[16px]">

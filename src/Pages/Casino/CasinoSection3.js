@@ -1,4 +1,5 @@
 import "./CasinoSection3.css";
+import casinoimage2 from "../../assets/casinoImage2.gif"
 const CasinoSection3 = () => {
   return (
     <div className="casinosection3 max-sm:px-0 max-sm:w-auto max-sm:h-auto max-sm:flex-col max-sm:py-0 max-sm: ">
@@ -9,7 +10,7 @@ const CasinoSection3 = () => {
           <img
             className="casinoimage2-icon max-sm:left-0 max-sm:w-auto max-sm:h-auto max-sm:object-cover"
             alt=""
-            src="/casinoimage2@2x.png"
+            src={casinoimage2}
           />
         </div>
       </div>
