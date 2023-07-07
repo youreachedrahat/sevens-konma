@@ -1,19 +1,19 @@
 import "./CasinoSection2.css";
 const CasinoSection2 = () => {
   return (
-    <div className="casinosection2 max-sm:w-auto max-sm:h-auto max-sm:flex-col">
+    <div className="casinosection2 max-sm:px-0">
       <div className="casinossection-2 max-sm:w-auto max-sm:h-auto">
-        <div className="casino2top max-sm:w-auto max-sm:h-auto max-sm:flex-col">
-          <b className="title2indigo max-sm:w-auto max-sm:h-auto max-sm:pt-10 max-sm:pb-0  max-sm:text-center">
+        <div className="casino2top  max-sm:flex-col max-sm:pt-0 max-sm:gap-0">
+          <b className="title2indigo max-sm:w-auto max-sm:h-auto max-sm:pt-10 max-sm:text-center max-sm:px-25">
             Casino Provider Integrations
           </b>
           <img
-            className="casinoimage1-icon max-sm:align-center"
+            className="casinoimage1-icon max-sm:pl-10 max-sm:h-25 max-sm:ml-15"
             alt=""
             src="/casinoimage1@2x.png"
           />
         </div>
-        <div className="textindigo1 max-sm:w-auto max-sm:h-auto max-sm:align-justify">
+        <div className="textindigo1 max-sm:w-auto max-sm:h-auto max-sm:px-10 max-sm:align-justify max-sm:tracking-tighter">
           We have established partnerships with the top providers in the
           industry, such as Evolution Gaming, 7Mojos, VIVO Gaming, and Ezugi, to
           provide our players with the best possible gaming experiences. These
