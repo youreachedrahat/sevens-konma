@@ -1,4 +1,5 @@
 import "./SportsSection2.css";
+import OX from "../../assets/OX.gif"
 const SportsSection2 = () => {
   return (
     <div className="sportssection2 max-sm:w-full">
@@ -6,7 +7,7 @@ const SportsSection2 = () => {
     
   <img className="sportsimage2-icon max-sm:hidden" alt="" src="/sportsimage2@2x.png" />
         <div className="key-features-about-our-betting-parent max-sm:relative max-sm:w-[100%] max-sm:gap-[50px]">
-          <b className="key-features-about max-sm:text-[32px]">
+          <b className="key-features-about max-sm:w-auto max-sm:text-[32px] max-sm:pt-10">
             Key features about our Betting Software Solutions
           </b>
           <div className="sportsrectangle max-sm:w-[100%] max-sm:block max-sm:p-3 max-sm:h-auto">
@@ -24,10 +25,10 @@ const SportsSection2 = () => {
           </div>
           <img className="frame-child max-sm:w-[79px]" alt="" src="/group-39469.svg" />
         </div>
-  <img className="sportsimage2-icon max-sm:hidden" alt="" src="/sportsimage2@2x.png" />
+  <img className="sportsimage2-icon max-sm:hidden" alt="" src={OX} />
 
         <div className="sm:hidden w-[100%]">
-  <img className="sportsimage2-icon  w-[100%] h-auto" alt="" src="/sportsimage2Mobile.png" />
+  <img className="sportsimage2-icon  w-[100%] h-auto" alt="" src={"/sportsimage2Mobile.png"} />
   </div>
          </div>
     </div>

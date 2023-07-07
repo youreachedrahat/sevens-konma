@@ -1,16 +1,17 @@
 import "./Bettingsection4.css";
+import people1 from "../../assets/people.gif";
 import HorizonalRule from "../../Components/HorizontalRule";
 const Bettingsection4 = () => {
   return (
     <div className="bettingsection4 max-sm:px-0 max-sm:w-auto max-sm:h-auto max-sm:py-0">
       <div className="bettingbody-4 max-sm:w-auto max-sm:h-auto max-sm:flex-col max-sm:gap-0">
-      <div className="sm:hidden bettingsection3text max-sm:w-[100%] max-sm:h-auto text-justify p-10 text-[16px] leading-8 tracking-wide">
+      <div className="bettingsection3text max-sm:w-[100%] max-sm:h-auto sm:hidden text-justify p-10 text-[16px] leading-8 tracking-wide">
           Also we are pride ourselves on our 24x7 customer service. We understand that your success is our success, which is why we are dedicated to providing you with the best possible service and support. Our team is always available to answer your questions, provide guidance, and help you to resolve any issues that you may encounter.
         </div>
         <img
           className="bettingimage4-icon max-sm:w-auto max-sm:h-auto max-sm:hidden"
           alt=""
-          src="/bettingimage4@2x.png"
+          src={people1}
         />
         <img
           className="bettingimage4-icon max-sm:w-auto max-sm:h-auto sm:hidden"
