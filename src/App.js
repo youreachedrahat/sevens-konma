@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       {!isMobile && <Header2 />}
-      {isMobile && <HeaderMobile />}
+      {isMobile && <Header2 />}
       <Routes>
         <Route path="/" element={<Homepage />} />
 

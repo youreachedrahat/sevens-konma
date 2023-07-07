@@ -14,6 +14,7 @@ body {
 
 *{
   font-family: Montserrat;
+  /* max-width: 1440px; */
 }
 
 :root {
@@ -116,3 +117,12 @@ body {
   font-size: 32px;
 }
 }
+
+
+/* .MuiAccordion-rounded{
+  border: none !important;
+}
+
+.MuiButtonBase-root{
+  border: none !important;
+} */

@@ -48,3 +48,10 @@
   color: var(--neutral-colors-white);
   font-family: var(--text-single-100-bold);
 }
+
+@media (max-width: 600px) {
+  .navbar {
+    justify-content: space-between;
+    gap: auto;
+  }
+}
