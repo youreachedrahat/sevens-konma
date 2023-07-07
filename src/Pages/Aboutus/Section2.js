@@ -1,7 +1,7 @@
 import "./Section2.css";
 const Section2 = () => {
   return (
-    <div className="section-2">
+    <div className="section-2 max-sm:text-left ... max-sm:h-auto max-sm:w-[100%]">
       <div className="section-21">
         <div className="section2top">
           <div className="cta">
@@ -23,9 +23,9 @@ const Section2 = () => {
               </span>
             </p>
           </div>
-          <div className="section2top-child" />
+          <div className="section2top-child max-sm:text-center" />
         </div>
-        <div className="section2text1">
+        <div className="section2text1 max-sm:w-auto max-sm:h-auto">
           <p className="book-your-demo-today">
             <b>{`Why should you choose Sevens Gaming? `}</b>
           </p>

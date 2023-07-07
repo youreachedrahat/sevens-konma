@@ -1,7 +1,5 @@
-import {
-  Routes,
-  Route} from "react-router-dom";
-  import { useMediaQuery } from 'react-responsive';
+import { Routes, Route } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
 
 import Header2 from "./Pages/Header/Header2";
 import Homepage from "./Pages/Homepage/Homepage";
@@ -23,31 +21,24 @@ function App() {
 
   return (
     <>
-    {!isMobile && <Header2 />}
-    {isMobile && <HeaderMobile />}
-    <Routes>
-      <Route path="/" element={<Homepage />} />
+      {!isMobile && <Header2 />}
+      {isMobile && <HeaderMobile />}
+      <Routes>
+        <Route path="/" element={<Homepage />} />
 
+        {!isMobile && <Route path="/aboutus" element={<Aboutus />} />}
+        {isMobile && <Route path="/aboutus" element={<Aboutus />} />}
 
-      {!isMobile && <Route path="/aboutus" element={<Aboutus />} />}
-    {isMobile &&  <Route path="/aboutus" element={<AboutMobile />} />}
-      
-     
-    {!isMobile && <Route path="/betting" element={<Betting />} />}
-    {isMobile && <Route path="/betting" element={<SportMobile />} />}
-      
-      
-      {!isMobile &&  <Route path="/casino" element={<Casino />} />}
-    {isMobile &&  <Route path="/casino" element={<CasinoMobile />} />}
-     
-     
-      {!isMobile && <Route path="/solution" element={<Solution />} />}
-    {isMobile && <Route path="/solution" element={<BettingMobile />} />}
-      
-      
+        {!isMobile && <Route path="/betting" element={<Betting />} />}
+        {isMobile && <Route path="/betting" element={<SportMobile />} />}
 
-    </Routes>
-    <Footer/>
+        {!isMobile && <Route path="/casino" element={<Casino />} />}
+        {isMobile && <Route path="/casino" element={<CasinoMobile />} />}
+
+        {!isMobile && <Route path="/solution" element={<Solution />} />}
+        {isMobile && <Route path="/solution" element={<BettingMobile />} />}
+      </Routes>
+      <Footer />
     </>
   );
 }

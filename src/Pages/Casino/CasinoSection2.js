@@ -4,13 +4,29 @@ const CasinoSection2 = () => {
     <div className="casinosection2 max-sm:w-auto max-sm:h-auto max-sm:flex-col">
       <div className="casinossection-2 max-sm:w-auto max-sm:h-auto">
         <div className="casino2top max-sm:w-auto max-sm:h-auto max-sm:flex-col">
-          <b className="title2indigo max-sm:w-auto max-sm:h-auto max-sm:pt-10 max-sm:pb-0  max-sm:text-center">Casino Provider Integrations</b>
-          <img className="casinoimage1-icon max-sm:align-center" alt="" src="/casinoimage1@2x.png" />
+          <b className="title2indigo max-sm:w-auto max-sm:h-auto max-sm:pt-10 max-sm:pb-0  max-sm:text-center">
+            Casino Provider Integrations
+          </b>
+          <img
+            className="casinoimage1-icon max-sm:align-center"
+            alt=""
+            src="/casinoimage1@2x.png"
+          />
         </div>
         <div className="textindigo1 max-sm:w-auto max-sm:h-auto max-sm:align-justify">
-          We have established partnerships with the top providers in the industry, such as Evolution Gaming, 7Mojos, VIVO Gaming, and Ezugi, to provide our players with the best possible gaming experiences. These providers are known for their exceptional quality and their ability to create games that are immersive and engaging, while also offering a range of betting limits to accommodate players of all levels.
-          Our Integration Process
-          Integrating live casino games into our platform involves working closely with our provider partners to ensure that our players can seamlessly access and enjoy these games. Our integration process is designed to be fast and reliable, ensuring that our players can get started playing their favorite games quickly and easily. We use the latest technologies to ensure that our games are secure and reliable, giving our players the confidence to play and win.
+          We have established partnerships with the top providers in the
+          industry, such as Evolution Gaming, 7Mojos, VIVO Gaming, and Ezugi, to
+          provide our players with the best possible gaming experiences. These
+          providers are known for their exceptional quality and their ability to
+          create games that are immersive and engaging, while also offering a
+          range of betting limits to accommodate players of all levels. Our
+          Integration Process Integrating live casino games into our platform
+          involves working closely with our provider partners to ensure that our
+          players can seamlessly access and enjoy these games. Our integration
+          process is designed to be fast and reliable, ensuring that our players
+          can get started playing their favorite games quickly and easily. We
+          use the latest technologies to ensure that our games are secure and
+          reliable, giving our players the confidence to play and win.
         </div>
       </div>
     </div>
