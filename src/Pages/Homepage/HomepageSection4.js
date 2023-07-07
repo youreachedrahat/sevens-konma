@@ -31,7 +31,7 @@ const HomepageSection4 = () => {
               alt=""
               src={money}
             />
-        <div className="textsmall2 headingwhite max-sm:w-full max-sm:self-center max-sm:text-center max-sm:font-bold">Our Clients</div>
+        <div className="sm:hidden text-[54px] headingwhite max-sm:w-full max-sm:self-center max-sm:text-center max-sm:font-bold">Our Clients</div>
 
             <div className="tagline max-sm:text-center max-sm:leading-6 max-sm:text-[24px] max-sm:w-[80%] max-sm:mx-auto">why sevens gaming?</div>
             <div className="text max-sm:text-center max-sm:px-4 max-sm:w-full max-sm:text-[16px]">

@@ -5,8 +5,8 @@ import diamond from "../assets/diamond.png"
 const SubSec3Container = () => {
   return (
     <div className="max-sm:w-auto max-sm:h-auto subsec3 max-sm:pb-10">
-      <div className="heading2 max-sm:leading-none max-sm:w-auto max-sm:h-auto whitespace-normal max-w-full textsmall2">
-        <b>Our Casino <br/>Software Solutions</b>
+      <div className="heading2 max-sm:leading-none max-sm:w-auto max-sm:h-auto whitespace-normal max-w-full text-[72px] max-sm:text-[54px]">
+        <b>Our Casino Software Solutions</b>
         </div>
       <div className="yellowcards">
         <CostEffectiveContainer

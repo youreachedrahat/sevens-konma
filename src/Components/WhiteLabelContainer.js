@@ -5,9 +5,9 @@ const WhiteLabelContainer = () => {
   return (
     <div className="max-sm:100% max-sm:flex-col-reverse max-sm:h-auto max-sm:content-center max-sm:justify-center max-sm:w-full subsec1">
       <div className="max-sm:gap-6  max-sm:w-[100%] max-sm:h-auto max-sm:px-2 homepageleftbody">
-        <b className="max-sm:leading-none max-sm:self-center max-sm:w-full max-sm:h-auto heading max-sm:text-center max-sm:text-[32px]">Now Get your own white label</b>
-        <div className=" max-sm:hidden subheading">Sports Exchange/Bookmaker/Casino</div>
-        <div className="max-sm:hidden textwhite8">Sevens Gaming is one of the leading iGaming development companies that provide top-notch
+        <b className="max-sm:leading-none max-sm:self-center max-sm:w-full max-sm:h-auto heading max-sm:text-center max-sm:text-[54px] text-[72px]">Now Get your own white label</b>
+        <div className=" max-sm:hidden subheading text-[32px]">Sports Exchange/Bookmaker/Casino</div>
+        <div className="max-sm:hidden textwhite8 text-[24px]">Sevens Gaming is one of the leading iGaming development companies that provide top-notch
 iGaming solutions and services. Our White label solutions and Turnkey Sports Exchange solutions are loved by our clients due to
 the userfriendly interface that attracts their target audiences. We deliver the best possible
 solutions to our clients in the quickest time. </div>

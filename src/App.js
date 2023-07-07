@@ -42,7 +42,8 @@ function App() {
      
      
       {!isMobile && <Route path="/solution" element={<Solution />} />}
-    {isMobile && <Route path="/solution" element={<BettingMobile />} />}
+      {isMobile && <Route path="/solution" element={<Solution />} />}
+    {/* {isMobile && <Route path="/solution" element={<BettingMobile />} />} */}
       
       
 

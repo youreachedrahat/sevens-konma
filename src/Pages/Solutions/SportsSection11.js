@@ -3,16 +3,16 @@ import "./SportsSection1.css";
 
 const SportsSection1 = () => {
   return (
-    <div className="sportssection11">
-      <div className="sportssection12">
+    <div className="sportssection11 max-sm:h-auto">
+      <div className="sportssection12 max-sm:h-auto max-sm:gap-2">
       <div className="sportsTop">
-        <div className="rectangle">
-          <b className="titleSports title">{`Online Sorts Betting Software Solution `}</b>
+        <div className="rectangle max-sm:h-[130px]">
+          <b className="titleSports title max-sm:text-[32px] text-left max-sm:leading-8">Online Sorts Betting Software Solution</b>
         </div>
-        <div className="container4" />
+        <div className="container4 max-sm:w-[100%]" />
       </div>
-        <div className="sportsbody1">
-          <div className="textwhite5">
+        <div className="sportsbody1 max-sm:flex max-sm:justify-center">
+          <div className="textwhite5 w-[100%] px-16 max-sm:p-5 h-auto max-sm:text-[16px]">
             Sevens Gaming has a team of experts in the field of sports betting
             technology, and we have developed cutting-edge software solutions to
             meet the needs of the online sports betting industry. We understand
@@ -23,17 +23,17 @@ const SportsSection1 = () => {
             solutions designed to meet the needs of sportsbooks, bookmakers, and
             betting operators of all sizes.
           </div>
-          <div className="imagecontainer">
-            <div className="imagecontainer-child" />
+          <div className="imagecontainer max-sm:w-[100%] max-sm:h-auto max-sm:justify-center">
+            <div className="imagecontainer-child max-sm:w-[300px] max-sm:h-auto" />
             <img
-              className="sportimage1-icon"
+              className="sportimage1-icon max-sm:w-[250px] max-sm:h-auto"
               alt=""
               src="/sportimage1@2x.png"
             />
           </div>
-          <div className="textwhite6">
-            <span>{`A complete online sports betting whitelabel solution which includes sportsbook, casino, exchange, mobile betting, and APIs that enable simple integration with third-party platforms. Each of these solutions is designed to be `}</span>
-            <b>
+          <div className="textwhite6 w-[100%] px-16 max-sm:p-5 h-auto max-sm:text-[16px]">
+            <span className='w-[100%]'>A complete online sports betting whitelabel solution which includes sportsbook, casino, exchange, mobile betting, and APIs that enable simple integration with third-party platforms. Each of these solutions is designed to be </span>
+            <b className='w-[100%]'>
               fully customizable to meet the unique needs of each individual
               client
             </b>
