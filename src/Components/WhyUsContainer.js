@@ -4,7 +4,7 @@ const WhyUsContainer = () => {
   return (
     <div className="subsec2">
       <b className="heading1 max-sm:mb-10">Why Us?</b>
-      <div className="max-sm:flex-col max-sm:gap-20 max-sm:w-auto max-sm:mb-36 subsec2body">
+      <div className="max-sm:flex-col max-sm:gap-10 max-sm:z-10 max-sm:w-auto max-sm:mb-36 subsec2body">
         <div className="z-10 max-sm:pt-5 max-sm:align-middle max-sm:mr-0 card">
           <b className="big-number">40+</b>
           <div className="title3">Active White Label</div>
@@ -25,7 +25,7 @@ const WhyUsContainer = () => {
           <b className="title5">years of Expertise</b>
         </div>
       </div>
-      <img className="max-sm:overflow-visible sm:hidden max-sm:left-[-58%] max-sm:top-[40%] max-sm:absolute spiral-icon" alt="" src={spiral} />
+      <img className="w-[800px] max-sm:overflow-visible sm:hidden max-sm:left-[-70%] max-sm:mt-[-790px] max-sm:relative spiral-icon" alt="" src={spiral} />
     </div>
   );
 };

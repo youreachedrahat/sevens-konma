@@ -106,11 +106,13 @@ body {
 }
 
 
+@media (max-width: 500px) {
 
 .textsmall{
   font-size: 14px;
 }
 
 .textsmall2{
-  font-size: 40px;
+  font-size: 32px;
+}
 }
