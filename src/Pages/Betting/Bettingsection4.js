@@ -16,7 +16,7 @@ const Bettingsection4 = () => {
               your business to the next level.
             </b>
           </div>
-          <div className="primarybutton max-sm:right-0">
+          <div className="primarybutton">
             <b className="button-text1 ">Contact Us</b>
             <img
               className="line-roundedarrow-right1"
