@@ -30,15 +30,18 @@ function App() {
 
 
       {!isMobile && <Route path="/aboutus" element={<Aboutus />} />}
-    {isMobile &&  <Route path="/aboutus" element={<AboutMobile />} />}
+      {isMobile && <Route path="/aboutus" element={<Aboutus />} />}
+    {/* {isMobile &&  <Route path="/aboutus" element={<AboutMobile />} />} */}
       
      
     {!isMobile && <Route path="/betting" element={<Betting />} />}
-    {isMobile && <Route path="/betting" element={<SportMobile />} />}
+    {isMobile && <Route path="/betting" element={<Betting />} />}
+    {/* {isMobile && <Route path="/betting" element={<SportMobile />} />} */}
       
       
       {!isMobile &&  <Route path="/casino" element={<Casino />} />}
-    {isMobile &&  <Route path="/casino" element={<CasinoMobile />} />}
+      {isMobile &&  <Route path="/casino" element={<Casino />} />}
+    {/* {isMobile &&  <Route path="/casino" element={<CasinoMobile />} />} */}
      
      
       {!isMobile && <Route path="/solution" element={<Solution />} />}

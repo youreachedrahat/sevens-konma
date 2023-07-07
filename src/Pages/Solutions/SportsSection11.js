@@ -11,7 +11,7 @@ const SportsSection1 = () => {
         </div>
         <div className="container4 max-sm:w-[100%]" />
       </div>
-        <div className="sportsbody1 max-sm:flex max-sm:justify-center">
+        <div className="sportsbody1 max-sm:flex max-sm:justify-center max-sm:w-[100%]">
           <div className="textwhite5 w-[100%] px-16 max-sm:p-5 h-auto max-sm:text-[16px]">
             Sevens Gaming has a team of experts in the field of sports betting
             technology, and we have developed cutting-edge software solutions to
