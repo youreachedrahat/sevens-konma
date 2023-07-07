@@ -10,7 +10,7 @@ const FrameComponent = () => {
           </div>
           <HorizontalRule />
         </div>
-        <div className="as-a-brand max-sm:w-auto max-sm:h-auto max-sm:px-5">
+        <div className="as-a-brand max-sm:w-auto max-sm:h-auto max-sm:px-5 max-sm:text-[16px] sm:text-[24px]">
           As a brand, Sevens Gaming has a legacy in the sports exchange
           industry. We are the most trusted White Label providers of Sports
           Exchange platform operating since 2016. More than 40 top White Labels
