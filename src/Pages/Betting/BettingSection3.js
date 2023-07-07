@@ -2,7 +2,7 @@ import "./BettingSection3.css";
 const BettingSection3 = () => {
   return (
     <div className="bettingsection3 max-sm:w-auto max-sm:h-auto max-sm:flex-col max-sm:px-0 max-sm:py-0">
-      <div className="bettingsection3body max-sm:w-auto max-sm:h-auto max-sm:px-0">
+      <div className="bettingsection3body max-sm:w-auto max-sm:h-auto max-sm:px-0 sm:pl-20">
         <div className="bettingsection3text">
           <span>{`Also we are pride ourselves on our `}</span>
           <b>24x7 customer service</b>
