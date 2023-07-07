@@ -10,7 +10,7 @@ import HorizontalRule from "../../Components/HorizontalRule";
 function Aboutus() {
   return (
     <>
-      <Header2 />
+      {/* <Header2 /> */}
       <FrameComponent />
       <HorizontalRule />
       <Section2 />
@@ -18,7 +18,7 @@ function Aboutus() {
       <Section3 />
       <HorizontalRule />
       <Section4 />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

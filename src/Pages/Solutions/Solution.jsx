@@ -9,13 +9,13 @@ import HorizontalRule from "../../Components/HorizontalRule"
 function Solution() {
   return (
     <>
-    <Header2/>
+    {/* <Header2/> */}
     <SportsSection1/>
      <HorizontalRule/>
     <SportsSection2/>
     <HorizontalRule/>
     <SportsSection31/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
 
   )

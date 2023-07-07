@@ -14,7 +14,7 @@ function Casino() {
   const isMobile = useMediaQuery({ maxWidth: 500 });
   return (
     <>
-    <Header2/>
+    {/* <Header2/> */}
     <CasinoSection1/>
     <HorizontalRule/>
     <CasinoSection2/>      
@@ -22,7 +22,7 @@ function Casino() {
     <CasinoSection3/>      
     <HorizontalRule/>
     <CasinoSection4/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

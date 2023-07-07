@@ -104,3 +104,15 @@ body {
   /* Effects */
   --button-shadows-button-white-01: 0px 4px 10px rgba(20, 20, 43, 0.04);
 }
+
+
+@media (max-width: 500px) {
+
+.textsmall{
+  font-size: 14px;
+}
+
+.textsmall2{
+  font-size: 32px;
+}
+}
