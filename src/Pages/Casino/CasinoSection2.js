@@ -1,5 +1,5 @@
 import "./CasinoSection2.css";
-import loading from "../../assets/loading.gif"
+import loading from "../../assets/loading.gif";
 const CasinoSection2 = () => {
   return (
     <div className="casinosection2 max-sm:px-0">
@@ -14,7 +14,7 @@ const CasinoSection2 = () => {
             src={loading}
           />
         </div>
-        <div className="textindigo1 max-sm:w-auto max-sm:h-auto max-sm:px-10 max-sm:align-justify max-sm:tracking-tighter">
+        <div className="textindigo1 max-sm:w-[100%] max-sm:h-auto text-justify max-sm:px-5 text-[24px] max-sm:text-[16px] leading-8">
           We have established partnerships with the top providers in the
           industry, such as Evolution Gaming, 7Mojos, VIVO Gaming, and Ezugi, to
           provide our players with the best possible gaming experiences. These

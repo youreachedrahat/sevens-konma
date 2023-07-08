@@ -4,7 +4,7 @@
   left: 0;
   width: 90rem;
   height: 64.56rem;
-  object-fit: cover;
+  object-fit: contain;
   mix-blend-mode: normal;
 }
 .homepage2content-child {
@@ -46,3 +46,5 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+

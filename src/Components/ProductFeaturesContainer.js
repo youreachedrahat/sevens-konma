@@ -1,9 +1,9 @@
 import "./ProductFeaturesContainer.css";
 const ProductFeaturesContainer = () => {
   return (
-    <div className="homepagetop">
+    <div className="homepagetop max-sm:flex-col max-sm:w-[100%] max-sm:items-center ">
       <div className="homepagetext2 mt-[40px] mb-[-40px]">
-        <b className="headingsection2 max-sm:leading-none max-sm:self-center max-sm:w-full max-sm:h-auto heading max-sm:text-center max-sm:text-[54px] text-[72px]">
+        <b className="headingsection2 max-sm:leading-none max-sm:self-center max-sm:w-[100%] max-sm:h-auto heading max-sm:text-center max-sm:text-[32px] text-[72px]">
           Product Features
         </b>
         <b className="paragraphsection2 max-sm:hidden">
@@ -11,7 +11,7 @@ const ProductFeaturesContainer = () => {
           wide range of other services
         </b>
       </div>
-      <div className="button mt-[60px] mb-[-60px]">
+      <div className="button mt-[60px] mb-[-60px] max-sm:hidden">
         <div className="buttonhomepage2">
           <b className="button-text6 text-center">Get started</b>
           <img
@@ -21,7 +21,7 @@ const ProductFeaturesContainer = () => {
           />
         </div>
       </div>
-      <img className="gear-icon" alt="" src="/gear@2x.png" />
+      <img className="gear-icon max-sm:absolute z-10 max-sm:ml-[-100%] max-sm:mt-[35%] max-sm:w-[160px] max-sm:object-contain" alt="" src="/gear@2x.png" />
     </div>
   );
 };

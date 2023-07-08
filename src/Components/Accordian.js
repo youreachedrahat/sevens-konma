@@ -22,7 +22,11 @@ export default function BasicAccordion() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: "center" }}
+          sx={{
+            '@media (max-width: 600px)': {
+              fontSize: '16px',
+            },
+          }}
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
             What solutions does Sevens Gaming provide?
@@ -38,20 +42,12 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion
-        sx={{
-          bgcolor: "transparent",
-          border: "none",
-          boxShadow: "none",
-          color: "#46009c",
-          border: "none",
-        }}
-      >
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: "center" }}
+          
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
             What sports exchange software development services does Sevens
@@ -67,20 +63,12 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion
-        sx={{
-          bgcolor: "transparent",
-          border: "none",
-          boxShadow: "none",
-          color: "#46009c",
-          border: "none",
-        }}
-      >
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: "center" }}
+          
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
             Which games and sports are offered on your platform?
@@ -95,20 +83,12 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion
-        sx={{
-          bgcolor: "transparent",
-          border: "none",
-          boxShadow: "none",
-          color: "#46009c",
-          border: "none",
-        }}
-      >
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: "center" }}
+          
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
             How much does the turnkey solution cost?
@@ -124,20 +104,12 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion
-        sx={{
-          bgcolor: "transparent",
-          border: "none",
-          boxShadow: "none",
-          color: "#46009c",
-          border: "none",
-        }}
-      >
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: "center" }}
+          
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
             How much time does it take to get the White Label sports exchange
@@ -153,20 +125,12 @@ export default function BasicAccordion() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion
-        sx={{
-          bgcolor: "transparent",
-          border: "none",
-          boxShadow: "none",
-          color: "#46009c",
-          border: "none",
-        }}
-      >
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: "center" }}
+          
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
             Which are the Agent APIs that Sevens Gaming provides?
@@ -181,20 +145,12 @@ export default function BasicAccordion() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion
-        sx={{
-          bgcolor: "transparent",
-          border: "none",
-          boxShadow: "none",
-          color: "#46009c",
-          border: "none",
-        }}
-      >
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: "center" }}
+          
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
             Are the live dealer casino software solutions reliable?

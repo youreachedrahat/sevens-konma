@@ -1,5 +1,5 @@
 import "./CasinoSection1.css";
-import HorizontalRule from "../../Components/HorizontalRule"
+import HorizontalRule from "../../Components/HorizontalRule";
 
 const CasinoSection1 = () => {
   return (
@@ -13,10 +13,10 @@ const CasinoSection1 = () => {
         
       </div>
        
-        <div className="text-white max-sm:w-auto max-sm:h-auto max-sm:pl-7 max-sm:pr-7 max-sm:text-justify text-50% max-sm:text-[20px]">
+        <div className="text-white max-sm:w-auto max-sm:h-auto max-sm:pl-7 max-sm:pr-7 max-sm:text-justify text-[24px] ma-sm:text-[16px]">
           <p className="at-sevens-gaming max-sm:">{`At Sevens Gaming, we offer the best in online gaming experiences through our partnerships with the top providers in the industry. `}</p>
           <p className="at-sevens-gaming">
-            <span>{`Our live casino gaming services provide you with access to the latest and greatest in online gaming experiences. Our platform offers a range of games from `}</span>
+            <span>Our live casino gaming services provide you with access to the latest and greatest in online gaming experiences. Our platform offers a range of games from</span>
             <b className="blackjack">blackjack</b>
             <span className="blackjack">{`, `}</span>
             <b className="blackjack">roulette</b>

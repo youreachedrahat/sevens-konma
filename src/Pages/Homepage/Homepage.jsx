@@ -17,8 +17,8 @@ function Homepage() {
     {/* <Header2/> */}
     <HomepageSection1/>
     <HorizontalRule/>
-    {!isMobile && <HomepageSection2 />}
-    {isMobile && <HomepageMobile2 />}
+     <HomepageSection2 />
+    {/* {isMobile && <HomepageMobile2 />} */}
     <HorizontalRule/>
     <HomepageSection3/>
     <HorizontalRule/>
