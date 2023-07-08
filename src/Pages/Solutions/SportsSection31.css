@@ -50,14 +50,11 @@
   color: var(--color-darkslateblue);
 }
 .sportssection3body {
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--gap-17xl);
-  text-align: center;
-
 }
 .sportssection-3,
 .sportssection3 {
@@ -67,14 +64,13 @@
   justify-content: flex-start;
 }
 .sportssection-3 {
-
   z-index: 0;
 }
 .sportssection3 {
   position: relative;
   background-color: var(--main-site-body);
   width: 100%;
-    width: 100%;
+  width: 100%;
   padding: 53px 115px;
   box-sizing: border-box;
   align-items: flex-start;

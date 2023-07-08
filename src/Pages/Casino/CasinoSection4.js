@@ -28,6 +28,7 @@ const CasinoSection4 = () => {
             src="/casinoimage3@2x.png"
           />
         </div>
+        <br />
       </div>
     </div>
   );
