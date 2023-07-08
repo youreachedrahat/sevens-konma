@@ -1,5 +1,9 @@
 import ProductFeaturesContainer from "../../Components/ProductFeaturesContainer";
 import InPlayBettingContainer from "../../Components/InPlayBettingContainer";
+import CarouselTestimonials from "../../Components/CarouselTestimonials/CarouselTestimonials";
+import CardStack from "../../Components/CarouselTestimonials";
+import cards from "../../Components/Card"
+
 import "./HomepageSection2.css";
 const HomepageSection2 = () => {
   return (
@@ -9,7 +13,9 @@ const HomepageSection2 = () => {
         <div className="homepage2content-child" />
         <div className="homepage2content-2">
           <ProductFeaturesContainer />
-          <InPlayBettingContainer />
+          {/* <InPlayBettingContainer /> */}
+          {/* <CardStack cards={cards}/> */}
+          {/* <CarouselTestimonials/> */}
         </div>
       </div>
     </div>

@@ -8,13 +8,17 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function BasicAccordion() {
   return (
-    <div className='w-[80%] mx-auto'>
-      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#46009c', border: 'none'}}>
+    <div className='w-[80%]  pt-8 pb-[-100px]'>
+      <Accordion sx={{ bgcolor: 'transparent', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: 'center' }}
+          sx={{
+            '@media (max-width: 600px)': {
+              fontSize: '16px',
+            },
+          }}
         >
           <Typography sx={{ fontWeight: 'bold', fontSize: '24px' }}>What solutions does Sevens Gaming provide?</Typography>
         </AccordionSummary>
@@ -25,12 +29,12 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#46009c', border: 'none'}}>
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: 'center' }}
+          
         >
           <Typography sx={{ fontWeight: 'bold', fontSize: '24px' }}>What sports exchange software development services does Sevens Gaming offer?</Typography>
         </AccordionSummary>
@@ -41,12 +45,12 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#46009c', border: 'none'}}>
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: 'center' }}
+          
         >
           <Typography sx={{ fontWeight: 'bold', fontSize: '24px' }}>Which games and sports are offered on your platform?</Typography>
         </AccordionSummary>
@@ -57,12 +61,12 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#46009c', border: 'none'}}>
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: 'center' }}
+          
         >
           <Typography sx={{ fontWeight: 'bold', fontSize: '24px' }}>How much does the turnkey solution cost?</Typography>
         </AccordionSummary>
@@ -73,12 +77,12 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#46009c', border: 'none'}}>
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: 'center' }}
+          
         >
           <Typography sx={{ fontWeight: 'bold', fontSize: '24px' }}>How much time does it take to get the White Label sports exchange platform?</Typography>
         </AccordionSummary>
@@ -88,12 +92,12 @@ export default function BasicAccordion() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#46009c', border: 'none'}}>
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: 'center' }}
+          
         >
           <Typography sx={{ fontWeight: 'bold', fontSize: '24px' }}>Which are the Agent APIs that Sevens Gaming provides?</Typography>
         </AccordionSummary>
@@ -103,12 +107,12 @@ export default function BasicAccordion() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#46009c', border: 'none'}}>
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
-          sx={{ alignItems: 'center' }}
+          
         >
           <Typography sx={{ fontWeight: 'bold', fontSize: '24px' }}>Are the live dealer casino software solutions reliable?</Typography>
         </AccordionSummary>

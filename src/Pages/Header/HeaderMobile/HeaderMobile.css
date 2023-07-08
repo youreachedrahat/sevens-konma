@@ -1,10 +1,10 @@
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
 .icon {
     position: relative;
     width: 11.38rem;
     height: 2.63rem;
     object-fit: cover;
-    /* margin-left: -30px; */
+ 
   }
   .menu-icon {
     position: relative;
@@ -44,4 +44,4 @@
     justify-content: flex-start;
     gap: 0.81rem;
   }
-}  
+}   */
