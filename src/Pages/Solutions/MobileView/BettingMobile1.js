@@ -3,7 +3,7 @@ const BettingMobile1 = () => {
   return (
     <div className="bettingmobilesection1">
       <div className="bettingmobilesection1-child" />
-      <b className="online-sports-betting">{`Online Sports Betting Software Solutions `}</b>
+      <b className="online-sports-betting max-sm:text-[32px] max-sm:leading-7">{`Online Sports Betting Software Solutions `}</b>
       <div className="container" />
       <div className="sevens-gaming-has-a-team-of-ex-parent">
         <div className="sevens-gaming-has">
