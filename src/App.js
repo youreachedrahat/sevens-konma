@@ -8,6 +8,7 @@ import Betting from "./Pages/Betting/Betting";
 import Casino from "./Pages/Casino/Casino";
 import Solution from "./Pages/Solutions/Solution";
 import Footer from "./Pages/Footer/Footer";
+// import Footer from "./Components/Footer/Footer";
 
 // mobile
 import HeaderMobile from "./Pages/Header/HeaderMobile/HeaderMobile";
@@ -38,6 +39,7 @@ function App() {
         {!isMobile && <Route path="/solution" element={<Solution />} />}
         {isMobile && <Route path="/solution" element={<Solution />} />}
       </Routes>
+
       <Footer />
     </>
   );

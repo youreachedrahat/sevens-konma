@@ -14,7 +14,7 @@ const CasinoSection2 = () => {
             src={loading}
           />
         </div>
-        <div className="textindigo1 max-sm:w-[100%] max-sm:h-auto sm:hidden text-justify max-sm:px-5 text-[16px] leading-8">
+        <div className="textindigo1 max-sm:w-[100%] max-sm:h-auto text-justify max-sm:px-5 text-[24px] max-sm:text-[16px] leading-8">
           We have established partnerships with the top providers in the
           industry, such as Evolution Gaming, 7Mojos, VIVO Gaming, and Ezugi, to
           provide our players with the best possible gaming experiences. These

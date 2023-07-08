@@ -12,10 +12,10 @@ const CasinoSection1 = () => {
           <HorizontalRule />
         </div>
 
-        <div className="text-white max-sm:w-[100%] max-sm:h-auto sm:hidden text-justify max-sm:px-5 text-[16px] leading-8">
+        <div className="text-white max-sm:w-[100%] max-sm:h-auto text-justify max-sm:px-5 text-[24px] max-sm:text-[16px] leading-8">
           <p className="at-sevens-gaming ">{`At Sevens Gaming, we offer the best in online gaming experiences through our partnerships with the top providers in the industry. `}</p>
           <p className="at-sevens-gaming">
-            <span>{`Our live casino gaming services provide you with access to the latest and greatest in online gaming experiences. Our platform offers a range of games from `}</span>
+            <span>Our live casino gaming services provide you with access to the latest and greatest in online gaming experiences. Our platform offers a range of games from</span>
             <b className="blackjack">blackjack</b>
             <span className="blackjack">{`, `}</span>
             <b className="blackjack">roulette</b>

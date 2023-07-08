@@ -8,7 +8,7 @@ const CasinoSection3 = () => {
           Our Commitment to Security
         </b>
         <div className="casinobody3  max-sm:w-auto max-sm:h-auto max-sm:flex-col-reverse max-sm:px-0 max-sm:mx-0 max-sm:gap-y-0 max-sm:items-center sm:items-start ">
-          <div className="textwhite3 max-sm:w-[100%] max-sm:h-auto sm:hidden text-justify max-sm:px-5 text-[16px] leading-8">
+          <div className="textwhite3 max-sm:w-[100%] max-sm:h-auto  text-justify max-sm:px-5 text-[24px] max-sm:text-[16px] leading-8">
             We take the security of our players very seriously, and we use the
             latest encryption and security technologies to ensure that our
             platform is safe and secure. Our live casino games are fair and
