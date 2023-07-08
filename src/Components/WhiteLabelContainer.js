@@ -23,9 +23,9 @@ const WhiteLabelContainer = () => {
           Sevens Gaming is one of the leading iGaming development companies that
           provide top-notch iGaming solutions and services.
         </div>
-        <div className="buttons max-sm:gap-0 max-sm:w-auto max-sm:h-auto max-sm:px-11 max-sm:text-[16px] sm:text-[24px]">
+        <div className="buttons max-sm:gap-0 max-sm:w-auto max-sm:h-auto mx-auto max-sm:text-[16px] sm:text-[24px]">
           <div className="yellowbutton">
-            <div className="master-primary-button2 max-sm:p-0 max-sm:w-[159px] max-sm:h-[54px] max-sm:mx-auto max-sm:justify-center ">
+            <div className="master-primary-button2 max-sm:p-0 max-sm:w-[159px] max-sm:h-[54px] max-sm:mx-auto max-sm:justify-center">
               <b className="button-text3 textsmall">Get started</b>
               <img
                 className="line-roundedarrow-right2"
