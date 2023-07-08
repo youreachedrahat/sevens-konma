@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import "./Carousel.css"
+import { useMediaQuery } from "react-responsive";
+
+
 const Slide = ({ slide, current, handleSlideClick }) => {
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
@@ -88,9 +91,10 @@ const Slider = ({ slides, heading }) => {
   };
 
   const headingId = `slider-heading__${heading.replace(/\s+/g, '-').toLowerCase()}`;
+  const isMobile = useMediaQuery({ maxWidth: 500 });
 
   return (
-    <div className="slider" aria-labelledby={headingId}>
+    <div className="slider w-screen" aria-labelledby={headingId}>
       <ul className="slider__wrapper" style={wrapperTransform}>
         <h3 id={headingId} className="visuallyhidden">
           {heading}
@@ -106,7 +110,17 @@ const Slider = ({ slides, heading }) => {
         ))}
       </ul>
 
-      <div className="slider__controls">
+      {isMobile && 
+      <div className="slider__indicators max-sm:mb-5">
+        {slides.map((slide, index) => (
+          <button
+            key={slide.index}
+            className={`slider__indicator ${index === current ? 'slider__indicator--active' : ''}`}
+            onClick={() => handleSlideClick(index)}
+          />
+        ))}
+      </div> }
+      {!isMobile && <div className="slider__controls">
         {/* <SliderControl
           type="previous"
           title="Go to previous slide"
@@ -115,6 +129,7 @@ const Slider = ({ slides, heading }) => {
 
         <SliderControl type="next" title="Go to next slide" handleClick={handleNextClick} />
       </div>
+      }
     </div>
   );
 };

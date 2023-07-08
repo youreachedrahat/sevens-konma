@@ -13,7 +13,7 @@ function TestimonialCards() {
       index: 1,
       headline: 'In The Wilderness',
       para: 'Check Every Update For Your Favourite Sports',
-      src: '',
+      src: '/live.gif',
     },
     {
       index: 2,
