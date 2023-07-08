@@ -26,7 +26,6 @@
   box-sizing: border-box;
   align-items: flex-start;
   justify-content: center;
-  gap: 37.44rem;
   text-align: left;
   font-size: var(--headline-size);
   color: var(--color-darkslateblue);
@@ -34,7 +33,7 @@
   padding-top: 20px;
 }
 
-.faqImage{
+.faqImage {
   width: 100%;
   display: flex;
   justify-content: end;
