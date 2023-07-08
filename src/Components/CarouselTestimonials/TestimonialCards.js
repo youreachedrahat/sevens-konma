@@ -11,7 +11,7 @@ function TestimonialCards() {
     },
     {
       index: 1,
-      headline: 'In The Wilderness',
+      headline: 'Streaming',
       para: 'Check Every Update For Your Favourite Sports',
       src: '/live.gif',
     },

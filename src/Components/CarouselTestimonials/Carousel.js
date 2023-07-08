@@ -41,7 +41,7 @@ const Slide = ({ slide, current, handleSlideClick }) => {
 
       <article className="slide__content">
       {slide.src? 
-      <div className="slide__image-wrapper">
+      <div className="slide__image-wrapper ">
         <img
           className="slide__image"
           alt={slide.headline}
