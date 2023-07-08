@@ -118,6 +118,9 @@ body {
 .textsmall2{
   font-size: 32px;
 }
+.MuiTypography-body1{
+  font-size: 16px !important;
+}
 }
 
 
@@ -128,20 +131,3 @@ body {
 .MuiButtonBase-root{
   border: none !important;
 } */
-
-.baseaaaaaassoso {
-  color: #eceff1;
-  color: #cfd8dc;
-  color: #b0bec5;
-  color: #90a4ae;
-  color: #78909c;
-  color: #607d8b;
-  color: #546e7a;
-  color: #455a64;
-  color: #37474f;
-  color: #263238;
-  color: #171F23;
-  color: #12181B;
-  color: #0D1214;
-  color: #080C0D;
-}
