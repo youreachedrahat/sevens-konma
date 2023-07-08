@@ -6,7 +6,7 @@ const HomepageSection4 = () => {
     <div className="homepagesection4 max-sm:w-full max-sm:p-0 max-sm:pt-10">
       <div className="homepage4body max-sm:w-full">
         <b className=" headingwhite max-sm:hidden">Our Clients</b>
-        <div className="body4 max-sm:flex-col-reverse max-sm:gap-20 max-sm:pb-10">
+        <div className="body4 max-sm:flex-col-reverse max-sm:gap-20 max-sm:pb-10 sm:gap-80">
           <div className="clientslogo max-sm:grid max-sm:grid-cols-2 max-sm:gap-y-12 max-sm:gap-x-12 max-sm:w-[95%]">
             <img className="mask-group-icon " alt="" src="/mask-group@2x.png" />
             <img className="mask-group-icon max-sm:ml-auto" alt="" src="/mask-group1@2x.png" />
@@ -25,7 +25,7 @@ const HomepageSection4 = () => {
           </div>
          
 
-          <div className="body4right max-sm:w-full">
+          <div className="body4right max-sm:w-full ">
             <img
               className="homepageimage4-icon max-sm:self-center"
               alt=""

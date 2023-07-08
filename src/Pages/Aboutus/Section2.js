@@ -2,11 +2,11 @@ import "./Section2.css";
 const Section2 = () => {
   return (
     <div className="section-2 max-sm:text-left ... max-sm:h-auto max-sm:w-[100%]">
-      <div className="section-21">
+      <div className="section-21 sm:gap-0">
         <div className="section2top">
           <div className="cta">
             <p className="book-your-demo-today">
-              <span className="book-your-demo-today1">
+              <span className="book-your-demo-today1 sm:text-7xl">
                 <b>Book Your Demo Today!</b>
                 <span>{` `}</span>
               </span>
@@ -26,7 +26,7 @@ const Section2 = () => {
           <div className="section2top-child max-sm:text-center" />
         </div>
         <div className="section2text1 max-sm:w-auto max-sm:h-auto">
-          <p className="book-your-demo-today">
+          <p className="book-your-demo-today sm:text-[25px]">
             <b>{`Why should you choose Sevens Gaming? `}</b>
           </p>
           <p className="book-your-demo-today">&nbsp;</p>

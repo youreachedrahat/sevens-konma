@@ -5,7 +5,7 @@ import search from "../../assets/search.gif"
 const SportsSection1 = () => {
   return (
     <div className="sportssection11 max-sm:h-auto">
-      <div className="sportssection12 max-sm:h-auto max-sm:gap-2">
+      <div className="sportssection12 max-sm:h-auto max-sm:gap-2 sm:pb-10">
       <div className="sportsTop">
         <div className="rectangle max-sm:h-[130px]">
           <b className="titleSports title max-sm:text-[32px] text-left max-sm:leading-8">Online Sports Betting Software Solution</b>

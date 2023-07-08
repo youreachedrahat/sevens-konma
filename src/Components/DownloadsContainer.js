@@ -1,7 +1,7 @@
 import "./DownloadsContainer.css";
 const DownloadsContainer = () => {
   return (
-    <div className="footerupper max-sm:flex-col max-sm:h-auto max-sm:w-full max-sm:gap-12">
+    <div className="footerupper max-sm:flex-col max-sm:h-auto max-sm:w-full max-sm:gap-12 sm:w-full sm:px-10">
       <div className="footerleft max-sm:w-full max-sm:pt-10">
         <img className="logo-icon1 max-sm:w-[180px] max-sm:object-contain" alt="" src="/logo11@2x.png" />
         <div className="footer-description max-sm:text-[16px] max-sm:pb-10 max-sm:w-full">
@@ -36,7 +36,7 @@ const DownloadsContainer = () => {
           />
         </div>
       </div>
-      <div className="footerlinks max-sm:w-full  max-sm:grid max-sm:grid-cols-2 max-sm:p-5 max-sm:gap-y-9 max-sm:gap-x-0 ">
+      <div className="footerlinks max-sm:w-full  max-sm:grid max-sm:grid-cols-2 max-sm:p-5 max-sm:gap-y-9 max-sm:gap-x-0 sm:pl-10">
         <div className="col1 max-sm:gap-y-6">
           <b className="footer-title max-sm:text-[20px]">Product</b>
           <div className="link-parent max-sm:gap-y-5">
