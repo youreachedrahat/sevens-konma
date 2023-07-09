@@ -4,8 +4,8 @@ import SubSec3Container from "../../Components/SubSec3Container";
 import "./HomepageSection1.css";
 const HomepageSection1 = () => {
   return (
-    <div className="sm:pl-12 homepagesection1 max-sm:p-0 -z-10">
-      <div className="homepagesection-1">
+    <div className=" homepagesection1 max-sm:p-0 max-lg:p-0 w-100%">
+      <div className="homepagesection-1 w-100%">
         <WhiteLabelContainer />
         <WhyUsContainer />
         <SubSec3Container />
