@@ -53,6 +53,7 @@
   height: 6.63rem;
   flex-shrink: 0;
   z-index: 1;
+  /* background-image: url(../assets/circle.gif); */
 }
 .spiralcontainer {
   display: flex;

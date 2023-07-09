@@ -31,9 +31,9 @@
   z-index: 1;
 }
 .homepage2content {
-  position: absolute;
-  top: 2.75rem;
-  left: 6.88rem;
+ 
+  padding-top: 2.75rem;
+  padding-left: 6.88rem;
   gap: var(--gap-3xs);
 }
 .homepagesection2 {

@@ -16,20 +16,7 @@
   justify-content: flex-start;
   gap: var(--gap-35xl);
 }
-.logo1-icon {
-  position: relative;
-  width: 10rem;
-  min-width: 160px;
-  height: 3.75rem;
-  object-fit: cover;
-}
-.homepage-3logos {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 3.5rem;
-}
+
 .homepagesection-3,
 .homepagesection3 {
   display: flex;
@@ -52,4 +39,24 @@
   font-size: var(--font-size-21xl);
   color: var(--color-darkslateblue);
   font-family: var(--headline);
+}
+
+
+.logo1-icon {
+  position: relative;
+  width: 10rem;
+  min-width: 160px;
+  height: 3.75rem;
+  object-fit: cover;
+}
+.homepage-3logos {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  width: 100%;
 }

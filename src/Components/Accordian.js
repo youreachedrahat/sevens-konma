@@ -29,7 +29,7 @@ export default function BasicAccordion() {
           }}
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
-            What solutions does Sevens Gaming provide?
+            What solutions does Sevens Gaming provide? <span className="ExpandMoreIcon"> <ExpandMoreIcon /> </span> 
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -51,7 +51,7 @@ export default function BasicAccordion() {
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
             What sports exchange software development services does Sevens
-            Gaming offer?
+            Gaming offer?<span className="ExpandMoreIcon"> <ExpandMoreIcon /> </span> 
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -71,7 +71,7 @@ export default function BasicAccordion() {
           
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
-            Which games and sports are offered on your platform?
+            Which games and sports are offered on your platform?<span className="ExpandMoreIcon"> <ExpandMoreIcon /> </span> 
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -91,7 +91,7 @@ export default function BasicAccordion() {
           
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
-            How much does the turnkey solution cost?
+            How much does the turnkey solution cost?<span className="ExpandMoreIcon"> <ExpandMoreIcon /> </span> 
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -113,7 +113,7 @@ export default function BasicAccordion() {
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
             How much time does it take to get the White Label sports exchange
-            platform?
+            platform?<span className="ExpandMoreIcon"> <ExpandMoreIcon /> </span> 
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -133,7 +133,7 @@ export default function BasicAccordion() {
           
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
-            Which are the Agent APIs that Sevens Gaming provides?
+            Which are the Agent APIs that Sevens Gaming provides?<span className="ExpandMoreIcon"> <ExpandMoreIcon /> </span> 
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -153,7 +153,7 @@ export default function BasicAccordion() {
           
         >
           <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
-            Are the live dealer casino software solutions reliable?
+            Are the live dealer casino software solutions reliable?<span className="ExpandMoreIcon"> <ExpandMoreIcon /> </span> 
           </Typography>
         </AccordionSummary>
         <AccordionDetails>

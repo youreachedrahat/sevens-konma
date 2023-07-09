@@ -64,12 +64,13 @@
 .body4,
 .homepage4body {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body4 {
   flex-direction: row;
   align-items: center;
-  gap: 15.18rem;
+  justify-content: space-evenly;
+  /* gap: 15.18rem; */
   font-size: var(--font-size-5xl);
   color: var(--color-gold);
 }
@@ -90,7 +91,7 @@
   background-color: var(--main-site-body);
   width: 100%;
   overflow: hidden;
-  display: flex;
+  /* display: flex; */
   /* flex-direction: column; */
   padding: var(--padding-21xl) var(--padding-3xs) var(--padding-xl)
     var(--padding-21xl);
