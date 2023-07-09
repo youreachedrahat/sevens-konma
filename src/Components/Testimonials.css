@@ -1,4 +1,4 @@
-.swiper {
+.testimonialSwiper .swiper {
     width: 100%;
     max-width: 100% !important;
     height: 345px;
@@ -11,8 +11,38 @@
   }
   
 
+  .testimonialSwiper  .swiper-button-prev{
+    visibility: hidden;
+  }
+
+  .testimonialSwiper .swiper-button-next{
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    /* background-image: url(/public/chevron_right.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: ; */
+    right: 3.75rem;
+  }
+  .testimonialSwiper .swiper-button-next::after{
+    content: url(/public/arrow_forward.svg);
+  }
+
+
+  .testimonialSwiper .swiper-pagination-bullet{
+    background-color: #fff;
+    
+  }
   
-  .swiper-slide {
+  .testimonialSwiper .swiper-pagination-bullet-active{
+    background: var(--color-gold);
+  }
+
+
+  .testimonialSwiper .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -22,16 +52,22 @@
     width: 388px !important;
     border-radius: 25px;
     background: var(--color-gold);
+    padding-left: 4px;
+    overflow: visible !important;
   }
 
 @media (max-width: 639px) {
-    .swiper-slide {
+  .testimonialSwiper  .swiper-slide {
         width: 229px !important;
         border-radius: 12px;
       }
+      .testimonialSwiper .swiper{
+      height: 280px;
+      margin-bottom: 20px;
+    }
 }
 
 
-.mySwiper{
+.testimonialSwiper .mySwiper{
 width: 100% !important;
 }

@@ -2,7 +2,7 @@ import "./WhyUsContainer.css";
 import spiral from "../assets/circle.gif"
 const WhyUsContainer = () => {
   return (
-    <div className="subsec2 max-sm:gap-0 max-sm:mb-[200px]">
+    <div className="subsec2 max-sm:gap-0 max-sm:mb-[200px] lg:pl-12">
       <b className="heading1 max-sm:uppercase max-sm:mb-10 max-sm:text-[32px]">Why Us?</b>
       <div className="max-lg:flex-col max-lg:gap-9 max-sm:z-10 max-sm:w-auto max-sm:mb-36 max-lg:mb-20 subsec2body">
         <div className="z-10 max-sm:pt-5 max-sm:align-middle max-sm:mr-0 card max-sm:gap-2">

@@ -1,9 +1,9 @@
 import "./ProductFeaturesContainer.css";
 const ProductFeaturesContainer = () => {
   return (
-    <div className="homepagetop max-[830px]:flex-col max-sm:w-[100%] max-sm:items-center max-lg:gap-0 ">
+    <div className=" max-sm:pt-0 homepagetop max-[830px]:flex-col max-sm:w-[100%] max-sm:items-center max-lg:gap-0 max-[830px]:p-10 pl-[6.6rem]">
       <div className="homepagetext2 mt-[40px]">
-        <b className="headingsection2 max-sm:leading-none max-sm:self-center max-sm:w-[100%] max-sm:h-auto heading max-sm:text-center max-sm:text-[32px] text-[72px]">
+        <b className="headingsection2 max-sm:text-white max-sm:leading-none max-sm:self-center max-sm:w-[100%] max-sm:h-auto heading max-sm:text-center max-sm:text-[32px] text-[72px]">
           Product Features
         </b>
         <b className="paragraphsection2 max-sm:hidden">
@@ -21,7 +21,7 @@ const ProductFeaturesContainer = () => {
           />
         </div>
       </div>
-      <img className="gear-icon absolute z-10 max-sm:ml-[-100%] max-sm:mt-[35%] max-sm:w-[160px] max-sm:object-contain right-[-8%] top-0 max-lg:right-[-13%] max-[830px]:right-[-17%]" alt="" src="/gear@2x.png" />
+      <img className="gear-icon absolute z-10  max-sm:mt-[40vw] max-sm:left-[-30%] max-sm:w-[160px] max-sm:object-contain right-[-8%] top-0 max-lg:right-[-13%] max-[830px]:right-[-17%]" alt="" src="/gear@2x.png" />
     </div>
   );
 };
