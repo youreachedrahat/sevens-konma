@@ -2,13 +2,13 @@ import "./CasinoSection3.css";
 import casinoimage2 from "../../assets/casinoImage2.gif";
 const CasinoSection3 = () => {
   return (
-    <div className="casinosection3 max-sm:px-0 max-sm:w-auto max-sm:h-auto max-sm:flex-col max-sm:py-0 max-sm: ">
-      <div className="casinosection-3 max-sm:pt-10">
-        <b className=" max-sm:w-[70%] max-sm:h-auto  max-sm:mx-auto max-sm:text-center max-sm:top-0 sm:text-[54px] max-sm:text-[32px] sm:ml-[-40px]">
+    <div className="casinosection3 max-sm:px-0 max-sm:w-auto max-sm:h-auto max-sm:flex-col max-sm:py-0 sm:px-0">
+      <div className="casinosection-3 max-sm:pt-10 sm:w-auto sm:h-auto sm:flex-col">
+        <b className=" max-sm:w-[70%] max-sm:h-auto  max-sm:mx-auto max-sm:text-center max-sm:top-0 sm:text-[54px] max-sm:text-[32px] sm:pl-20 sm:w-auto sm:h-auto">
           Our Commitment to Security
         </b>
-        <div className="casinobody3  max-sm:w-auto max-sm:h-auto max-sm:flex-col-reverse max-sm:px-0 max-sm:mx-0 max-sm:gap-y-0 max-sm:items-center sm:items-start ">
-          <div className="textwhite3 max-sm:w-[100%] max-sm:h-auto  text-justify max-sm:px-5 text-[24px] max-sm:text-[16px] leading-8">
+        <div className="casinobody3  max-sm:w-auto max-sm:h-auto max-sm:flex-col-reverse max-sm:px-0 max-sm:mx-0 max-sm:gap-y-0 max-sm:items-center sm:items-start sm:w-auto sm:h-auto sm:px-20 ">
+          <div className="textwhite3 max-sm:w-[100%] max-sm:h-auto  text-justify max-sm:px-5 text-[24px] max-sm:text-[16px] leading-8 sm:pt-10  sm:h-auto ">
             We take the security of our players very seriously, and we use the
             latest encryption and security technologies to ensure that our
             platform is safe and secure. Our live casino games are fair and
