@@ -108,7 +108,6 @@ body {
   --button-shadows-button-white-01: 0px 4px 10px rgba(20, 20, 43, 0.04);
 }
 
-
 @media (max-width: 500px) {
 
 .textsmall{
@@ -135,4 +134,18 @@ body {
 .css-1j77aky-MuiPaper-root-MuiAccordion-root::before,
 .css-1ia44sb::before{
 visibility: hidden !important;
+}
+
+
+.MuiAccordionSummary-root{
+  width: fit-content !important;
+  margin-right: 20px !important;
+}
+
+.MuiAccordionSummary-expandIconWrapper svg{
+  transform: rotate(-90deg) !important;
+}
+
+.Mui-expanded.MuiAccordionSummary-expandIconWrapper svg{
+  transform: rotate(180deg) !important;
 }
