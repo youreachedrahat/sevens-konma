@@ -2,7 +2,7 @@ import "./CasinoSection3.css";
 import casinoimage2 from "../../assets/casinoImage2.gif";
 const CasinoSection3 = () => {
   return (
-    <div className='casinosection3'>
+    <div className='casinosection3 px-20'>
       <div className='flex justify-center items-start flex-col'>
         <b className=' max-sm:h-auto max-sm:mx-auto max-sm:text-center max-sm:top-0 sm:text-[44px] max-sm:text-[32px]'>
           Our Commitment to Security
