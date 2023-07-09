@@ -9,10 +9,7 @@ const SportsSection2 = () => {
           <b className="key-features-about max-sm:w-auto max-sm:text-[32px] max-sm:p-5 max-sm:leading-9 sm:hidden">
             Key features about our Betting Software Solutions
           </b>
-          <b className="key-features-about sm:text-[32px] sm:leading-9 sm:w-auto sm:right-5 max-sm:hidden">
-            Key features about our <br /> Betting Software Solutions
-          </b>
-          <div className="sportsrectangle max-sm:w-[100%] max-sm:block max-sm:p-3 max-sm:h-auto sm:h-auto sm:px-0 sm:w-[100%]">
+          <div className="sportsrectangle max-sm:w-[100%] max-sm:block max-sm:p-3 max-sm:h-auto">
             <div className="bg-yellow-400 py-7 pl-7 pr-8 rounded-[50px]">
               <div className="textindigo2 max-sm:w-[100%] max-sm:p-3 max-sm:text-[16px] max-sm:leading-relaxed">
                 Our comprehensive sportsbook platform is the backbone of our
