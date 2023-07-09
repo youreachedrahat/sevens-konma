@@ -1,8 +1,8 @@
 import "./Section4.css";
 const Section4 = () => {
   return (
-    <div className="section-4">
-      <div className="section4body max-sm:flex-col">
+    <div className="section-4 sm:mx-auto pb-5 md:px-0">
+      <div className="section4body max-sm:flex-col md:flex-col lg:flex-row sm:flex-col">
         <img
           className="section4image-icon max-sm:align-center max-sm:w-auto max-sm:h-auto"
           alt=""
