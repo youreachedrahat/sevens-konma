@@ -2,7 +2,7 @@ import "./SportsSection2.css";
 import OX from "../../assets/OX.gif"
 const SportsSection2 = () => {
   return (
-    <div className="sportssection2 max-sm:w-full">
+    <div className="sportssection2 max-sm:w-full max-sm:pt-5">
       <div className="sportssection-2 max-sm:w-full max-sm:flex-col max-sm:p-0 max-sm:gap-[2.81rem]">
     
   <img className="sportsimage2-icon max-sm:hidden" alt="" src="/XO.gif" />
@@ -28,7 +28,7 @@ const SportsSection2 = () => {
    <img className="sportsimage2-icon max-sm:hidden" alt="" src="/XO.gif" />
 
         <div className="sm:hidden w-[100%]">
-  <img className="sportsimage2-icon  w-[100%] h-auto" alt="" src={OX} />
+  <img className="h-[118px] w-[100%] object-cover" alt="" src={OX} />
   </div>
          </div>
     </div>

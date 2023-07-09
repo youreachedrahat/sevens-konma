@@ -132,6 +132,7 @@ body {
   border: none !important;
 } */
 
-.css-1j77aky-MuiPaper-root-MuiAccordion-root::before{
+.css-1j77aky-MuiPaper-root-MuiAccordion-root::before,
+.css-1ia44sb::before{
 visibility: hidden !important;
 }

@@ -20,12 +20,12 @@ const Bettingsection4 = () => {
         <img
           className="bettingimage4-icon max-sm:w-auto max-sm:h-auto sm:hidden"
           alt=""
-          src="/bettingimage4@1x.png"
+          src="/support.gif"
         />
         <div className="hRule sm:hidden">{/* <HorizonalRule /> */}</div>
         <div className="bettingsection4-left max-sm:w-auto max-sm:h-auto max-sm:bg-primary max-sm:text-white ">
           <div className="textbody max-sm:w-auto max-sm:h-auto max-sm:px-7 max-sm:py-5">
-            <div className="textindigo max-sm:w-auto max-sm:h-auto max-sm:text-justify max-sm:text-[16px] max-sm:tracking-tighter max-sm:leading-7">{`We are committed to providing our clients with a complete suite of solutions to help them achieve their goals and grow their businesses. If you're looking for a reliable and innovative sportsbook software provider, look no further than our Sportsbook and Betting Software Development Company. `}</div>
+            <div className="textindigo max-sm:w-auto max-sm:h-auto max-sm:text-justify max-sm:text-[16px] max-sm:tracking-tighter max-sm:leading-7">We are committed to providing our clients with a complete suite of solutions to help them achieve their goals and grow their businesses. If you're looking for a reliable and innovative sportsbook software provider, look no further than our Sportsbook and Betting Software Development Company.</div>
             <br></br>
             <b className="textindigobold max-sm:leading-7 max-sm:w-auto max-sm:h-auto max-sm:text-justify max-sm:tracking-tighter max-sm:text-[16px]">
               Contact us today to learn more about how we can help you to take
@@ -33,7 +33,7 @@ const Bettingsection4 = () => {
             </b>
           </div>
           <div className="primarybutton max-sm:p-0 max-sm:w-[160px] max-sm:h-[54px] max-sm:mx-auto max-sm:justify-center">
-            <b className="button-text1 max-sm:text-[16px] max-sm:font-normal max-sm:text-[#49006C] ">Contact Us</b>
+            <b className="button-text1 max-sm:text-[16px] max-sm:font-semibold max-sm:text-textColor  ">Contact Us</b>
             <img
               className="line-roundedarrow-right1"
               alt=""
