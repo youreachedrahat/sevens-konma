@@ -2,13 +2,13 @@ import "./CasinoSection3.css";
 import casinoimage2 from "../../assets/casinoImage2.gif";
 const CasinoSection3 = () => {
   return (
-    <div className="casinosection3 max-sm:px-0 max-sm:w-auto max-sm:h-auto max-sm:flex-col max-sm:py-0 max-sm: ">
-      <div className="casinosection-3 max-sm:pt-10">
-        <b className=" max-sm:w-[70%] max-sm:h-auto  max-sm:mx-auto max-sm:text-center max-sm:top-0 sm:text-[54px] max-sm:text-[32px] sm:ml-[-40px]">
+    <div className='casinosection3'>
+      <div className='flex justify-center items-start flex-col'>
+        <b className=' max-sm:h-auto max-sm:mx-auto max-sm:text-center max-sm:top-0 sm:text-[44px] max-sm:text-[32px]'>
           Our Commitment to Security
         </b>
-        <div className="casinobody3  max-sm:w-auto max-sm:h-auto max-sm:flex-col-reverse max-sm:px-0 max-sm:mx-0 max-sm:gap-y-0 max-sm:items-center sm:items-start ">
-          <div className="textwhite3 max-sm:w-auto max-sm:h-auto max-sm:pt-5 max-sm:px-5 sm:pt-10 max-sm:text-justify">
+        <div className='flex flex-col-reverse lg:flex-row items-start'>
+          <div className='lg:mt-12 w-full leading-10 mt-12'>
             We take the security of our players very seriously, and we use the
             latest encryption and security technologies to ensure that our
             platform is safe and secure. Our live casino games are fair and
@@ -17,11 +17,9 @@ const CasinoSection3 = () => {
             professionals who monitor our platform 24/7 to ensure that our
             players have a safe and enjoyable gaming experience.
           </div>
-          <img
-            className="casinoimage2-icon max-sm:left-0 max-sm:w-auto max-sm:h-auto max-sm:object-cover"
-            alt=""
-            src={casinoimage2}
-          />
+          <div className='justify-center items-center flex w-full'>
+            <img className='' alt='' src={casinoimage2} />
+          </div>
         </div>
       </div>
       <br />

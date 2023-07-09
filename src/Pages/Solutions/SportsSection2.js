@@ -11,7 +11,7 @@ const SportsSection2 = () => {
             Key features about our Betting Software Solutions
           </b>
           <div className="sportsrectangle max-sm:w-[100%] max-sm:block max-sm:p-3 max-sm:h-auto">
-            <div className="sportsrectanglewrapper max-sm:w-[100%] max-sm:justify-center">
+            <div className="bg-yellow-400 py-7 pl-7 pr-8 rounded-[50px]">
               <div className="textindigo2 max-sm:w-[100%] max-sm:p-3 max-sm:text-[16px] max-sm:leading-relaxed">
                 Our comprehensive sportsbook platform is the backbone of our
                 online sports betting software solutions. It includes a wide
