@@ -8,7 +8,7 @@ const SportsSection1 = () => {
       <div className="sportssection12 max-sm:h-auto max-sm:gap-2 sm:pb-10">
         <div className="sportsTop">
           <div className="rectangle max-sm:h-[130px] max-sm:px-5">
-            <b className="titleSports title max-sm:h-auto  max-sm:leading-7 max-sm:text-center max-sm:text-[32px] sm:text-[50px]">
+            <b className="titleSports title max-sm:h-auto  max-sm:leading-7 max-sm:text-center max-sm:text-[32px] sm:text-[50px] max-sm:text-textColor sm:text-textColor">
               Online Sports Betting Software Solution
             </b>
           </div>
