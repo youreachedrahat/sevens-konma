@@ -28,13 +28,12 @@ const Testimonials = () => {
     };
   }, []);
   return (
-    <div className="w-100%">
+    <div className="w-[100%] max-md:mb-[10px] testimonialSwiper">
       <Swiper
+        allowTouchMove={true}
         centeredSlides={false}
-        autoplay={{
-          delay: 3000, 
-          disableOnInteraction: false,
-        }}
+        slidesPerView={3}
+        autoplay={true}
         spaceBetween={showPagination ? 10 : 30}
         pagination={showPagination ? { clickable: true } : false}
         navigation={!showPagination}
@@ -55,12 +54,12 @@ const Testimonials = () => {
         </SwiperSlide>
 
         <SwiperSlide className="flex flex-col p-5  max-sm:w-[229px] max-sm:h-[229px] gap-6">
-          <h1 className="font-bold text-[32px] max-sm:text-[18px] w-[70%] leading-8 uppercase">Genie<br/>Bet</h1>
+          <h1 className="font-bold text-[32px] max-sm:text-[18px] w-[70%] leading-8 uppercase">Genie<br />Bet</h1>
           <p className="text-[18px] max-sm:text-[16px] mt-2 w-[80%]">Create your own script for the game</p>
         </SwiperSlide>
 
         <SwiperSlide className="flex flex-col p-5  max-sm:w-[229px] max-sm:h-[229px] gap-6">
-Slide 4
+          Slide 4
         </SwiperSlide>
       </Swiper>
     </div>

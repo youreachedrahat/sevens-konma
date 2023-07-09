@@ -131,7 +131,7 @@ body {
   border: none !important;
 } */
 
-.css-1j77aky-MuiPaper-root-MuiAccordion-root::before,
+/* .css-1j77aky-MuiPaper-root-MuiAccordion-root::before,
 .css-1ia44sb::before{
 visibility: hidden !important;
 }
@@ -145,7 +145,7 @@ visibility: hidden !important;
 .MuiAccordionSummary-expandIconWrapper svg{
   transform: rotate(-90deg) !important;
   visibility: hidden;
-}
+} */
 
 
 
@@ -162,3 +162,4 @@ visibility: hidden !important;
 .Mui-expanded .ExpandMoreIcon svg{
   transform: rotate(0deg) !important;
 }
+

@@ -13,8 +13,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-45xl);
-  font-size: var(--font-size-31xl);
+  /* gap: var(--gap-45xl);
+  font-size: var(--font-size-31xl); */
 }
 .subsec3 {
   flex-direction: column;
@@ -23,4 +23,22 @@
   font-size: var(--headline-size);
   color: var(--neutral-colors-white);
   font-family: var(--headline);
+}
+
+
+.mySwiper2.swiper{
+  height: 490px;
+}
+.mySwiper2 .swiper-slide{
+ width: 644px !important;
+ height: 481px;
+}
+
+.mySwiper2 .swiper-slide-active,
+.mySwiper2 .swiper-slide-next{
+  width: 644px !important;
+}
+
+.mySwiper2 .swiper-wrapper{
+  justify-content: center;
 }
