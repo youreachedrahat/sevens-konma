@@ -11,7 +11,7 @@ const SubSec3Container = () => {
         </div> */}
 
       <div className="heading2 max-sm:leading-none max-sm:w-auto max-sm:h-auto whitespace-normal max-w-full text-4xl max-sm:text-3xl">
-        <b className="text-4xl max-sm:text-3xl leading-none">
+        <b className="text-4xl max-sm:text-[32px] leading-none">
           Our Casino
           <br />
           Software Solutions

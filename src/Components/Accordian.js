@@ -8,7 +8,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function BasicAccordion() {
   return (
-    <div className="w-[80%] mx-auto max-sm:pt-16">
+    <div className="w-[90%] mx-auto max-sm:pt-5 max-sm:px-0 z-10">
       <Accordion
         sx={{
           bgcolor: "transparent",

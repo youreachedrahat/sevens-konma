@@ -4,14 +4,16 @@ const BettingSection1 = () => {
     <div className="bettingsection1">
       <div className="bettingtop">
         <div className="rectangle max-sm:w-auto max-sm:h-auto max-sm:px-0 	 ">
-          <b className="title text-[50px] max-sm:leading-tight max-sm:text-[32px] max-sm:text-center sm:px-10">Sportsbook and Betting Software Development Company </b>
+          <b className="max-sm:text-textColor sm:text-textColor title text-[50px] max-sm:leading-8 max-sm:text-[32px] max-sm:h-auto max-sm:text-center max-sm:text-4xl">
+            Sportsbook and Betting Software Development Company{" "}
+          </b>
         </div>
         <div className="container4 " />
       </div>
-      <div className="bettingsection1body max-sm:w-[100%]  max-sm:h-auto max-sm:mx-0 max-sm:pt-10 max-sm:flex-col sm:pl-0 max-sm:pl-0">
-        <div className="sevens-gaming-is-container max-sm:w-auto max-sm:h-auto max-sm:px-10 max-sm:text-justify max-sm:text-[16px]">
-          <p className="sevens-gaming-is-a-leading-spo max-sm:w-[100%]">
-            <b className="sevens-gaming">Sevens Gaming</b>
+      <div className="bettingsection1body max-sm:w-[100%]  max-sm:h-auto max-sm:mx-0 max-sm:pt-10 max-sm:flex-col sm:pl-0 max-sm:pl-0 ">
+        <div className="sevens-gaming-is-container max-sm:leading-7 max-sm:w-auto max-sm:h-auto max-sm:px-8 max-sm:text-justify max-sm:text-[16px]">
+          <p className="sevens-gaming-is-a-leading-spo max-sm:w-[100%] max-sm:leading-7">
+            <b className="sevens-gaming max-sm:font-normal">Sevens Gaming</b>
             <span>
               {" "}
               is a leading Sportsbook and Betting Software Development Company
@@ -34,7 +36,7 @@ const BettingSection1 = () => {
           alt=""
           src="/bettingimage1@2x.png"
         />
-        <div className="we-use-the max-sm:text-[16px] max-sm:w-[100%] max-sm:px-10 max-sm:pb-10 max-sm:h-auto">
+        <div className="we-use-the max-sm:leading-7 max-sm:text-[16px] max-sm:w-[100%] max-sm:px-5 max-sm:pb-10 max-sm:h-auto">
           We use the most advanced tools and techniques to ensure that our
           software is always at the forefront of the industry. Our software is
           designed to be user-friendly, with an intuitive interface that makes
@@ -42,7 +44,6 @@ const BettingSection1 = () => {
           information
         </div>
       </div>
-      
     </div>
   );
 };

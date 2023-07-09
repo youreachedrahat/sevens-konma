@@ -1,11 +1,11 @@
 import "./CasinoSection2.css";
-import loading from "../../assets/loading.gif"
+import loading from "../../assets/loading.gif";
 const CasinoSection2 = () => {
   return (
-    <div className="casinosection2 max-sm:px-0">
-      <div className="casinossection-2 max-sm:w-auto max-sm:h-auto">
-        <div className="casino2top  max-sm:flex-col max-sm:pt-0 max-sm:gap-0 max-sm:justify-center max-sm:items-center">
-          <b className="title2indigo max-sm:w-auto max-sm:h-auto max-sm:pt-10 max-sm:text-center max-sm:px-25">
+    <div className="casinosection2 max-sm:px-3 sm:px-20">
+      <div className="casinossection-2 max-sm:w-auto max-sm:h-auto ">
+        <div className="casino2top  max-sm:flex-col max-sm:pt-0 max-sm:gap-0 max-sm:justify-center max-sm:items-center sm:w-auto sm:h-auto  ">
+          <b className="title2indigo max-sm:w-auto max-sm:h-auto max-sm:pt-10 max-sm:text-center max-sm:px-25 ">
             Casino Provider Integrations
           </b>
           <img
@@ -14,7 +14,7 @@ const CasinoSection2 = () => {
             src={loading}
           />
         </div>
-        <div className="textindigo1 max-sm:w-auto max-sm:h-auto max-sm:px-10 max-sm:align-justify max-sm:tracking-tighter">
+        <div className="textindigo1 max-sm:w-[100%] max-sm:h-auto text-justify max-sm:px-5 text-[24px] max-sm:text-[16px] leading-8 sm:w-auto sm:h-auto">
           We have established partnerships with the top providers in the
           industry, such as Evolution Gaming, 7Mojos, VIVO Gaming, and Ezugi, to
           provide our players with the best possible gaming experiences. These
@@ -29,6 +29,7 @@ const CasinoSection2 = () => {
           use the latest technologies to ensure that our games are secure and
           reliable, giving our players the confidence to play and win.
         </div>
+        <br></br>
       </div>
     </div>
   );

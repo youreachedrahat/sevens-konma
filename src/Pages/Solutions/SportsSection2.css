@@ -3,6 +3,8 @@
   width: 15.44rem;
   height: 47.75rem;
   object-fit: cover;
+  /* transform: rotate(90deg);
+  height: fit-content; */
 }
 .key-features-about,
 .textindigo2 {

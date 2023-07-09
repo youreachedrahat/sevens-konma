@@ -2,13 +2,13 @@ import "./CasinoSection4.css";
 
 const CasinoSection4 = () => {
   return (
-    <div className="casinosection4 max-sm:px-0 max-sm:w-auto max-sm:h-auto max">
-      <div className="casino4 max-sm:gap-y-0">
+    <div className="casinosection4 max-sm:px-0 max-sm:w-auto max-sm:h-auto sm:w-100% sm:h-auto ">
+      <div className="casino4 max-sm:gap-y-0 flex-col">
         <b className="title21  max-sm:w-auto max-sm:h-auto max-sm:text-center max-sm:px-10">
           <p className="our-customer-support">{`Our Customer Support `}</p>
         </b>
         <div className="casinobody4  max-sm:w-auto max-sm:h-auto max-sm:px-0 max-sm:flex-col-reverse">
-          <div className="textwhite4 max-sm:w-auto max-sm:h-auto max-sm:pr-10 max-sm:text-justify max-sm:tracking-tighter">
+          <div className="textwhite4 max-sm:w-[100%] max-sm:h-auto text-justify max-sm:px-5 text-[24px] max-sm:text-[16px] leading-8 sm:ml-0 sm:h-auto ">
             We pride ourselves on offering exceptional customer support to our
             players. Our team of experienced professionals is available 24/7 to
             answer any questions you may have and to provide you with assistance
@@ -23,7 +23,7 @@ const CasinoSection4 = () => {
             our customers. Join us today for an unforgettable gaming experience!
           </div>
           <img
-            className="casinoimage3-icon max-sm:bg-auto	"
+            className="casinoimage3-icon max-sm:bg-auto"
             alt=""
             src="/casinoimage3@2x.png"
           />

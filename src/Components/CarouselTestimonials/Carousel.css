@@ -183,12 +183,15 @@
    
   }
   
-  
+  .slide__image-wrapper{
+    margin: 0 auto;
+  }
   
  
   .slide__image {
     width: 164px;
     height: 57px;
+
   }
   
   /* .slide__headline {
@@ -205,6 +208,7 @@
     text-align: center; /* Add this line to center the heading */
     text-transform: uppercase;
     margin: auto;
+    margin-top: 0;
     color: #101118;
   }
   
@@ -286,4 +290,16 @@
     .slide__action{
       font-size: 16px;
     }
+
+    .slide__image {
+      width: 90px;
+      height: auto;
+      margin: 0 auto;
+  
+    }
+  }
+
+
+  .slide__headline{
+    margin-top: 0;
   }

@@ -21,7 +21,7 @@ const ProductFeaturesContainer = () => {
           />
         </div>
       </div>
-      <img className="gear-icon" alt="" src="/gear@2x.png" />
+      <img className="gear-icon max-sm:absolute z-10 max-sm:ml-[-100%] max-sm:mt-[35%] max-sm:w-[160px] max-sm:object-contain" alt="" src="/gear@2x.png" />
     </div>
   );
 };

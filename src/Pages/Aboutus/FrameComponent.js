@@ -5,12 +5,12 @@ const FrameComponent = () => {
     <div className="section-1">
       <div className="section-11">
         <div className="aboutusTop">
-          <div className="rectangle">
-            <b className="title max-sm:h-auto max-sm:text-center sm:px-10">{`About Us`}</b>
+          <div className="rectangle max-sm:p-0 ">
+            <b className="title max-sm:h-auto max-sm:text-[32px] max-sm:text-center max-sm:leading-7 max-sm:text-textColor max-sm:mx-auto">{`About Us`}</b>
           </div>
           <HorizontalRule />
         </div>
-        <div className="as-a-brand max-sm:w-auto max-sm:h-auto max-sm:px-5 max-sm:text-[16px] sm:text-[24px]">
+        <div className="as-a-brand max-sm:w-auto max-sm:h-auto max-sm:px-5 max-sm:text-[16px] sm:text-[24px] max-sm:leading-7 sm:w-auto sm:h-auto sm:px-20">
           As a brand, Sevens Gaming has a legacy in the sports exchange
           industry. We are the most trusted White Label providers of Sports
           Exchange platform operating since 2016. More than 40 top White Labels
