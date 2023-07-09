@@ -46,7 +46,8 @@ const SubSec3Container = () => {
 
 
       <Swiper
-        allowTouchMove={false}
+        allowTouchMove={showPagination}
+        initialSlide={showPagination ? 0 : 0}
         centeredSlides={false}
         slidesPerView={1}
         autoplay={true}

@@ -43,11 +43,32 @@
   justify-content: center;
 }
 
+.mySwiper2 .swiper-button-prev{
+  visibility: hidden;
+}
+
+.mySwiper2 .swiper-button-next{
+  background-color: #fff;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  padding-bottom: 10px;
+  /* background-image: url(/public/chevron_right.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-left: ; */
+  right: 3.75rem;
+  top: 28%;
+}
+.mySwiper2 .swiper-button-next::after{
+  content: url(/public/arrow_forward.svg);
+}
+
 @media (max-width: 500px) {
 
   .mySwiper2 .swiper-slide{
  width: 334px !important;
- height: 280px;
+ height: 280px !important;
 }
 
 .mySwiper2 .swiper-slide-active,

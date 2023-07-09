@@ -38,7 +38,7 @@ const Testimonials = () => {
         pagination={showPagination ? { clickable: true } : false}
         navigation={!showPagination}
         modules={[Pagination, Navigation]}
-        // initialSlide={showPagination? 0 : 2}
+        initialSlide={showPagination ? 0 : 0}
         className="mySwiper"
       >
         <SwiperSlide className="flex flex-col p-5  max-sm:h-[229px] gap-6">
