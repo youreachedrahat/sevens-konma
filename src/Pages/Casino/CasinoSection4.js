@@ -8,7 +8,7 @@ const CasinoSection4 = () => {
           <p className="our-customer-support">{`Our Customer Support `}</p>
         </b>
         <div className="casinobody4  max-sm:w-auto max-sm:h-auto max-sm:px-0 max-sm:flex-col-reverse">
-          <div className="textwhite4 max-sm:w-[100%] max-sm:h-auto sm:hidden text-justify max-sm:px-5 text-[16px] leading-8">
+          <div className="textwhite4 max-sm:w-[100%] max-sm:h-auto text-justify max-sm:px-5 text-[24px] max-sm:text-[16px] leading-8">
             We pride ourselves on offering exceptional customer support to our
             players. Our team of experienced professionals is available 24/7 to
             answer any questions you may have and to provide you with assistance

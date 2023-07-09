@@ -15,6 +15,7 @@
   width: 54.31rem;
   height: 52.38rem;
   object-fit: cover;
+  z-index: 0;
 }
 .faqs {
   background-color: var(--color-gold);

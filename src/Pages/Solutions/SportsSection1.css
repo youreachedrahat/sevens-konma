@@ -95,6 +95,11 @@
   padding-left: 64px;
 
 }
+@media (max-width: 500px) {
+  .rectangle{
+    background: #fec811;
+  }
+}
 .sportsTop {
   display: flex;
   flex-direction: column;

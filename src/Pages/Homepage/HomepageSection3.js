@@ -4,8 +4,8 @@ const HomepageSection3 = () => {
     <div className="homepagesection3 max-sm:p-2 max-sm:py-10">
       <div className="homepagesection-3 max-sm:w-full max-sm:gap-[51px]">
         <div className="homepage-3text">
-          <b className="headingindigo max-sm:leading-normal textsmall2 max-sm:w-full max-sm:tracking-tight ">
-            TOP GAME PROVIDERS UNDER A SINGLE INTEGRATION
+          <b className="headingindigo max-sm:leading-normal textsmall2 max-sm:w-full max-sm:tracking-tight sm:uppercase ">
+            Top Game Providers under a single intergration
           </b>
           <div className="max-sm:hidden paragraph">
             We are sourcing data from the world’s leading sports data providers

@@ -25,16 +25,16 @@ const HomepageSection4 = () => {
           </div>
          
 
-          <div className="body4right max-sm:w-full ">
+          <div className="body4right max-sm:w-full max-sm:gap-2">
             <img
               className="homepageimage4-icon max-sm:self-center"
               alt=""
               src={money}
             />
-        <div className="sm:hidden text-[54px] headingwhite max-sm:w-full max-sm:self-center max-sm:text-center max-sm:font-bold">Our Clients</div>
+        <div className="sm:hidden headingwhite max-sm:w-full max-sm:self-center max-sm:text-center max-sm:font-bold text-[32px]">Our Clients</div>
 
-            <div className="tagline max-sm:text-center max-sm:leading-6 max-sm:text-[24px] max-sm:w-[80%] max-sm:mx-auto">why sevens gaming?</div>
-            <div className="text max-sm:text-center max-sm:px-4 max-sm:w-full max-sm:text-[16px]">
+            <div className="tagline max-sm:text-center max-sm:leading-6 max-sm:text-[24px] max-sm:w-[100%] max-sm:mx-auto">why sevens gaming?</div>
+            <div className="text max-sm:text-center max-sm:px-4 max-sm:w-full max-sm:text-[16px] max-sm:mx-0 max-sm:leading-8">
               <span>With 6+ years of experience under our belt and 40+ Active White Labels, we are the leading
 provider of the </span>
               <b>iGaming market</b>
