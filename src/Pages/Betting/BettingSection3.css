@@ -22,8 +22,10 @@
   padding-top: 72px;
 }
 .bettingsection3 {
-  position: relative;
   background-color: var(--main-site-body);
+  font-size: var(--font-size-5xl);
+  color: var(--neutral-colors-white);
+  /* position: relative;
   width: 100%;
   height: 46.94rem;
   overflow: hidden;
@@ -34,7 +36,5 @@
   align-items: center;
   justify-content: center;
   text-align: justify;
-  font-size: var(--font-size-5xl);
-  color: var(--neutral-colors-white);
-  font-family: var(--headline);
+  font-family: var(--headline); */
 }

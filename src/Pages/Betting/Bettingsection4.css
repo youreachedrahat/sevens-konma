@@ -64,8 +64,11 @@
   gap: var(--gap-55xl);
 }
 .bettingsection4 {
-  position: relative;
-  background-color: var(--neutral-colors-white);
+  font-size: var(--font-size-5xl);
+
+  color: var(--color-darkslateblue);
+
+  /* position: relative;
   width: 100%;
   overflow: hidden;
   flex-direction: column;
@@ -73,7 +76,9 @@
   box-sizing: border-box;
   align-items: flex-start;
   text-align: left;
-  font-size: var(--font-size-5xl);
-  color: var(--color-darkslateblue);
-  font-family: var(--headline);
+  font-family: var(--headline); */
+}
+
+back-color {
+  background-color: var(--main-site-body);
 }

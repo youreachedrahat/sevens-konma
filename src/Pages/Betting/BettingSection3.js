@@ -2,18 +2,38 @@ import "./BettingSection3.css";
 
 const BettingSection3 = () => {
   return (
-    <div className="bettingsection3 max-sm:w-auto max-sm:h-auto max-sm:flex-col max-sm:px-0 max-sm:py-0 ">
-      <div className="bettingsection3body max-sm:w-auto max-sm:h-auto max-sm:px-0 max-sm:py-0">
-        <div className="bettingsection3text  max-sm:w-[100%] max-sm:leading-7  max-sm:text-justify max-sm:pt-8 max-sm:gap-0 max">
-          <span>Also we are pride ourselves on our</span>
-          <b>24x7 customer service</b>
-          <span>. We understand that your success is our success, which is why we are dedicated to providing you with the best possible service and support. Our team is always available to answer your questions, provide guidance, and help you to resolve any issues that you may encounter.</span>
+    //  <div className="bettingsection2">
+    //   <div className="flex flex-col lg:flex-row items-start px-20 py-5 max-sm:px-5 max-sm:text-[16px]">
+    //     <div className="lg:mt-12 w-full leading-10 mt-12">
+    //       One of the key benefits of working with us is that we can help you to
+    //       increase your revenue by providing you with the tools you need to
+    //       attract and retain customers. We can help you to create a seamless
+    //       user experience that encourages customers to keep coming back, and we
+    //       can also help you to implement promotions, bonuses, and other
+    //       incentives to keep your customers engaged.
+    //     </div>
+    //     <div className="justify-center items-center flex w-full">
+    //       <img className="frame-icon lg:mt-8" alt="" src="/frame@2x.png" />
+    //     </div>
+    //   </div>
+    // </div>
+    <div className="bettingsection3">
+      <div className="flex flex-col lg:flex-row items-start px-20 py-5 max-sm:px-5 max-sm:text-[16px]">
+        <div className="lg:mt-12 w-full leading-10 mt-12">
+          Also we are pride ourselves on our
+          <b> 24x7 customer service</b>. We understand that your success is our
+          success, which is why we are dedicated to providing you with the best
+          possible service and support. Our team is always available to answer
+          your questions, provide guidance, and help you to resolve any issues
+          that you may encounter.
         </div>
-        <img
-          className="bettingimage2-icon max-sm:align-center max-sm:w-[100%] max-sm:h-auto max-sm:align-center max-sm:pr-10 max-sm:pb-10"
-          alt=""
-          src="/bettingimage2@2x.png"
-        />
+        <div>
+          <img
+            className="justify-center items-center flex w-full pt-8 "
+            alt=""
+            src="/bettingimage2@2x.png"
+          />
+        </div>
       </div>
     </div>
   );
