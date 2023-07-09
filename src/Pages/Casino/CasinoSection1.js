@@ -7,7 +7,7 @@ const CasinoSection1 = () => {
       <div className="casinosection-1">
         <div className="casinoTop">
           <div className="rectangle max-sm:pl-7">
-            <b className="title max-sm:h-auto max-sm:leading-7 max-sm:text-center max-sm:text-[32px] max-sm:text-[#49006C]">{`Online Live Casino Games Integrations`}</b>
+            <b className="title max-sm:h-auto max-sm:leading-7 max-sm:text-center max-sm:text-[32px] max-sm:text-textColor">{`Online Live Casino Games Integrations`}</b>
           </div>
           <HorizontalRule />
         {/* </div>

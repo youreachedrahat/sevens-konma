@@ -4,7 +4,7 @@ const BettingSection1 = () => {
     <div className="bettingsection1">
       <div className="bettingtop">
         <div className="rectangle max-sm:w-auto max-sm:h-auto max-sm:px-0 	 ">
-          <b className="title text-[50px] max-sm:leading-7 max-sm:text-[32px] max-sm:h-auto max-sm:text-center max-sm:text-4xl">
+          <b className="max-sm:text-textColor title text-[50px] max-sm:leading-8 max-sm:text-[32px] max-sm:h-auto max-sm:text-center max-sm:text-4xl">
             Sportsbook and Betting Software Development Company{" "}
           </b>
         </div>
@@ -12,7 +12,7 @@ const BettingSection1 = () => {
       </div>
       <div className="bettingsection1body max-sm:w-[100%]  max-sm:h-auto max-sm:mx-0 max-sm:pt-10 max-sm:flex-col sm:pl-0 max-sm:pl-0 ">
         <div className="sevens-gaming-is-container max-sm:leading-7 max-sm:w-auto max-sm:h-auto max-sm:px-8 max-sm:text-justify max-sm:text-[16px]">
-          <p className="sevens-gaming-is-a-leading-spo max-sm:w-[100%]">
+          <p className="sevens-gaming-is-a-leading-spo max-sm:w-[100%] max-sm:leading-7">
             <b className="sevens-gaming max-sm:font-normal">Sevens Gaming</b>
             <span>
               {" "}

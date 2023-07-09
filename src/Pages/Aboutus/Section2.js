@@ -7,8 +7,9 @@ const Section2 = () => {
           <div className="cta max-sm:w-[100%] max-sm:h-auto">
             <p className="book-your-demo-today  max-sm:pr-5 max-sm:pl-0">
               <span className="book-your-demo-today1 max-sm:text-[48px] max-sm:h-auto max-sm:leading-7 sm:text-7xl">
-                <b className="">Book Your Demo Today!</b>
+                <b className=" max-sm:ml-0 max-sm:w-[90%]">Book Your Demo Today!</b>
                 <span>{` `}</span>
+                <p className="book-your-demo-today">&nbsp;</p>
               </span>
             </p>
             <p className="whatsapp-us-on-44-7537-180047">
