@@ -1,0 +1,37 @@
+.swiper {
+    width: 100%;
+    max-width: 100% !important;
+    height: 345px;
+    /* overflow: hidden; */
+    /* margin: 20px auto; */
+    /* position: absolute !important;
+    left: 0;
+    right: 0; */
+    /* bottom: -100%; */
+  }
+  
+
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 388px !important;
+    border-radius: 25px;
+    background: var(--color-gold);
+  }
+
+@media (max-width: 639px) {
+    .swiper-slide {
+        width: 229px !important;
+        border-radius: 12px;
+      }
+}
+
+
+.mySwiper{
+width: 100% !important;
+}

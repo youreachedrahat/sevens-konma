@@ -1,17 +1,18 @@
 import "./WhiteLabelContainer.css";
 import wheel from "../assets/wheel.png";
+import wheel2 from "../assets/wheel2.png";
 import wheelmobile from "../assets/wheelmobile.png";
 const WhiteLabelContainer = () => {
   return (
-    <div className="max-sm:100% max-sm:flex-col-reverse max-sm:h-auto max-sm:content-center max-sm:justify-center max-sm:w-full subsec1">
-      <div className="max-sm:gap-6  max-sm:w-[100%] max-sm:h-auto max-sm:px-2 homepageleftbody">
-        <b className="max-sm:leading-10 max-sm:self-center max-sm:w-[60%] max-sm:mx-auto max-sm:h-auto heading max-sm:text-center max-sm:text-[32px] text-[72px]">
+    <div className="w-100% max-lg:flex-col-reverse max-lg:h-auto max-sm:content-center max-lg:justify-center max-lg:w-full subsec1">
+      <div className="max-lg:gap-6 w-[50%] max-lg:w-[100%] max-sm:h-auto  homepageleftbody">
+        <b className="max-sm:leading-10 max-lg:self-center max-sm:w-[60%] maxlg:mx-auto max-sm:h-auto heading max-lg:text-center max-sm:text-[32px] text-[72px]">
           Now Get your own white label
         </b>
-        <div className=" max-sm:hidden subheading text-[32px]">
+        <div className=" max-sm:hidden subheading text-[32px] max-lg:mx-auto max-lg:w-[100%]">
           Sports Exchange/Bookmaker/Casino
         </div>
-        <div className="max-sm:hidden textwhite8 text-[24px] ">
+        <div className="max-sm:hidden textwhite8 text-[24px] max-lg:mx-auto max-lg:px-10 max-lg:w-[100%] max-lg:m-0">
           Sevens Gaming is one of the leading iGaming development companies that
           provide top-notch iGaming solutions and services. Our White label
           solutions and Turnkey Sports Exchange solutions are loved by our
@@ -25,7 +26,7 @@ const WhiteLabelContainer = () => {
         </div>
         <div className="buttons max-sm:gap-0 max-sm:w-auto max-sm:h-auto mx-auto max-sm:text-[16px] sm:text-[24px]">
           <div className="yellowbutton">
-            <div className="master-primary-button2 max-sm:p-0 max-sm:w-[159px] max-sm:h-[54px] max-sm:mx-auto max-sm:justify-center">
+            <div className="master-primary-button2 max-sm:p-0 max-sm:w-[159px] w-[240px] max-sm:h-[54px] max-sm:mx-auto max-sm:justify-center">
               <b className="button-text3 textsmall max-sm:font-semibold">Get started</b>
               <img
                 className="line-roundedarrow-right2"
@@ -35,13 +36,17 @@ const WhiteLabelContainer = () => {
             </div>
           </div>
           <div className="whitebutton">
-            <div className="master-secondary-button  max-sm:w-[159px] max-sm:h-[54px]">
+            <div className="master-secondary-button  max-sm:w-[159px] w-[240px] max-sm:h-[54px]">
               <b className="button-text3 textsmall max-sm:font-semibold">Learn More</b>
             </div>
           </div>
         </div>
       </div>
-      <img className="max-sm:hidden homepageimage1-icon" alt="" src={wheel} />
+      <div className="homepageimage1-icon w-[50%] mx-auto overflow-visible max-lg:w-[100%] justify-self-center">
+
+      <img className="max-lg:hidden w-full" alt="" src={wheel} />
+      <img className="max-sm:hidden lg:hidden w-full mx-auto " alt="" src={wheel2} />
+      </div>
       <img
         className="max-sm:mx-auto max-sm:justify-self-center max-sm:h-auto sm:hidden pt-[58px] w-[100%] homepageimage1-icon"
         alt=""
