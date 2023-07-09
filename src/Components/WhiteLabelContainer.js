@@ -6,7 +6,7 @@ const WhiteLabelContainer = () => {
   return (
     <div className="w-100% max-lg:flex-col-reverse max-lg:h-auto max-sm:content-center max-lg:justify-center max-lg:w-full subsec1">
       <div className="max-lg:gap-6 w-[50%] max-lg:w-[100%] max-sm:h-auto  homepageleftbody">
-        <b className="max-sm:leading-10 max-lg:self-center max-sm:w-[60%] maxlg:mx-auto max-sm:h-auto heading max-lg:text-center max-sm:text-[32px] text-[72px]">
+        <b className="max-sm:leading-10 max-lg:self-center max-sm:w-[60%] maxlg:mx-auto max-sm:h-auto heading max-lg:text-center max-sm:text-[32px] max-lg:text-[60px] text-[72px]">
           Now Get your own white label
         </b>
         <div className=" max-sm:hidden subheading text-[32px] max-lg:mx-auto max-lg:w-[100%]">

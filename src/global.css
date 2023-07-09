@@ -144,8 +144,21 @@ visibility: hidden !important;
 
 .MuiAccordionSummary-expandIconWrapper svg{
   transform: rotate(-90deg) !important;
+  visibility: hidden;
 }
+
+
 
 .Mui-expanded.MuiAccordionSummary-expandIconWrapper svg{
   transform: rotate(180deg) !important;
+  visibility: hidden;
+
+}
+.ExpandMoreIcon svg{
+  transform: rotate(-90deg) !important;
+  transition: 300ms;
+}
+
+.Mui-expanded .ExpandMoreIcon svg{
+  transform: rotate(0deg) !important;
 }

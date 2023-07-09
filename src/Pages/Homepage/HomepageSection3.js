@@ -13,7 +13,7 @@ const HomepageSection3 = () => {
             platform for you
           </div>
         </div>
-        <div className="grid grid-flow-col max-sm:grid-cols-2 max-sm:gap-y-7 max-sm:gap-x-auto max-sm:w-full homepage-3logos max-sm:pb-3 w-[100%]">
+        <div className="max-sm:grid max-sm:grid-cols-2 max-lg:grid-cols-3 max-lg:gap-y-7 max-sm:gap-x-auto max-sm:w-full homepage-3logos max-sm:pb-3 w-[100%] place-items-center">
           <img className="max-sm:w-40 max-sm:h-auto logo1-icon" alt="" src="/logo1@2x.png" />
           <img className="max-sm:w-40 max-sm:h-auto logo1-icon" alt="" src="/logo3@2x.png" />
           <img className="max-sm:w-40 max-sm:h-auto logo1-icon" alt="" src="/logo4@2x.png" />
