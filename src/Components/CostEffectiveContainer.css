@@ -59,6 +59,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .yellowcard {
@@ -80,4 +81,15 @@
   /* background: #ffffff; */
   box-shadow: inset 20px 20px 90px #aa850b,
     inset -20px -20px 90px #aa850b;
+}
+
+@media (max-width: 500px) {
+  .yellowcard{
+    border-radius: 12px;
+  }
+  .yellowcard:hover {
+    border-radius: 12px;
+
+  }
+  
 }

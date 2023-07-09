@@ -42,3 +42,16 @@
 .mySwiper2 .swiper-wrapper{
   justify-content: center;
 }
+
+@media (max-width: 500px) {
+
+  .mySwiper2 .swiper-slide{
+ width: 334px !important;
+ height: 280px;
+}
+
+.mySwiper2 .swiper-slide-active,
+.mySwiper2 .swiper-slide-next{
+  width: 334px !important;
+}
+}
