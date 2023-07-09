@@ -31,15 +31,15 @@ const Testimonials = () => {
     <div className="w-[100%] max-md:mb-[10px] testimonialSwiper">
       <Swiper
         allowTouchMove={true}
-        centeredSlides={false}
+        centeredSlides={true}
         slidesPerView={3}
         autoplay={true}
         spaceBetween={showPagination ? 10 : 30}
         pagination={showPagination ? { clickable: true } : false}
         navigation={!showPagination}
         modules={[Pagination, Navigation]}
-        initialSlide={showPagination ? 0 : 0}
-        className="mySwiper"
+        initialSlide={1}
+        className="mySwiper pl-[6rem] max-[830px]:pl-10"
       >
         <SwiperSlide className="flex flex-col p-5  max-sm:h-[229px] gap-6">
           <h1 className="font-bold text-[32px] max-sm:text-[18px] w-[70%] leading-8 uppercase">In-Play betting</h1>
