@@ -107,6 +107,18 @@ body {
   /* Effects */
   --button-shadows-button-white-01: 0px 4px 10px rgba(20, 20, 43, 0.04);
 }
+.container2 {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #563e89,
+    #ee9e23 31.25%,
+    #fec811 64.58%,
+    #563e89
+  );
+  width: 100%;
+  height: 0.75rem;
+}
 
 @media (max-width: 500px) {
 
@@ -131,10 +143,7 @@ body {
   border: none !important;
 } */
 
-/* .css-1j77aky-MuiPaper-root-MuiAccordion-root::before,
-.css-1ia44sb::before{
-visibility: hidden !important;
-}
+/* 
 
 
 .MuiAccordionSummary-root{
@@ -147,9 +156,12 @@ visibility: hidden !important;
   visibility: hidden;
 } */
 
+.css-1j77aky-MuiPaper-root-MuiAccordion-root::before,
+.css-1ia44sb::before{
+visibility: hidden !important;
+}
 
-
-.Mui-expanded.MuiAccordionSummary-expandIconWrapper svg{
+.MuiAccordionSummary-expandIconWrapper svg{
   transform: rotate(180deg) !important;
   visibility: hidden;
 

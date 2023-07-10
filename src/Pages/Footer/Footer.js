@@ -1,14 +1,14 @@
 import DownloadsContainer from "../../Components/DownloadsContainer";
 import "./Footer.css";
 import HorizontalRule from "../../Components/HorizontalRule"
-
+import FooterLinks from "../../Components/Footer/Footer";
 const Footer = () => {
   return (
     <>
       <HorizontalRule />
       <div className="footer max-sm:w-full max-sm:h-auto">
         <div className="footerbody max-sm:w-full">
-          <DownloadsContainer />
+          <FooterLinks />
           <div className="copyrightwrapper max-sm:w-full">
             <div className="container2" />
             <div className="wrapper max-sm:w-full max-sm:px-5">

@@ -12,10 +12,12 @@
   position: relative;
 }
 .faq-icon {
-  width: 54.31rem;
-  height: 52.38rem;
+  /* width: 54.31rem; */
+  max-height: 40rem;
   object-fit: cover;
   z-index: 0;
+  filter: brightness(1000%);
+  margin-bottom: 5px;
 }
 .faqs {
   background-color: var(--color-gold);

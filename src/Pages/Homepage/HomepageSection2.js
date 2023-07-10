@@ -1,6 +1,5 @@
 import ProductFeaturesContainer from "../../Components/ProductFeaturesContainer";
 import InPlayBettingContainer from "../../Components/InPlayBettingContainer";
-import TestimonialCards from "../../Components/CarouselTestimonials/TestimonialCards";
 import "./HomepageSection2.css";
 import Testimonials from "../../Components/Testimonials";
 const HomepageSection2 = () => {

@@ -47,7 +47,7 @@ const SubSec3Container = () => {
 
       <Swiper
         allowTouchMove={true}
-        initialSlide={showPagination ? 0 : 0}
+        initialSlide={0}
         centeredSlides={false}
         slidesPerView={1}
         autoplay={true}
@@ -57,8 +57,18 @@ const SubSec3Container = () => {
         className="mySwiper2 w-[100%]"
         
       >
-        <SwiperSlide className="">
-        
+
+<SwiperSlide className=" invisible sm:hidden"> 
+        <CostEffectiveContainer
+          whiteLabelText={rocket}
+          turnkeySolutionText="White Label"
+          turnkeySolutionDescriptio="Cost-effective, comprehensive solution aimed at launching your own casino or sports exchange in the shortest period of time"
+          propWidth="8.81rem"
+          propHeight="8.81rem"
+          />
+          </SwiperSlide>
+
+        <SwiperSlide className=""> 
         <CostEffectiveContainer
           whiteLabelText={rocket}
           turnkeySolutionText="White Label"

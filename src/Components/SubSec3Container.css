@@ -44,10 +44,11 @@
   justify-content: center;
 }
 
-.mySwiper2 .swiper-button-prev{
+.mySwiper2 .swiper-button-disabled{
   visibility: hidden;
 }
 
+.mySwiper2 .swiper-button-prev,
 .mySwiper2 .swiper-button-next{
   background-color: #fff;
   width: 3rem;
@@ -58,15 +59,25 @@
   background-repeat: no-repeat;
   background-size: cover;
   /* margin-left: ; */
-  right: 3.75rem;
-  top: 28%;
+}
 
+.mySwiper2 .swiper-button-next{
+right: 3.75rem;
+top: 28%;
+}
+
+.mySwiper2 .swiper-button-prev{
+  left: 3.75rem;
+  top: 28%;
+}
+.mySwiper2 .swiper-button-prev::after{
+  content: url(/public//arrow_back.svg);
 }
 .mySwiper2 .swiper-button-next::after{
   content: url(/public/arrow_forward.svg);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 640px) {
 
   .mySwiper2 .swiper-slide{
  width: 334px !important;

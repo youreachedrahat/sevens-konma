@@ -1,6 +1,4 @@
 import React from "react";
-import Header2 from "../Header/Header2";
-import Footer from "../Footer/Footer";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
 import Section4 from "./Section4";

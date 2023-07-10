@@ -1,8 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 
-import Header2 from "../Header/Header2";
-import Footer from "../Footer/Footer";
+
 import BettingSection1 from "./BettingSection1";
 import BettingSection2 from "./BettingSection2";
 import BettingSection3 from "./BettingSection3";

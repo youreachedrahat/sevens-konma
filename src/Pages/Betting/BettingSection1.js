@@ -3,7 +3,7 @@ const BettingSection1 = () => {
   return (
     <div className="bettingsection1">
       <div className="bettingtop">
-        <div className="rectangle max-sm:w-auto max-sm:h-auto max-sm:px-0 	 ">
+        <div className="rectangle max-sm:w-auto max-sm:px-0 	 max-sm:bg-[#fec811] max-sm:h-[120px]">
           <b className="max-sm:text-textColor  title text-[50px] max-sm:leading-8 max-sm:text-[32px] max-sm:h-auto max-sm:text-center max-sm:text-4xl sm:text-[32px]">
             Sportsbook and Betting Software Development Company{" "}
           </b>

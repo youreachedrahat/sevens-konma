@@ -41,7 +41,7 @@
 .blackjack {
   font-family: var(--headline);
 }
-.text-white {
+.textWhiteCasino {
   position: relative;
   font-size: var(--font-size-5xl);
   line-height: 2.5rem;
