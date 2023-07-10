@@ -18,7 +18,7 @@ function Header() {
 
 <header>
 <nav class="bg-primary">
-  <div class="w-[100%] flex flex-wrap items-center justify-between mx-auto p-4 px-14">
+  <div class="w-[100%] flex flex-wrap items-center justify-between mx-auto p-4 md:px-14 ">
     <Link to="/" class="flex items-center z-[101]">
         <img src={logo} class="h-10 sm:h-16 lg:h-20" alt="Sevens Logo" />
         {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
@@ -46,14 +46,14 @@ function Header() {
         
         <li>
         <Link className="Links max-sm:hidden" to='/casino'>
-        <div className="master-primary-button1 text-white font-normal">
-          <b className="home">Get started</b>
+        <div className="master-primary-button1 font-normal ml-[-10px]">
+          <b className="home text-white ">Get started</b>
         </div>
         </Link>
         </li>
       </ul>
     </div>
-    <div className={`overlay ${isMenuOpen ? "fixed" : "hidden"} w-screen h-screen`}>
+    <div className={`overlay ${isMenuOpen ? "fixed" : "hidden"} w-screen h-screen md:hidden`}>
   <div className="overlay-items w-screen h-screen flex flex-col text-white">
           <Link className="Links" to="/"  onClick={toggleMenu}>
             <div className="home">Home</div>

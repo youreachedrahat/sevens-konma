@@ -1,7 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import { useMediaQuery } from "react-responsive";
-
-
 import Homepage from "./Pages/Homepage/Homepage";
 import Aboutus from "./Pages/Aboutus/Aboutus";
 import Betting from "./Pages/Betting/Betting";
@@ -12,7 +9,7 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 
 function App() {
-  const isMobile = useMediaQuery({ maxWidth: 500 });
+
 
   return (
     <>
