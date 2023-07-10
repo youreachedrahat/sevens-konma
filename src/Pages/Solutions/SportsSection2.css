@@ -6,9 +6,8 @@
   /* transform: rotate(90deg);
   height: fit-content; */
 }
-.key-features-about,
-.textindigo2 {
-  position: relative;
+.key-features-about{
+  /* position: relative; */
   line-height: 3.38rem;
   display: inline-block;
   width: 45.5rem;
@@ -18,16 +17,7 @@
   width: 43.44rem;
   flex-shrink: 0;
 }
-.sportsrectanglewrapper {
-  border-radius: 50px;
-  background-color: var(--color-gold);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-xl) var(--padding-base);
-  align-items: center;
-  justify-content: center;
-}
+
 .ellipse6 {
   position: relative;
   border-radius: 50%;
@@ -79,4 +69,63 @@
   font-size: var(--font-size-31xl);
   color: var(--neutral-colors-white);
   font-family: var(--headline);
+}
+
+
+
+.mySwiper3{
+  overflow: visible;
+  max-width:  43rem;
+}
+
+.mySwiper3 .swiper-slide.swiper-slide-active{
+  visibility: visible;
+}
+
+.mySwiper3 .swiper-slide{
+  visibility: hidden;
+}
+
+.mySwiper3 .swiper-pagination{
+  position: absolute;
+  bottom: -50%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mySwiper3  .swiper-pagination-bullet{
+  background-color: #fff;
+  opacity: 1;
+  height: 20px;
+  width: 20px;
+}
+
+.mySwiper3 .swiper-pagination-bullet-active{
+  background-color: var(--color-gold)
+}
+
+
+@media (max-width: 500px) {
+  .mySwiper3 .swiper-pagination{
+    bottom: -30%;
+    gap: 7px;
+  }
+  
+  .mySwiper3  .swiper-pagination-bullet{
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .mySwiper3 .swiper-pagination{
+    bottom: -20%;
+    gap: 5px;
+  }
+  
+  .mySwiper3  .swiper-pagination-bullet{
+    height: 15px;
+    width: 15px;
+  }
 }

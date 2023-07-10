@@ -9,7 +9,7 @@ const WhiteLabelContainer = () => {
         <b className="max-sm:leading-10 max-lg:self-center max-sm:w-[60%] maxlg:mx-auto max-sm:h-auto heading max-lg:text-center max-sm:text-[32px] max-lg:text-[60px] text-[72px]">
           Now Get your own white label
         </b>
-        <div className=" max-sm:hidden subheading text-[32px] max-lg:mx-auto max-lg:w-[100%]">
+        <div className=" max-sm:hidden subheading text-[32px] max-lg:mx-auto max-lg:w-[100%] lg:leading-loose">
           Sports Exchange/Bookmaker/Casino
         </div>
         <div className="max-sm:hidden textwhite8 text-[24px] max-lg:mx-auto max-lg:px-10 max-lg:w-[100%] max-lg:m-0">

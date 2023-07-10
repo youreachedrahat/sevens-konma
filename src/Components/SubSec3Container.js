@@ -46,7 +46,7 @@ const SubSec3Container = () => {
 
 
       <Swiper
-        allowTouchMove={showPagination}
+        allowTouchMove={true}
         initialSlide={showPagination ? 0 : 0}
         centeredSlides={false}
         slidesPerView={1}
@@ -55,6 +55,7 @@ const SubSec3Container = () => {
         navigation={showPagination}
         modules={[Navigation]}
         className="mySwiper2 w-[100%]"
+        
       >
         <SwiperSlide className="">
         
