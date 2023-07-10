@@ -2,13 +2,13 @@ import "./CasinoSection4.css";
 
 const CasinoSection4 = () => {
   return (
-    <div className="casinosection4 max-sm:px-0 max-sm:w-auto max-sm:h-auto sm:pr-20  sm:w-100% sm:h-auto ">
+    <div className="casinosection4 max-sm:px-0 max-sm:w-auto max-sm:h-auto sm:pr-20  sm:w-100% sm:h-auto lg:px-20 ">
       <div className="casino4 max-sm:gap-y-0 flex-col">
         <b className="title21  max-sm:w-auto max-sm:h-auto max-sm:text-center max-sm:px-10">
           <p className="our-customer-support">{`Our Customer Support `}</p>
         </b>
-        <div className="casinobody4  max-sm:w-auto max-sm:h-auto max-sm:px-0 max-sm:flex-col-reverse flex-col-reverse lg:flex-row items-start">
-          <div className="textwhite4 max-sm:w-[100%] max-sm:h-auto max-sm:text-justify  max-sm:px-5 max-sm:pr-10 text-[24px] max-sm:text-[16px] sm:ml-0 sm:h-auto lg:mt-12 leading-10 mt-12 ">
+        <div className="casinobody4  max-sm:w-auto max-sm:h-auto max-sm:px-0 max-sm:flex-col-reverse flex-col-reverse md:w-4/6  md:pl-12 lg:w-full lg:px-0 md:items-center  lg:flex-row items-center">
+          <div className="textwhite4 max-sm:w-[100%] max-sm:h-auto max-sm:text-justify  max-sm:px-5 max-sm:pr-10 text-[24px] max-sm:text-[16px] sm:ml-0  sm:h-auto lg:mt-12 leading-10 mt-12 md:items-center md:pl-10 lg:pl-0 ">
             We pride ourselves on offering exceptional customer support to our
             players. Our team of experienced professionals is available 24/7 to
             answer any questions you may have and to provide you with assistance
@@ -24,7 +24,7 @@ const CasinoSection4 = () => {
           </div>
           
           <img
-            className="casinoimage3-icon max-sm:bg-auto justify-center items-center flex w-full"
+            className="casinoimage3-icon max-sm:bg-auto justify-center items-center flex  w-full md:w-2/3 max-sm:w-1/2 max-sm:h-1/2"
             alt=""
             src="/casinoimage3@2x.png"
           />
