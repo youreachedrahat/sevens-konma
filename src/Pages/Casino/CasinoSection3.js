@@ -2,13 +2,13 @@ import "./CasinoSection3.css";
 import casinoimage2 from "../../assets/casinoImage2.gif";
 const CasinoSection3 = () => {
   return (
-    <div className='casinosection3 px-20'>
+    <div className='casinosection3 max-sm:px-10 px-20'>
       <div className='flex justify-center items-start flex-col '>
-        <b className=' max-sm:h-auto max-sm:mx-auto max-sm:text-center max-sm:top-0 lg:px-10 sm:text-[44px] max-sm:text-[32px]'>
+        <b className=' max-sm:h-auto max-sm:mx-auto max-sm:text-center max-sm:top-0 sm:text-[44px] max-sm:text-[32px]'>
           Our Commitment to Security
         </b>
-        <div className='flex flex-col-reverse lg:flex-row items-start'>
-          <div className='lg:mt-12 w-full leading-10 mt-12 max-sm:px-0 lg:px-10 text-[24px] max-sm:text-[16px]'>
+        <div className='flex flex-col-reverse lg:flex-row items-start lg:gap-20'>
+          <div className='lg:mt-12 w-full leading-10 mt-12 max-sm:px-0  text-[24px] max-sm:text-[16px]'>
             We take the security of our players very seriously, and we use the
             latest encryption and security technologies to ensure that our
             platform is safe and secure. Our live casino games are fair and

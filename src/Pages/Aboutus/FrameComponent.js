@@ -6,7 +6,7 @@ const FrameComponent = () => {
       <div className="section-11">
         <div className="aboutusTop">
           <div className="rectangle max-sm:p-0 ">
-            <b className="title max-sm:h-auto max-sm:text-[32px] max-sm:text-center max-sm:leading-7 max-sm:text-textColor max-sm:mx-auto">{`About Us`}</b>
+            <b className="title max-sm:h-auto max-sm:text-[32px] max-sm:text-center max-sm:leading-7 max-sm:text-textColor max-sm:mx-auto lg:px-5">{`About Us`}</b>
           </div>
           <HorizontalRule />
         </div>
