@@ -23,7 +23,7 @@ function Header() {
         <img src={logo} class="h-10 sm:h-16 lg:h-20" alt="Sevens Logo" />
         {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
     </Link>
-    <button data-collapse-toggle="navbar-default" type="button" style={{ transform: `rotate(${menuRotation}deg)` }} onClick={toggleMenu} class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden z-[101]" aria-controls="navbar-default" aria-expanded="false">
+    <button data-collapse-toggle="navbar-default" type="button" style={{ transform: `rotate(${menuRotation}deg)` }} onClick={toggleMenu} class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden z-[101] menu-button]" aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -38,7 +38,7 @@ function Header() {
           <Link to="/betting" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-transparent md:p-0 ">Services</Link>
         </li>
         <li>
-          <Link to="/about" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-transparent md:p-0 ">Software Solution</Link>
+          <Link to="/aboutus" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-transparent md:p-0 ">Software Solution</Link>
         </li>
         <li>
           <Link to="solution" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-transparent md:p-0 ">Contact</Link>

@@ -32,7 +32,7 @@ const Section3 = () => {
     Team
   </b>
   <div className='flex flex-col-reverse lg:flex-row items-start md:px-10'>
-    <div className='lg:mt-12 w-full leading-10 mt-12'>
+    <div className='lg:mt-12 w-full leading-10 max-sm:leading-7 mt-12'>
     A team of industry experts started the venture six years ago with 
     a mission to solve the common problems in this industry in a way that they never occur again.
     And, that vision seems to be coming to life as our complaints department has been almost idle in the last few years.

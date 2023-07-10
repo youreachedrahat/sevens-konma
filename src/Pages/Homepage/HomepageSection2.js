@@ -1,5 +1,4 @@
 import ProductFeaturesContainer from "../../Components/ProductFeaturesContainer";
-import InPlayBettingContainer from "../../Components/InPlayBettingContainer";
 import "./HomepageSection2.css";
 import Testimonials from "../../Components/Testimonials";
 const HomepageSection2 = () => {
@@ -10,8 +9,6 @@ const HomepageSection2 = () => {
         <div className="homepage2content-child w-[100%] max-sm:h-auto" />
         <div className="homepage2content-2 w-[100%] max-sm:h-auto max-sm:gap-2">
           <ProductFeaturesContainer />
-          {/* <InPlayBettingContainer /> */}
-          {/* <TestimonialCards/> */}
           <Testimonials/>
         </div>
       </div>

@@ -19,6 +19,7 @@
     margin: 0;
     z-index: 100;
     overflow: hidden;
+    transition: top 500ms ease;
   }
   
   .overlay-items{
@@ -40,7 +41,9 @@
   }
   
   
-  
+  .menu-button{
+    transition: 500s;
+  }
   
   
   
