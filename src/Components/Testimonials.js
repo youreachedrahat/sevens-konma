@@ -29,6 +29,7 @@ const Testimonials = () => {
   }, []);
   return (
     <div className="w-[100%] max-md:mb-[10px] testimonialSwiper">
+      
       <Swiper
         allowTouchMove={true}
         centeredSlides={true}
@@ -59,7 +60,13 @@ const Testimonials = () => {
         </SwiperSlide>
 
         <SwiperSlide className="flex flex-col p-5  max-sm:w-[229px] max-sm:h-[229px] gap-6">
-          Slide 4
+          <h1 className="font-bold text-[32px] max-sm:text-[18px] w-[70%] leading-8 uppercase">Fancy &nbsp; </h1>
+          <p className="text-[18px] max-sm:text-[16px] mt-2 w-[80%]">Bet on every perspective of the game</p>
+        </SwiperSlide>
+
+        <SwiperSlide className="flex flex-col p-5  max-sm:w-[229px] max-sm:h-[229px] gap-6">
+          <h1 className="font-bold text-[32px] max-sm:text-[18px] w-[70%] leading-8 uppercase">Make your own patti</h1>
+          <p className="text-[18px] max-sm:text-[16px] mt-2 w-[80%]">By Tournament/Sports Edit/on & Off anytime</p>
         </SwiperSlide>
       </Swiper>
     </div>

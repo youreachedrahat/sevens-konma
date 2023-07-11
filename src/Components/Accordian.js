@@ -118,10 +118,11 @@ export default function BasicAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{ fontSize: "16px" }}>
-            The price of our services is decided based on the client's
-            preferences and the level of customization required. Please get in
-            touch with us today to get a detailed quotation. WhatsApp -{" "}
-            <b>+447537180047</b>
+          We deliver the services in the quickest time possible. However, the time to deliver the white label
+solution to our clients is subject to the levels of integrations required along with the
+customizations and other preferences. Once we get your requirements in detail, we shall give you
+an estimated timeline and you can rest assured that the platform will be delivered within the
+deadline.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -138,10 +139,9 @@ export default function BasicAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{ fontSize: "16px" }}>
-            The price of our services is decided based on the client's
-            preferences and the level of customization required. Please get in
-            touch with us today to get a detailed quotation. WhatsApp -{" "}
-            <b>+447537180047</b>
+          We provide various APIs that are related to a user search, deposits and withdrawals, balance
+checking etc. These APIs are easy to integrate and useful for you if you already own a platform
+and are looking for better API solutions.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -158,10 +158,70 @@ export default function BasicAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{ fontSize: "16px" }}>
-            The price of our services is decided based on the client's
-            preferences and the level of customization required. Please get in
-            touch with us today to get a detailed quotation. WhatsApp -{" "}
-            <b>+447537180047</b>
+          We provide the best casino software solutions that feature the best games with the best UI
+provided by the top names in the industry such as Evolution, 7Mojos etc. We are able to maintain
+the quality of our services and provide only reliable solutions by collaborating with only top-notch
+providers for integrations.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+
+
+
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+          
+        >
+          <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
+          What is online sports betting?<span className="ExpandMoreIcon"> <ExpandMoreIcon /> </span> 
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography sx={{ fontSize: "16px" }}>
+          Sports betting is basically an activity involving the result prediction of different sports matches
+and then placing a wager on it. This can be done by simply logging into a platform.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+          
+        >
+          <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
+          What is sports betting software?<span className="ExpandMoreIcon"> <ExpandMoreIcon /> </span> 
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography sx={{ fontSize: "16px" }}>
+          Sports betting software is an online platform where users can place a bet on their desired sports
+league/match based on their predictions.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion sx={{ bgcolor: 'transparent', border: 'none', boxShadow: 'none', color: '#563E89', border: 'none'}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+          
+        >
+          <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>
+          What is the difference between sports betting and sports exchange?<span className="ExpandMoreIcon"> <ExpandMoreIcon /> </span> 
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography sx={{ fontSize: "16px" }}>
+          The major difference is that sports exchange allows you to ‘lay’ a certain team or player, whereas
+in normal sports betting, you can only place a ‘back’ bet. So, the key differentiator is the wager.
           </Typography>
         </AccordionDetails>
       </Accordion>
