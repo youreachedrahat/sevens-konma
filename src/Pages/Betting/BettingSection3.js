@@ -18,7 +18,7 @@ const BettingSection3 = () => {
     //   </div>
     // </div>
     <div className="bettingsection3">
-      <div className="flex flex-col lg:flex-row items-start px-20 py-5 max-sm:px-5 max-sm:text-[16px]">
+      <div className="flex flex-col lg:flex-row items-start px-20 py-5 text-[24px] text-justify max-sm:px-5 max-sm:text-[16px]">
         <div className="lg:mt-12 w-full leading-10 mt-12">
           Also we are pride ourselves on our
           <b> 24x7 customer service</b>. We understand that your success is our

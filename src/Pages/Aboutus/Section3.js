@@ -27,7 +27,7 @@ const Section3 = () => {
 
 
 <div className='section-3'>
-<div className='flex justify-center items-start flex-col max-sm:text-[20px] max-md:px-10 lg:px-20 sm:text-[24px] max-sm:px-10 sm:items-center lg:items-start'>
+<div className='flex justify-center items-start flex-col max-sm:text-[16px] max-md:px-10 lg:px-20 sm:text-[24px] max-sm:px-10 sm:items-center lg:items-start'>
   <b className=' max-sm:h-auto max-sm:mx-auto max-sm:text-center  max-sm:top-0 sm:text-[44px] max-sm:text-[32px] max-md:px-20 lg:px-10 md:text-[60px]'>
     Team
   </b>
