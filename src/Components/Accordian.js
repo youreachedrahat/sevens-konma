@@ -14,7 +14,7 @@ export default function BasicAccordion() {
           bgcolor: "transparent",
           border: "none",
           boxShadow: "none",
-          color: "#46009c",
+          color: "#563E89",
           border: "none",
         }}
       >
