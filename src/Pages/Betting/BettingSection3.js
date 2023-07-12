@@ -17,11 +17,11 @@ const BettingSection3 = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="bettingsection3">
-      <div className="flex flex-col lg:flex-row items-start px-20 py-5 max-sm:px-5 max-sm:text-[16px]">
+    <div className="bettingsection3 max-sm:bg-white max-sm:text-textColor">
+      <div className="flex flex-col lg:flex-row items-start px-20 sm:py-5 max-sm:pb-5 max-sm:px-5 max-sm:text-[16px]">
         <div className="lg:mt-12 w-full leading-10 mt-12">
           Also we are pride ourselves on our
-          <b> 24x7 customer service</b>. We understand that your success is our
+          <span className="sm:font-bold"> 24x7 customer service</span>. We understand that your success is our
           success, which is why we are dedicated to providing you with the best
           possible service and support. Our team is always available to answer
           your questions, provide guidance, and help you to resolve any issues
@@ -29,9 +29,15 @@ const BettingSection3 = () => {
         </div>
         <div>
           <img
-            className="justify-center items-center flex w-full pt-8 "
+            className="justify-center items-center flex w-full pt-8 max-sm:hidden"
             alt=""
             src="/bettingimage2@2x.png"
+          />
+
+<img
+            className="justify-center items-center flex w-full pt-8 sm:hidden"
+            alt=""
+            src="/support.gif"
           />
         </div>
       </div>

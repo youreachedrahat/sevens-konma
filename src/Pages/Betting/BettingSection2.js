@@ -84,7 +84,7 @@ const BettingSection2 = () => {
           incentives to keep your customers engaged.
         </div>
         <div className="justify-center items-center flex w-full">
-          <img className="frame-icon lg:mt-8" alt="" src="/frame@2x.png" />
+          <img className="frame-icon lg:mt-8  object-contain" alt="" src="/frame@2x.png" />
         </div>
       </div>
     </div>
