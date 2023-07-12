@@ -74,7 +74,7 @@ const BettingSection2 = () => {
     //   </div>
     // </div>
     <div className="bettingsection2">
-      <div className="flex flex-col lg:flex-row items-start px-20 py-5 max-sm:px-5 max-sm:text-[16px]">
+      <div className="flex flex-col lg:flex-row items-start px-20 py-5 max-sm:px-5 text-[24px] max-sm:text-[16px] text-justify">
         <div className="lg:mt-12 w-full leading-10 mt-12">
           One of the key benefits of working with us is that we can help you to
           increase your revenue by providing you with the tools you need to
