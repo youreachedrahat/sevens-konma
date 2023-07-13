@@ -40,9 +40,7 @@
   width: 644px !important;
 }
 
-.mySwiper2 .swiper-wrapper{
-  justify-content: center;
-}
+
 
 .mySwiper2 .swiper-button-disabled{
   visibility: hidden;
@@ -84,8 +82,18 @@ top: 28%;
  height: 280px !important;
 }
 
-.mySwiper2 .swiper-slide-active,
+
+/* .mySwiper2 .swiper-slide-active,
 .mySwiper2 .swiper-slide-next{
   width: 334px !important;
+} */
+
+
 }
+
+@media (min-width: 640px) {
+.mySwiper2 .swiper-wrapper{
+  justify-content: center;
+}
+
 }

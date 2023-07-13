@@ -15,7 +15,7 @@ const CostEffectiveContainer = ({
   }, [propWidth, propHeight]);
 
   return (
-    <div className="yellowcard max-sm:flex max-sm:justify-center max-sm:w-[334px] max-sm:h-[274px] max-sm:rounded-[12px]">
+    <div className="yellowcard max-sm:flex max-sm:justify-center max-sm:w-[334px] max-sm:h-[274px] max-sm:rounded-[12px] ">
       {/* <img className="yellowmask-icon" alt="" src="/yellowmaskx.png" /> */}
       {/* <div className="yellowmask-icon"></div> */}
       <div className="yellowrectangle max-sm:h-[274px] h-[481px] my-auto mx-auto max-sm:rounded-[12px]">
