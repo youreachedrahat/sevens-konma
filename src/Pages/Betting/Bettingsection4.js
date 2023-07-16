@@ -1,6 +1,7 @@
 import "./Bettingsection4.css";
 import people1 from "../../assets/people.gif";
 import HorizonalRule from "../../Components/HorizontalRule";
+import { HashLink } from "react-router-hash-link";
 const Bettingsection4 = () => {
   return (
     <div className="bettingsection4 flex flex-row-reverse max-md:flex-col max-sm:bg-primary">
@@ -22,7 +23,7 @@ const Bettingsection4 = () => {
             your business to the next level.
           </b>
         </div>
-        <div className="primarybutton max-sm:p-0 max-sm:w-[160px] max-sm:h-[54px]  max-sm:mx-auto max-sm:justify-center w-[40%] sm:w-[50%] md:w-[50%]  lg:w-[20%] 2xl:w-[20%]   sm:px-0">
+        {/* <div className="primarybutton max-sm:p-0 max-sm:w-[160px] max-sm:h-[54px]  max-sm:mx-auto max-sm:justify-center w-[40%] sm:w-[50%] md:w-[50%]  lg:w-[20%] 2xl:w-[20%]   sm:px-0">
           <b className="button-text1 max-sm:text-[16px] sm:text-center sm:pl-4 max-sm:font-semibold max-sm:text-textColor  ">
             Contact Us
           </b> 
@@ -34,18 +35,33 @@ const Bettingsection4 = () => {
               />
            
 
-        </div>
+        </div> */}
+        <HashLink to="/aboutus/#contactus">
+          <div className="master-primary-button">
+            <img
+              className="line-roundedsearch-icon"
+              alt=""
+              src="/line-roundedsearch1.svg"
+            />
+            <b className="button-text">Contact Us</b>
+
+            <img
+              className="line-roundedarrow-right"
+              alt=""
+              src="/line-roundedarrow-right1.svg"
+            />
+          </div>
+        </HashLink>
 
         {/*  */}
-       
       </div>
       <div>
-          <img
-            className="max-sm:hidden justify-center items-center flex w-full mx-0 px-0"
-            alt=""
-            src={people1}
-          />
-        </div>
+        <img
+          className="max-sm:hidden justify-center items-center flex w-full mx-0 px-0"
+          alt=""
+          src={people1}
+        />
+      </div>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import "./CostEffectiveContainer.css";
+import { Link } from "react-router-dom";
 const CostEffectiveContainer = ({
   whiteLabelText,
   turnkeySolutionText,
@@ -27,12 +28,18 @@ const CostEffectiveContainer = ({
               src={whiteLabelText}
               style={yellowImageIconStyle}
             />
-            <b className="bigtext max-sm:text-textColor max-sm:text-[24px] leading-normal">{turnkeySolutionText}</b>
-            <div className="paragraph1 max-sm:text-[16px] max-sm:w-[85%] mx-auto ">{turnkeySolutionDescriptio}</div>
+            <b className="bigtext max-sm:text-textColor max-sm:text-[24px] leading-normal">
+              {turnkeySolutionText}
+            </b>
+            <div className="paragraph1 max-sm:text-[16px] max-sm:w-[85%] mx-auto ">
+              {turnkeySolutionDescriptio}
+            </div>
           </div>
-          <div className="master-primary-button3 max-sm:mt-[-5px] px-0 py-0 w-[110px]">
-            <div className="button-text5 max-sm:text-[16px]">Learn more</div>
-          </div>
+          <Link to="/betting">
+            <div className="master-primary-button3 max-sm:mt-[-5px] px-0 py-0 w-[110px]">
+              <div className="button-text5 max-sm:text-[16px]">Learn more</div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

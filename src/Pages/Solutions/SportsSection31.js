@@ -1,4 +1,5 @@
 import "./SportsSection31.css";
+import { HashLink } from "react-router-hash-link";
 const SportsSection31 = () => {
   return (
     <div className="sportssection3 max-sm:p-5 sm:px-[64px] max-sm:h-auto ">
@@ -15,20 +16,22 @@ const SportsSection31 = () => {
               help you achieve success in the online sports betting industry.
             </b>
           </div>
-          <div className="master-primary-button">
-            <img
-              className="line-roundedsearch-icon"
-              alt=""
-              src="/line-roundedsearch1.svg"
-            />
-            <b className="button-text">Contact Us</b>
+          <HashLink to="/aboutus/#contactus">
+            <div className="master-primary-button">
+              <img
+                className="line-roundedsearch-icon"
+                alt=""
+                src="/line-roundedsearch1.svg"
+              />
+              <b className="button-text">Contact Us</b>
 
-            <img
-              className="line-roundedarrow-right"
-              alt=""
-              src="/line-roundedarrow-right1.svg"
-            />
-          </div>
+              <img
+                className="line-roundedarrow-right"
+                alt=""
+                src="/line-roundedarrow-right1.svg"
+              />
+            </div>
+          </HashLink>
           <br />
         </div>
       </div>

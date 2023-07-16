@@ -2,6 +2,7 @@ import "./WhiteLabelContainer.css";
 import wheel from "../assets/wheel.png";
 import wheel2 from "../assets/wheel2.png";
 import wheelmobile from "../assets/wheelmobile.png";
+import { Link } from "react-router-dom";
 const WhiteLabelContainer = () => {
   return (
     <div className="w-100% max-lg:flex-col-reverse max-lg:h-auto max-sm:content-center max-lg:justify-center max-lg:w-full subsec1 lg:pl-12">
@@ -26,26 +27,37 @@ const WhiteLabelContainer = () => {
         </div>
         <div className="buttons max-sm:gap-0 max-sm:w-auto max-sm:h-auto mx-auto max-sm:text-[16px] sm:text-[24px]">
           <div className="yellowbutton">
-            <div className="master-primary-button2 max-sm:p-0 max-sm:w-[159px] w-[240px] max-sm:h-[54px] max-sm:mx-auto max-sm:justify-center">
-              <b className="button-text3 textsmall max-sm:font-semibold">Get started</b>
-              <img
-                className="line-roundedarrow-right2"
-                alt=""
-                src="/line-roundedarrow-right1.svg"
-              />
-            </div>
+            <Link to="/casino">
+              <div className="master-primary-button2 max-sm:p-0 max-sm:w-[159px] w-[240px] max-sm:h-[54px] max-sm:mx-auto max-sm:justify-center">
+                <b className="button-text3 textsmall max-sm:font-semibold">
+                  Get started
+                </b>
+                <img
+                  className="line-roundedarrow-right2"
+                  alt=""
+                  src="/line-roundedarrow-right1.svg"
+                />
+              </div>
+            </Link>
           </div>
-          <div className="whitebutton">
-            <div className="master-secondary-button  max-sm:w-[159px] w-[240px] max-sm:h-[54px]">
-              <b className="button-text3 textsmall max-sm:font-semibold">Learn More</b>
+          <Link to="/betting">
+            <div className="whitebutton">
+              <div className="master-secondary-button  max-sm:w-[159px] w-[240px] max-sm:h-[54px]">
+                <b className="button-text3 textsmall max-sm:font-semibold">
+                  Learn More
+                </b>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       <div className="homepageimage1-icon w-[50%] mx-auto overflow-visible max-lg:w-[100%] justify-self-center">
-
-      <img className="max-lg:hidden w-full" alt="" src={wheel} />
-      <img className="max-sm:hidden lg:hidden w-full mx-auto " alt="" src={wheel2} />
+        <img className="max-lg:hidden w-full" alt="" src={wheel} />
+        <img
+          className="max-sm:hidden lg:hidden w-full mx-auto "
+          alt=""
+          src={wheel2}
+        />
       </div>
       <img
         className="max-sm:mx-auto max-sm:justify-self-center max-sm:h-auto sm:hidden pt-[58px] w-[100%] homepageimage1-icon"
