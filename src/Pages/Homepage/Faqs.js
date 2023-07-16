@@ -2,7 +2,7 @@ import "./Faqs.css";
 import BasicAccordion from "../../Components/Accordian";
 const Faqs = () => {
   return (
-    <div className="faqs max-sm:w-full  pl-14 max-sm:p-0 max-sm:pb-8  pb-52 relative">
+    <div className="faqs max-sm:w-full  pl-14 max-sm:p-0 max-sm:pb-8  pb-52 relative" id="faq">
       <b className="faqs1 max-sm:w-full max-sm:text-[54px] max-sm:text-center text-[72px] max-sm:p-4 ">FAQs</b>
       <BasicAccordion/>
       {/* <div className="faqImage max-sm:w-full absolute bottom-0"> */}

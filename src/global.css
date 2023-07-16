@@ -9,6 +9,9 @@ body {
   line-height: normal;
   
 }
+html {
+  scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
   display: none;
 } 

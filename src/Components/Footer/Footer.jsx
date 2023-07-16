@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../../assets/logo.png"
+import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom'
 import HorizonalRule from '../HorizontalRule'
 function FooterLinks() {
@@ -50,7 +51,7 @@ function FooterLinks() {
                                 <h2 class="mb-6 text-sm font-semibold text-white">Product</h2>
                                 <ul class="text-white font-medium">
                                     <li class="mb-4">
-                                        <Link to="/#productFeature" class="hover:underline">Features</Link>
+                                        <HashLink smooth to="/#productFeature" class="hover:underline">Features</HashLink>
                                     </li>
                                     <li class="mb-4">
                                         <Link to="/" class="hover:underline">Pricing</Link>
@@ -94,7 +95,7 @@ function FooterLinks() {
                                         <Link to="/" class="hover:underline ">Getting started</Link>
                                     </li>
                                     <li class="mb-4">
-                                        <Link to="/" class="hover:underline ">Help center</Link>
+                                        <Link to="/#faq" class="hover:underline ">Help center</Link>
                                     </li>
                                     <li class="mb-4">
                                         <Link to="/" class="hover:underline ">Server status</Link>
