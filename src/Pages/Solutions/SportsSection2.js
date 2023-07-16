@@ -17,7 +17,10 @@ const SportsSection2 = () => {
   return (
     <div className="sportssection2 w-full max-sm:pt-5">
       <div className="sportssection-2 w-full max-sm:flex-col max-sm:p-0 max-sm:gap-[2.81rem]">
-        <img className="sportsimage2-icon max-sm:hidden" alt="" src="/XO.gif" />
+        <div className="sportsgifContainer">
+        <img className="sportsimage2-icon max-sm:hidden" alt="" src={OX} />
+
+        </div>
         <div className="key-features-about-our-betting-parent max-sm:relative w-[100%] max-sm:gap-[50px]">
           <b className="key-features-about w-[100%] max-sm:text-[32px] max-sm:p-5 max-sm:leading-9 sm:mt-7">
             Key features about our Betting Software Solutions
@@ -26,7 +29,7 @@ const SportsSection2 = () => {
             <div className="sm:mx-auto">             
  <Swiper
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -74,7 +77,11 @@ const SportsSection2 = () => {
             src="/group-39469.svg"
           />
         </div>
-        <img className="sportsimage2-icon max-sm:hidden" alt="" src="/XO.gif" />
+        <div className="sportsgifContainer">
+        <img className="sportsimage2-icon max-sm:hidden" alt="" src={OX} />
+
+        </div>
+        {/* <img className="sportsimage2-icon max-sm:hidden" alt="" src="/XO.gif" /> */}
         <div className="sm:hidden w-[100%]">
           <img className="h-[118px] w-[100%] object-cover" alt="" src={OX} />
         </div>

@@ -50,7 +50,7 @@ function FooterLinks() {
                                 <h2 class="mb-6 text-sm font-semibold text-white">Product</h2>
                                 <ul class="text-white font-medium">
                                     <li class="mb-4">
-                                        <Link to="/" class="hover:underline">Features</Link>
+                                        <Link to="/#productFeature" class="hover:underline">Features</Link>
                                     </li>
                                     <li class="mb-4">
                                         <Link to="/" class="hover:underline">Pricing</Link>
@@ -70,7 +70,7 @@ function FooterLinks() {
                                 <h2 class="mb-6 text-sm font-semibold text-white">Company</h2>
                                 <ul class="text-white font-medium">
                                     <li class="mb-4">
-                                        <Link to="/" class="hover:underline ">About</Link>
+                                        <Link to="/aboutus" class="hover:underline ">About</Link>
                                     </li>
                                     <li class="mb-4">
                                         <Link to="/" class="hover:underline ">Contact us</Link>

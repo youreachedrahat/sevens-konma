@@ -1,10 +1,15 @@
+.sportsgifContainer{
+  height: 100%;
+  width: 17rem;
+}
 .sportsimage2-icon {
   position: relative;
-  width: 15.44rem;
-  height: 47.75rem;
+  width: auto;
+  height: 28.4rem;
   object-fit: cover;
-  /* transform: rotate(90deg);
-  height: fit-content; */
+  transform: rotate(90deg);
+  /* height: fit-content; */
+  overflow: visible;
 }
 .key-features-about{
   /* position: relative; */
@@ -16,6 +21,7 @@
   line-height: 2.5rem;
   width: 43.44rem;
   flex-shrink: 0;
+
 }
 
 .ellipse6 {
@@ -76,14 +82,20 @@
 .mySwiper3{
   overflow: visible;
   max-width:  43rem;
+
 }
 
 .mySwiper3 .swiper-slide.swiper-slide-active{
-  visibility: visible;
+  visibility: visible !important;
+}
+.mySwiper3 .swiper-wrapper{
+  transition: ease-in-out !important;
+  transition: 1000ms !important;
 }
 
 .mySwiper3 .swiper-slide{
-  visibility: hidden;
+  /* visibility: hidden; */
+  animation: hideElement 1000ms linear 500ms forwards !important;
 }
 
 .mySwiper3 .swiper-pagination{
@@ -127,5 +139,14 @@
   .mySwiper3  .swiper-pagination-bullet{
     height: 15px;
     width: 15px;
+  }
+}
+
+@keyframes hideElement {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
   }
 }
