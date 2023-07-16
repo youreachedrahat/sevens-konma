@@ -16,7 +16,7 @@ function Header() {
     };
   return (
 
-<header>
+<header className=' top-0 sticky w-[100%] z-[101]'>
 <nav class="bg-primary">
   <div class="w-[100%] flex flex-wrap items-center justify-between mx-auto p-4 md:px-14 ">
     <Link to="/" class="flex items-center z-[101]">

@@ -22,8 +22,8 @@ const SportsSection2 = () => {
           <b className="key-features-about w-[100%] max-sm:text-[32px] max-sm:p-5 max-sm:leading-9 sm:mt-7">
             Key features about our Betting Software Solutions
           </b>
-          <div className="sportsrectangle w-[100%] max-sm:block max-sm:p-3 max-sm:h-auto">
-            <div className="">             
+          <div className="sportsrectangle w-[100%] block max-sm:p-3 max-sm:h-auto">
+            <div className="sm:mx-auto">             
  <Swiper
         autoplay={{
           delay: 2500,
@@ -69,7 +69,7 @@ const SportsSection2 = () => {
             <div className="ellipse6 max-sm:hidden" />
           </div>
           <img
-            className="frame-child max-sm:w-[79px] invisible"
+            className="frame-child max-sm:w-[79px] invisible sm:hidden"
             alt=""
             src="/group-39469.svg"
           />
